@@ -1,0 +1,115 @@
+<!ENTITY aboutTitle.label "à¶·à·à¶œà¶­ à¶­à¶­à·Šà¶­à·Šà·€ à¶¯à¶šà·Šà·€à¶±à¶º à¶´à·’à·…à·’à¶³à·€">
+<!ENTITY introTab.label "à·„à·à¶³à·’à¶±à·Šà·€à·“à¶¸">
+<!ENTITY by.label "à¶©à·™à·€à·œà¶±à·Š à¶¢à·™à¶±à·Šà·ƒà¶±à·Š à¶œà·™à¶±à·Š">
+<!ENTITY version.label "à·ƒà¶‚à·ƒà·Šà¶šà¶»à¶«à¶º">
+<!ENTITY tagLine.label "à¶¸à·™à¶¸à¶œà·’à¶±à·Š à¶œà·œà¶±à·” à¶·à·à¶œà¶­ à¶­à¶­à·Šà¶­à·Šà·€ à¶´à·’à·…à·’à¶¶à¶³à·€ à¶±à·’à·ƒà·’ à¶…à¶ºà·”à¶»à·’à¶±à·Š à¶´à·™à¶±à·Šà·€à·“à¶¸ à·„à· à·ƒà·à·ƒà·ƒà·“à¶¸ à¶šà·… à·„à·à¶šà·’à¶º.">
+<!ENTITY ifNew.label "à¶”à¶¶ à¶·à·à¶œà¶­ à¶­à¶­à·Šà¶­à·Šà·€ à¶¯à¶šà·Šà·€à¶±à¶ºà¶§ à¶…à¶½à·”à¶­à·Š à¶±à¶¸à·Š à·„à·œà¶³à·’à¶±à·Š">
+<!ENTITY toView.label "à¶¸à·™à¶¸ à¶‹à¶¯à·€à·Š à¶´à·’à¶§à·”à·€ à¶‰à¶¯à·’à¶»à·’à¶ºà·šà¶¯à·“à¶­à·Š à¶´à·™à¶±à·Šà·€à¶±à·Šà¶±">
+<!ENTITY pressAbout.label "à¶”à¶¶ à¶·à·à¶œà¶­ à¶­à¶­à·Šà¶­à·Šà·€ à¶¯à¶šà·Šà·€à¶±à¶ºà·š à¶…à¶·à·’à¶¸à¶­ à·€à·™à¶­ à¶œà·œà·ƒà·Š à¶‘à·„à·’ à¶‡à¶­à·’ &quot;à¶…à¶´à·’ à¶œà·à¶±&quot; à¶¶à¶§à·Šà¶±à·Š à¶‘à¶š à¶šà·Šà¶½à·’à¶šà·Š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY donateText.label "à¶¸à·™à¶¸ à¶¯à·’à¶œà·”à·€à·š à¶´à·à·€à·à¶­à·Šà¶¸ à·ƒà¶³à·„à· à·ƒà·”à¶½à·” à¶†à¶°à·à¶»à¶ºà¶šà·Š à¶šà¶»à¶±à·Šà¶±. ( à¶´à·š à¶´à·à¶½à·Š à¶œà·’à¶«à·”à¶¸à¶šà·Š à¶­à·’à¶¶à·“à¶¸ à¶…à¶±à·’à·€à·à¶»à·Šà¶ºà¶º à¶±à·à¶­ à¶šà·Šâ€à¶»à·™à¶©à·’à¶§à·Š à¶šà·à¶»à·Šà¶©à·Š à¶·à·à·€à·’à¶­à· à¶šà·… à·„à·à¶šà·’à¶º )">
+<!ENTITY donate.label "à¶…à¶°à·à¶» à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY majorRelease.label "à¶´à·Šâ€à¶»à¶°à·à¶± à¶¸à·”à¶¯à·à·„à·à¶»à·“à¶¸à¶šà·’">
+<!ENTITY changelog.label "à¶±à·€ à·…à¶šà·Šà·‚à¶« à·ƒà·œà¶ºà· à¶¶à¶½à¶±à·Šà¶±">
+<!ENTITY whatNewTab.label "à¶¸à·™à¶¸ à¶¸à·”à¶¯à· à·„à·à¶»à·“à¶¸à·š à¶‡à¶­à·’ à·…à¶šà·Šà·‚à¶«">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "à¶‰à¶Ÿà·’ à·ƒà·„ à¶‹à¶´à¶¯à·šà·">
+<!ENTITY tip1Title.label "à¶­à·à·€à¶šà·à¶½à·’à¶šà·€ à¶´à·™à¶±à·Šà·€à¶± à·ƒà·Šà¶®à·à¶±à¶º">
+<!ENTITY tip1.label "Download Statusbar is meant to be a temporary viewing location for your in-progress and recently finished downloads. Keep it clean by setting the auto-clear option, or by manually removing finished downloads you don't need to see any longer. It is much less useful when the downloads get scrunched so small you can't tell which is which. You can always see your complete download history by opening up Firefox's standard download manager (Tools | Downloads). Continue reading for more tips on easy ways to clear finished downloads.">
+<!ENTITY tip2Title.label "à·ƒà·à¶¸à·à¶±à·Šâ€à¶º à¶šà·Šâ€à¶»à·’à¶ºà·à·€à¶±à·Š à·ƒà¶³à·„à· à¶šà·™à¶§à·’ à¶¸à¶œ">
+<!ENTITY tip2.label "à¶·à·à¶œà¶­ à·€à¶± à¶œà·œà¶±à·”à·€ à¶¯à¶šà·Šà·€à¶±à¶º à¶¸à¶­ à¶¯à¶šà·”à¶«à·” à¶¸à·–à·ƒà·’à¶š à¶¶à·œà¶­à·Šà¶­à¶¸ à¶‘à¶¶à·“à¶¸ à¶¸à¶œà·’à¶±à·Š à¶”à¶¶à¶§ à¶¶à·œà·„à· à¶šà·Šâ€à¶»à·’à¶ºà·à¶šà·à¶»à¶šà¶¸à·Š à¶½à¶¶à·à¶œà¶­ à·„à·à¶šà·’à¶º.
+à¶‘à·ƒà·šà¶¸ à¶¶à·œà·„à· à·€à·™à¶±à¶­à·Š à¶†à¶šà·à¶» à¶‡à¶­.">
+<!ENTITY tip2a.label "à¶·à·à¶œà¶­ à·€à·“ à¶…à·€à·ƒà·à¶± à·€à·– à¶œà·œà¶±à·”à·€à¶šà·Š à¶¯à¶šà·Šà·€à¶±à·™à¶ºà·™à¶±à·Š à¶‰à·€à¶­à·Š à¶šà·’à¶»à·“à¶¸à¶§ à¶‘à¶º à¶¸à¶­ à¶¸à·à¶¯ à¶šà·Šà¶½à·’à¶šà·Š(middle-click) à¶‘à¶š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY tip2b.label "à¶·à·à¶œà¶­ à·€à·“ à¶…à·€à·ƒà·à¶± à·€à·– à¶œà·œà¶±à·” à·ƒà·’à¶ºà¶½à·Šà¶½à¶¸ à¶¯à¶šà·Šà·€à¶±à·™à¶ºà·™à¶±à·Š à¶‰à·€à¶­à·Š à¶šà·’à¶»à·“à¶¸à¶§ à¶‘à·„à·’ à¶­à¶­à·Šà¶­à·Šà·€ à¶¯à¶±à·Šà¶©à·™à·„à·’ à·„à·’à·ƒà·Š à¶´à·™à¶¯à·™à·ƒà¶š à¶¯à·™à·€à¶»à¶šà·Š à¶šà·Šà¶½à·’à¶šà·Š (Double-click) à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY tip2c.label "à¶·à·à¶œà¶­ à·€à·“ à¶…à·€à·ƒà·à¶± à·€à·– à¶œà·œà¶±à·” à·€à·’à·€à·˜à¶­ à¶šà·’à¶»à·’à¶¸à¶­ à¶‘à¶º à¶¸à¶­ à¶¯à·™à·€à¶»à¶šà·Š à¶šà·Šà¶½à·’à¶šà·Š à¶šà¶»à¶±à·Šà¶±.">
+<!ENTITY tip2d.label "à¶·à·à¶œà¶­ à·€à·“ à¶…à·€à·ƒà·à¶± à·€à·– à¶œà·œà¶±à·”à·€à¶šà·Š à¶¸à¶šà· à¶¯à·à¶¸à·“à¶¸à¶§ à¶šà¶±à·Šà¶§à·Šâ€à¶»à·œà¶½à·Š à¶¶à¶§à·Šà¶±à·Š à¶‘à¶š à¶­à¶¯à¶šà¶»à¶œà·™à¶± à¶œà·œà¶±à·” à¶¯à¶šà·Šà·€à¶±à¶º à¶¸à¶­ à¶¸à·à¶¯ à¶šà·Šà¶½à·’à¶šà·Š à¶‘à¶š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY tip2e.label "à¶·à·à¶œà¶­ à·€à¶± à¶œà·œà¶±à·”à·€à¶šà·Š à¶­à·à·€à¶šà·à¶½à·’à¶šà·€ à¶±à·à·€à¶­à·“à¶¸à¶§(pause) à·„à· à¶­à·à·€à¶šà·à¶½à·’à¶šà·€ à¶±à·à·€à¶­à·– à¶‘à¶šà¶šà·Š à¶±à·à·€à¶­ à¶†à¶»à¶¸à·Šà¶· à¶šà·’à¶»à·’à¶¸à¶§(resume) à¶œà·œà¶±à·”à·€ à¶¯à¶šà·Šà·€à¶±à¶º à¶¸à¶­ à¶½à·™à·†à·Šà¶§à·Š(left click) à¶šà·Šà¶½à·’à¶šà·Š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY tip2f.label "à¶·à·à¶œà¶­ à·€à·– à¶œà·œà¶±à·” à·€à·™à¶±à¶­à·Š à¶±à¶¸à¶šà·’à¶±à·Š à¶œà¶¶à¶©à· à¶šà¶» à¶­à·à¶¶à·“à¶¸à¶§ à·à·’à·†à·Šà¶§à·Š à¶¶à¶§à·Šà¶±à·Š(shift)à¶‘à¶š à·ƒà¶¸à¶œ à¶œà·œà¶±à·”à·€ à¶¯à¶šà·Šà·€à¶±à¶º à¶¸à¶­ à¶½à·™à·†à·Šà¶§à·Š à¶šà·Šà¶½à·’à¶šà·Š(left click) à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY tip3Title.label "à¶¸à·™à·€à¶½à¶¸à·Š à¶·à·à·€à·’à¶­à· à¶šà·’à¶»à·’à¶¸à¶§ à¶‹à¶¯à·€à·Š">
+<!ENTITY tip3.label "Sometimes you just want more detailed information about a download. To show a download's statistics, position your mouse cursor over a download and wait for a short bit for the tooltip to appear. In-progress downloads will show a continuously updating tooltip with information like current speed, size so far and remaining time. Finished downloads will show information like where the download was saved, its size, how long the download took, and the average speed">
+<!ENTITY tip4Title.label "à¶‡à¶±à·’à¶¸à·šà·‚à¶±à·Šà·ƒà·Š(Animations)">
+<!ENTITY tip4.label "Skip animations to speed up management actions. Animations can provide valuable feedback on what is happening to your download (For instance, a red X will indicate when you have requested to delete a finished download), but they can also slow you down. You can hold down shift while manually removing a download to temporarily stop animations. Also, you can turn them off completely with the 'downbar.function.useAnimation' setting in about:config">
+<!ENTITY tip5Title.label "-">
+<!ENTITY tip5.label "-">
+<!ENTITY tip6Title.label "à¶·à·à¶œà¶­ à·€à·“à¶¸à·Š à¶šà·’à·„à·’à¶´à¶ºà¶šà·Š à¶‘à¶šà·€à¶» à¶´à·à¶½à¶±à¶º">
+<!ENTITY tip6.label "Right-clicking on an empty part of the statusbar (or on the Mini mode button) will provide options for managing several downloads at once. Remove all finished downloads, and pause, stop or cancel all in-progress downloads. You can also switch between Full mode and Mini mode.">
+<!ENTITY tip7Title.label "à¶´à·Šâ€à¶»à¶¸à·à¶±à¶ºà·™à¶±à·Š à¶šà·”à¶©à· à¶†à¶šà·à¶»à¶º">
+<!ENTITY tip7.label "To view the list of downloads, left click on the mini mode download button in the Firefox statusbar. Once the downloads have popped up, you can manage them in the usual way - right-click to get management actions, middle-click to clear etc. Right-click on the mini mode button to get the options for managing several downloads at once. The download button will be hidden if there is nothing in the downloads list.">
+<!ENTITY prefsTab.label "à¶…à¶·à·’à¶¸à¶­ à¶´à·’à·…à·’à¶¶à¶³à·€ à¶‹à¶¯à·€à·Š">
+<!ENTITY general.label "à·ƒà·à¶¸à·à¶±à·Šâ€à¶º à¶­à·“à¶»à·”à·€">
+<!ENTITY pref1Title.label "à¶´à·Šâ€à¶»à¶œà¶­à·’à¶º à¶´à·’à·…à·’à¶¶à¶³ à¶±à·’à·€à·šà¶¯à¶±">
+<!ENTITY pref1.label "- In-progress downloads can have have more detailed information updated in small text on the download itself. Choose which notifications you want to see or choose none at all. Two should fit in the default download size but you can change the text size in the Appearance Tab.">
+<!ENTITY pref2Title.label "à¶†à¶šà·à¶»à¶º">
+<!ENTITY pref2.label "à·ƒà¶¸à·Šà¶´à·–à¶»à·Šà¶« à¶´à·™à¶±à·”à¶¸ à·„à· à¶šà·”à¶©à· à¶´à·™à¶±à·”à¶¸.">
+<!ENTITY pref3Title.label "à¶·à·à¶œà¶­ à¶‰à¶­à·’à·„à·à·ƒà¶º à¶¸à¶­à¶š à¶­à¶¶à· à¶œà¶±à·Šà¶±">
+<!ENTITY pref3.label "- By default, Firefox keeps a history of all your downloads in the download manager. When unchecked, this setting will remove a download from the history as soon as it is removed from the statusbar. Note: in order for this to work correctly, this extension has to take control of the firefox setting 'browser.download.manager.retention'">
+<!ENTITY pref4Title.label "à¶·à·à¶œà¶­ à¶‰à¶­à·’à·„à·à·ƒà¶º à¶´à·’à·…à·’à·€à·™à¶½à·’à¶±à·Š à¶­à¶¶à¶±à·Šà¶±">
+<!ENTITY pref4.label "- After awhile, the download history list can get very long and slow Firefox down. Use this to trim the list every time Firefox closes and keep the list to a manageable size. Note: this feature is in Download Statusbar, but does not directly affect the statusbar itself.">
+<!ENTITY pref5Title.label "à¶·à·à¶œà¶­ à·€à·“à¶¸ à¶‰à¶¶à·š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref5.label "- If you have downloads in progress and you try to close Firefox, it will popup a warning about canceling the downloads. Using this feature, the Firefox's download manager will popup instead and continue downloading even though the browser window has closed.">
+<!ENTITY pref6Title.label "à¶¶à·Šâ€à¶»à·€à·”à·ƒà¶»à¶º à·€à·à·ƒà·– à¶´à·ƒà·”à·€ à¶·à·à¶œà¶­ à·€à·“à¶¸ à¶…à·€à·ƒà·à¶± à·€à·– à¶’à·€à· à¶´à·’à·…à·’à¶¶à¶³à·€ à¶±à·œà¶´à·™à¶±à·Šà·€à¶±à·Šà¶±">
+<!ENTITY pref6.label "à¶·à·à¶œà¶­ à¶šà·’à¶»à·’à¶»à·Šà¶¸ à¶…à·€à·ƒà·à¶± à·€à·– à¶œà·œà¶±à·” à¶­à¶­à·Šà·€ à¶¯à¶±à·Šà¶©à·™à·„à·’ à¶±à·œà¶´à·™à¶±à·Šà·€à¶±à·Šà¶±.à¶±à¶¸à·”à¶­à·Š à¶·à·à¶œà¶­ à¶‰à¶­à·’à·„à·à·ƒà¶ºà·™à¶±à·Š à¶‰à·€à¶­à·Š à¶±à·œà¶šà¶»à¶±à·Šà¶±.à¶·à·à¶œà¶­ à¶œà·œà¶±à·”à·€à¶§ à¶¸à·™à·„à·’ à¶¶à¶½à¶´à·‘à¶¸à¶šà·Š à¶±à·à¶­.">
+<!ENTITY pref7Title.label "à¶¸à¶šà¶±à·Šà¶± à¶´à·™à¶» à¶‘à¶º à·ƒà·Šà¶®à·“à¶» à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref7.label "à¶¸à·™à¶¸à¶œà·’à¶±à·Š à¶œà·œà¶±à·”à·€ à¶¯à·˜à¶© à¶­à·à¶§à·’à¶ºà·™à¶±à·Š à¶‰à·€à¶­à·Š à¶šà·’à¶»à·“à¶¸à¶­ à¶´à·™à¶» à¶±à·à·€à¶­ à·ƒà·Šà¶®à·’à¶» à¶šà·’à¶»à·“à¶¸ à¶šà¶½ à¶ºà·”à¶­à·”à¶ºà·’.à¶‰à·€à¶­à·Š à¶šà¶½ à¶œà·œà¶±à·” à¶±à·à·€à¶­ à¶½à¶¶à· à¶œà¶­ à¶±à·œà·„à·à¶šà·’à¶º.( à¶±à·à·€à¶­ à¶·à·à¶œà¶­ à¶šà·’à¶»à·“à¶¸à¶šà·Š à·„à·à¶»à·™à¶±à·Šà¶± )">
+<!ENTITY pref8Title.label "à¶…à·€à·ƒà·à¶± à·€à·– à¶·à·à¶œà¶­ à¶šà·’à¶»à·“à¶¸à·Š à¶šà·Šâ€à¶»à·’à¶ºà· à¶šà¶»à·€à·– à¶´à·ƒà·”à·€ à¶’à·€à· à¶‰à·€à¶­à·Š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref8.label "à¶·à·à¶œà¶­ à¶­à·œà¶»à¶­à·”à¶»à·” à¶‰à¶­à·’à·„à·à·ƒà¶º à¶·à·à¶œà¶­ à¶½à·à¶ºà·’à·ƒà·Šà¶­à·”à·€à·™à¶±à·Š à¶‰à·€à¶­à·Š à¶±à·œà¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref9Title.label "à¶·à·à¶œà¶­ à·€à·– à·†à·à¶½à·Šà¶©à¶»à¶º à¶´à·™à¶±à·Šà·€à·– à¶´à·ƒà·”à·€ à¶‘à¶º à¶·à·à¶œà¶­ à¶½à·à¶ºà·’à·ƒà·Šà¶­à·”à·€à·™à¶±à·Š à¶‰à·€à¶­à·Š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref9.label "à¶·à·à¶œà¶­ à¶­à·œà¶»à¶­à·”à¶»à·” à¶‰à¶­à·’à·„à·à·ƒà¶º à¶·à·à¶œà¶­ à¶½à·à¶ºà·’à·ƒà·Šà¶­à·”à·€à·™à¶±à·Š à¶‰à·€à¶­à·Š à¶±à·œà¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref10Title.label "à¶·à·à¶œà¶­ à·€à·“à¶¸ à¶…à·€à·ƒà·à¶± à·€à·– à¶´à·ƒà·”à·€ à¶‘à¶º à¶¯à·à¶±à·”à¶¸à·Š à¶¯à·™à¶±à·Šà¶±">
+<!ENTITY pref10.label "- This is actually a preference built into Firefox but there isn't an easy way to access it. Recommended off because it is really not necessary when using Download Statusbar">
+<!ENTITY pref11Title.label "à¶¸à·™à¶¸ à¶œà·œà¶±à·” à·€à¶»à·Šà¶œà¶º à¶…à¶¸à¶­à¶š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref11.label "- Once a download finishes, this will set a timer for it to clear off the statusbar after a set number of seconds. This is useful because you can see that the download was successful, but you don't have to manage it further unless you want to. Each filetype should be separated by a comma, and spaces don't matter. Example: 'jpg, jpeg, png, gif' (without quotes) If you would like all files to auto-clear, type in only *">
+<!ENTITY pref12Title.label "à¶¸à·™à¶¸ à¶œà·œà¶±à·” à·€à¶»à·Šà¶œà¶º à¶‰à¶¶à·š à¶‰à·€à¶­à·Š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref12.label "- Once a download finishes, this will set a timer for it to clear off the statusbar after a set number of seconds. This is useful because you can see that the download was successful, but you don't have to manage it further unless you want to. Each filetype should be separated by a comma, and spaces don't matter. Example: 'jpg, jpeg, png, gif' (without quotes) If you would like all files to auto-clear, type in only *">
+<!ENTITY pref13Title.label "à¶·à·à¶œà¶­ à·€à·“à¶¸ à¶…à·€à·ƒà·à¶± à·€à·– à¶´à·ƒà·”à·€ à·à¶¶à·Šà¶¯à¶ºà¶šà·’à¶±à·Š à¶‘à¶º à¶´à·™à¶±à·Šà·€à¶±à·Šà¶±">
+<!ENTITY pref13.label "- Select a predetermined sound or select your own .WAV file to play when a download completes. If you would like the sound not to play for particular filetypes, enter them in box. Example: 'jpg, jpeg, png, gif' (without quotes)">
+<!ENTITY appearance.label "à¶¯à·˜à·à·Šâ€à¶ºà¶¸à·à¶± à¶½à¶šà·Šà·‚à¶«à¶º à¶´à·’à·…à·’à¶¶à¶³à·€ à¶­à·“à¶»à·”à·€">
+<!ENTITY pref14Title.label "à·ƒà·à¶¸à·à¶±à·Šâ€à¶º à¶†à¶šà·à¶»à¶º à·„à· à¶”à¶¶à¶œà·š à¶…à¶·à·’à¶¸à¶­ à¶†à¶šà·à¶»à¶º">
+<!ENTITY pref14.label "Selecting 'Custom Style' will enable all the color-pickers and size boxes. Selecting 'Default Style' will allow you to quickly switch back to the original style, but the custom style settings are still saved.">
+<!ENTITY pref15Title.label "à·€à¶»à·Šà¶«">
+<!ENTITY pref15.label "- Click on a color box to open a color-picker window for that item. Click and drag around the palette to find a color you like or just select one of the predefined colors. If you want to duplicate a color, copy its Hex value and enter it manually in the next color-picker. You can also press the 'Use Theme Default' button to blank out a previous color choice and let the theme default color show through. This is generally only useful for the Text color and Statusbar Background color">
+<!ENTITY pref16Title.label "à¶…à¶«à·”à¶šà·Šâ€à¶»à¶¸à·’à¶š à·€à¶»à·Šà¶« (Gradient colors) à¶·à·à·€à·’à¶­à· à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref16.label "- If selected, this will overlay a white-to-transparent image over the background color giving your download items a nice 3D feel. Works in both default and custom styles.">
+<!ENTITY pref17Title.label "à¶‡à¶«à·’à¶¸à·šà·‚à¶±à·Š(Animation) à¶·à·à·€à·’à¶­à· à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY pref17.label "- Several download management actions have corresponding animations. The animations are generally short and hopefully not obnoxious, but they can be turned off.">
+<!ENTITY pref18Title.label "à¶¸à·™à¶¸ à¶¶à¶§à·Šà¶±à·Š(button) à¶´à·™à¶±à·Šà·€à¶±à·Šà¶±">
+<!ENTITY pref18.label "Choose whether to show the main downloads button, the clear button (Clear All Finished), and the mini button (Switch to MiniMode)">
+<!ENTITY pref19Title.label "à·€à·šà¶œà·€à¶­à·Š à·€à¶»à·Šà¶«">
+<!ENTITY pref19.label "- Turning this on will dynamically change the color of an in-progress download based on how fast the download is going. This allows you can visually 'see' how fast a download is progressing by glancing at its color. First, enable speed colors. Then, set reasonable speed intervals by changing the numbers based on your internet connection type. (The default settings are based on cable modem speeds) Finally, click on the color boxes to set a color for each speed interval. There are several ways this feature could be used. One idea is to make faster downloads appear brighter than slower downloads. Another idea is to have the top 3 speed intervals show the same color (no changes), but make the slowest speed interval a warning color so, for example, you will notice if a download drops below 10 KB/sec when the progress bar changes to red.">
+<!ENTITY virusScan.label "à·€à¶ºà·’à¶»à·ƒà·Š à·ƒà·œà¶º à¶´à·’à¶»à·’à¶šà·Šà·ƒà¶± à¶­à·“à¶»à·”à·€(Tab)">
+<!ENTITY pref20Title.label "à¶·à·à¶œà¶­ à·€à·“ à¶…à·€à·ƒà·à¶± à·€à·– à¶´à·ƒà·”à·€ à·€à¶ºà·’à¶»à·ƒà·Š à¶´à·’à¶»à·’à¶šà·Šà·ƒà¶±à·Šà¶±(scan)">
+<!ENTITY pref20.label "à¶¸à·™à¶¸ à¶½à¶šà·Šà·‚à¶«à¶º à¶½à¶¶à· à¶œà·à¶±à·“à¶¸à¶§ à¶ à·™à¶šà·Šà¶¶à·œà¶šà·Šà·ƒà·Š à¶‘à¶š à¶šà·Šà¶½à·’à¶šà·Š à¶šà¶»à¶±à·Šà¶±.
+à¶¸à·™à¶ºà¶§ à¶…à¶¯à·à¶½ à·€à¶ºà·’à¶»à·ƒ à¶‰à·€à¶­à·Š à¶šà¶»à¶±à·Šà¶ºà·š à¶œà·’à·€à·’à·ƒà·”à¶¸à¶§ à¶‘à¶šà¶Ÿ à·€à·’à¶º à¶ºà·”à¶­à·”à¶º.">
+<!ENTITY pref21Title.label "à¶¸à·™à¶¸ à¶œà·œà¶±à·” à·€à¶»à·Šà¶œ à¶´à·’à¶»à·’à¶šà·Šà·ƒà¶±à·Šà¶± à¶‘à¶´à·">
+<!ENTITY pref21.label "à¶‘à¶šà·Š à¶‘à¶š à¶œà·œà¶±à·” à·€à¶»à·Šà¶œ à·€à¶½ à¶¯à·’à¶œà·”à·€à¶±à·Š à¶šà·œà¶¸à·à·€à·™à¶±à·Š à·€à·™à¶±à·Š à¶šà·… à¶ºà·”à¶­à·”à¶º.à¶‹à¶¯à·à·„à¶»à¶« : jpg, jpeg, png, gif">
+<!ENTITY pref22Title.label "à·€à¶ºà·’à¶»à·ƒà·Š à·ƒà·œà¶ºà· à¶’à·€à· à¶‰à·€à¶­à·Š à¶šà¶»à¶± à¶šà·Šâ€à¶»à¶¸à¶½à·šà¶šà¶º (Anti-virus program) à¶­à·’à¶¶à·™à¶± à¶­à·à¶±">
+<!ENTITY pref22.label "- You must already have an anti-virus program installed that is able to accept command-line requests for a manual scan. Press the '...' button and find the program in your filesystem.">
+<!ENTITY pref23Title.label "à¶†à¶œà·’à¶ºà·”à¶¸à¶±à·Šà¶§à·Šà·ƒà·Š(Arguments)">
+<!ENTITY pref23.label "- Enter any necessary or optional arguments specific to your anti-virus program. &#37;1 represents the file that will be scanned (this was previously [Path]) and should appear somewhere in the arguments. Many programs will work if &#37;1 is the only argument. Check the documentation of your Anti-Virus software to figure out which arguments work with your program.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "à·€à·ƒà¶±à·Šà¶±">
+<!ENTITY openPref.label "à¶¸à·™à¶¸ à¶¯à·’à¶œà·”à·€à·š à¶…à¶·à·’à¶¸à¶­ à¶´à·™à¶±à·Šà·€à¶±à·Šà¶±">
+<!ENTITY support.label "à¶¸à·™à¶¸ à¶‡à¶©à·Š-à¶”à¶±à·Š à¶‘à¶š à·€à¶»à·Šà¶°à¶±à¶ºà¶§ à¶‹à¶¯à·€à·Š à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY donate2.label "à¶´à¶»à·’à¶­à·Šâ€à¶ºà·à¶œ à¶šà¶»à¶±à·Šà¶±">
+<!ENTITY credits.label "à¶­à·”à¶­à·’à¶º">
+<!ENTITY transFor.label "à·€à¶ à¶± à¶…à¶±à·”à·€à·à¶¯à¶º">
+<!ENTITY currLocale.label "si-LK">
+<!ENTITY locale.label "(hmdmph@gmail.com) - à¶‘à¶ à·Š à¶‘à¶¸à·Š à¶©à·“ à¶‘à¶¸à·Š à¶´à·“ à·„à¶³à¶´à·à¶±à·Šà¶œà·œà¶© ,à¶‘à¶±à·Š à¶‘à¶½à·Š à¶­à·šà¶±à·”à·€à¶»">
+<!ENTITY translatorName.label "Devon Jensen">
+<!ENTITY projectHost.label "-">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "-">
+<!ENTITY soundsBy.label "-">
+<!ENTITY soundPeople.label "-">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Click here to scan for System Errors and Optimize PC Performance">

@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "עצירת הכל">
+<!ENTITY resumeAll.label "חידוש הכל">
+<!ENTITY pauseAll.label "השהיית הכל">
+<!ENTITY cancelAll.label "ביטול כל אלו שבהתקדמות">
+<!ENTITY removeAll.label "ניקוי בל אלו שהסתיימו">
+<!ENTITY copySource.label "העתקת מקור כתובת האינטרנט">
+<!ENTITY visitSource.label "ביקור במקור האתר">
+<!ENTITY stopOne.label "עצירה">
+<!ENTITY pauseOne.label "השהייה">
+<!ENTITY cancelOne.label "ביטול">
+<!ENTITY resumeOne.label "חידוש">
+<!ENTITY properties.label "מאפיינים">
+<!ENTITY delete.label "מחיקה מהמערכת">
+<!ENTITY remove.label "ניקוי מהסרגל">
+<!ENTITY show.label "פתיחת התיקייה המכילה">
+<!ENTITY open.label "פתיחה">
+<!ENTITY start.label "התחלה">
+<!ENTITY rename.label "שינוי שם">
+<!ENTITY fromTip.label "מאת:">
+<!ENTITY toTip.label "אל:">
+<!ENTITY statusTip.label "מצב:">
+<!ENTITY timeTip.label "זמן נותר:">
+<!ENTITY percentTip.label "אחוזי סיום:">
+<!ENTITY sizeTip.label "גודל הקובץ:">
+<!ENTITY timeCompleteTip.label "זמן לסיום:">
+<!ENTITY avgSpeedTip.label "מהירות ממוצעת:">
+<!ENTITY numFinishedTip.label "הורדות שהסתיימו:">
+<!ENTITY sizeFinishedTip.label "גודל ההורדות שהסתיימו:">
+<!ENTITY numCurrentTip.label "קבצים שכרגע בהורדה:">
+<!ENTITY totalSpeedTip.label "מהירות כוללת:">
+<!ENTITY totalTimeTip.label "סך זמן נותר:">
+<!ENTITY toMiniTip.label "החלפה לסגנון ממוזער">
+<!ENTITY toFullTip.label "החלפה לסגנון מלא">
+<!ENTITY downloadsCap.label "הורדות">
+<!ENTITY clear.label "ניקוי">
+<!ENTITY mini.label "ממוזער">
+<!ENTITY full.label "סגנון מלא">
+<!ENTITY pTitle.label "Download Statusbar אפשרויות">
+<!ENTITY pGeneral.label "כללי">
+<!ENTITY pStatusMode.label "סגנון שורת מצב">
+<!ENTITY pFullMode.label "סגנון מלא">
+<!ENTITY pMiniMode.label "סגנון ממוזער">
+<!ENTITY pFeatures.label "אפיונים">
+<!ENTITY pLaunchClose.label "המשכה אוטומטית של ההורדות במנהל ההורדות כאשר הדפדפן נסגר">
+<!ENTITY pClearFin.label "ניקוי ההורדות שהסתיימו כאשר הדפדפן נסגר">
+<!ENTITY pConfirm.label "בקשת אישור לפני מחיקת קובץ מהמערכת">
+<!ENTITY pRmvOpen.label "ניקוי ההורדה שהסתיימה לאחר פתיחתה">
+<!ENTITY pRmvShow.label "ניקוי כל ההורדות שהסתיימו לאחר פתיחת התיקייה שמכילה אותן">
+<!ENTITY pSupAlert.label "הצגת ההודעה 'ההורדות הסתיימו' (מומלץ להשאיר מכובה)">
+<!ENTITY pAutoClear.label "ניקוי אוטומטי של סוגי הקבצים האלו">
+<!ENTITY pAfter.label "לאחר">
+<!ENTITY pSeconds.label "שניות">
+<!ENTITY pIgnore.label "התעלמות מסוגי הקבצים האלו">
+<!ENTITY pFiletypesHelp.label "(הכנסת * בשביל כל סוגי הקבצים, להשאיר ריק לשום דבר)">
+<!ENTITY pHistory.label "היסטוריית ההורדה">
+<!ENTITY pCloseHist.label "(כאשר הדפדפן נסגר)">
+<!ENTITY pKeepHist.label "שמירת היסטוריית ההורדה">
+<!ENTITY pTrimHist.label "קיצוץ היסטוריית ההורדה ל">
+<!ENTITY pDlItems.label "הורדות">
+<!ENTITY pPlaySound.label "השמעת צליל כאשר ההורדה מסתיימת">
+<!ENTITY pCheckmarkSound.label "סימן אישור!">
+<!ENTITY pCustomSound.label "[קובץ .WAV מותאם]">
+<!ENTITY pSoundExceptFiletypes.label "מלבד סוגי הקבצים:">
+<!ENTITY pQueue.label "סגנון תורי">
+<!ENTITY pQueEna.label "אפשור סגנון תורי">
+<!ENTITY pQueDownload.label "רק הורדה">
+<!ENTITY pQueFiles.label "קבצים בכל פעם">
+<!ENTITY pAppearance.label "מראה">
+<!ENTITY pDefaultStyle.label "סגנון ברירת מחדל">
+<!ENTITY pCustomStyle.label "סגנון מותאם">
+<!ENTITY pResetCustom.label "איפוס ההתאמה">
+<!ENTITY pProgNotify.label "הודעת התקדמות">
+<!ENTITY pDispPer.label "אחוזי התקדמות">
+<!ENTITY pDispSpeed.label "מהירות ההורדה">
+<!ENTITY pDispSize.label "נפח שהורד עד כה">
+<!ENTITY pDispTime.label "זמן נותר">
+<!ENTITY pTextSize.label "גדלי טקסט">
+<!ENTITY pFileText.label "גודל שם הקובץ:">
+<!ENTITY pProgNotiText.label "גודל הודעת ההתקדמות:">
+<!ENTITY pDLItemSize.label "גודל פריט ההורדה">
+<!ENTITY pWidth.label "רוחב:">
+<!ENTITY pHeight.label "גובה:">
+<!ENTITY pColors.label "צבעים">
+<!ENTITY pLeaveBlank.label "(השארה ריק לערכת נושא ברירת מחדל)">
+<!ENTITY pProgBar.label "סרגל התקדמות">
+<!ENTITY pProgRemain.label "יתרת ההתקדמות">
+<!ENTITY pFinishedBox.label "הורדה שהסתיימה">
+<!ENTITY pStoppedBox.label "הורדה שנעצרה">
+<!ENTITY pPausedOutline.label "אפיון המושהים">
+<!ENTITY pTextColor.label "טקסט">
+<!ENTITY pStatusBack.label "רקע שורת המצב">
+<!ENTITY pUseGradients.label "שימוש בטבלת צבעים">
+<!ENTITY pUseAnimation.label "שימוש באנימצייה">
+<!ENTITY pShowButtons.label "הצגת הכפתורים האלו:">
+<!ENTITY pDownloadsButton.label "כפתור ההורדות הראשי">
+<!ENTITY pClearButton.label "כפתור ניקוי אלו שהסתיימו">
+<!ENTITY pToMiniButton.label "כפתור סגנון ממוזער/מלא">
+<!ENTITY pSpeedColors.label "צבעי המהירות">
+<!ENTITY pEnableSC.label "אפשור צבעי המהירות">
+<!ENTITY pBetween.label "בין">
+<!ENTITY pAnd.label "ו">
+<!ENTITY pkbSec.label "ק&quot;ב\לשנייה">
+<!ENTITY pMoreThan.label "יותר מ">
+<!ENTITY pVScan.label "סריקת ווירוסים">
+<!ENTITY pShouldScan.label "סריקה ידנית של ההורדות שהסתיימו">
+<!ENTITY pExclude.label "לא לסרוק סוגי הקבצים האלו">
+<!ENTITY pAVLoc.label "מיקום תוכנת האנטי וירוס">
+<!ENTITY pArgs.label "משתנים">
+<!ENTITY pAVdesc.label "(שימוש ב&#37;1 במשתנה בתור קובץ לסריקה)">
+<!ENTITY pAbout.label "אודות">
+<!ENTITY pOK.label "אישור">
+<!ENTITY pApply.label "החל">
+<!ENTITY pCancel.label "ביטול">
+<!ENTITY previewColour.label "תצוגה מקדימה:">
+<!ENTITY cpWinTitle.title "בוחר-הצבע">
+<!ENTITY predef.label "צבעים מוגדרים מראש:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "אדום:">
+<!ENTITY green.label "ירוק:">
+<!ENTITY blue.label "כחול:">
+<!ENTITY hue.label "גוון:">
+<!ENTITY saturation.label "רוויה:">
+<!ENTITY brightness.label "בהירות:">
+<!ENTITY hexColor.label "קוד הצבע:">
+<!ENTITY nameColor.label "שם:">
+<!ENTITY cpUseThemeDef.label "שימוש בערכת נושא ברירת מחדל">
+<!ENTITY openOpt.label "אפשרויות...">
+<!ENTITY hideDownbar.label "הסתרת שורת ההורדה">
+<!ENTITY allDownloads.label "פעולות ההורדה">
+<!ENTITY openDLHist.label "היסטוריית ההורדה">
+<!ENTITY stoppedDL.label "הורדה שנעצרה:">
+<!ENTITY transparency.label "שקיפות">
+<!ENTITY background.label "רקע ל:">
+<!ENTITY background.accessKey "ר">
+<!ENTITY table.label "טבלה">
+<!ENTITY table.accessKey "ט">
+<!ENTITY cell.label "תא\ים">
+<!ENTITY cell.accessKey "ת">
+<!ENTITY lastPickedColor.label "צבע שנבחר אחרון">
+<!ENTITY lastPickedColor.accessKey "צ">

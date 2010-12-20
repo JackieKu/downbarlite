@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Deter todas">
+<!ENTITY resumeAll.label "Continuar todas">
+<!ENTITY pauseAll.label "Deter todas">
+<!ENTITY cancelAll.label "Cancelar todas as descargas a se realizar">
+<!ENTITY removeAll.label "Limpar todas as rematadas">
+<!ENTITY copySource.label "Copiar o URL de orixe">
+<!ENTITY visitSource.label "Visitar o sitio web da fonte">
+<!ENTITY stopOne.label "Deter">
+<!ENTITY pauseOne.label "Pausar">
+<!ENTITY cancelOne.label "Cancelar">
+<!ENTITY resumeOne.label "Reanudar">
+<!ENTITY properties.label "Características">
+<!ENTITY delete.label "Eliminar do sistema">
+<!ENTITY remove.label "Limpar da barra">
+<!ENTITY show.label "Abrir o cartafol">
+<!ENTITY open.label "Abrir">
+<!ENTITY start.label "Comezar">
+<!ENTITY rename.label "Cambiar o nome">
+<!ENTITY fromTip.label "De:">
+<!ENTITY toTip.label "A:">
+<!ENTITY statusTip.label "Estado:">
+<!ENTITY timeTip.label "Tempo libre:">
+<!ENTITY percentTip.label "Porcentaxe completa:">
+<!ENTITY sizeTip.label "Tamaño do ficheiro:">
+<!ENTITY timeCompleteTip.label "Tempo para completar:">
+<!ENTITY avgSpeedTip.label "Velocidade de transferencia:">
+<!ENTITY numFinishedTip.label "Descargas rematadas:">
+<!ENTITY sizeFinishedTip.label "Tamaño das descargas rematadas:">
+<!ENTITY numCurrentTip.label "Ficheiros a se descargaren actualmente:">
+<!ENTITY totalSpeedTip.label "Velocidade total:">
+<!ENTITY totalTimeTip.label "Tempo total restante:">
+<!ENTITY toMiniTip.label "Cambiar ao modo pequeno">
+<!ENTITY toFullTip.label "Cambiar ao modo completo">
+<!ENTITY downloadsCap.label "Descargas">
+<!ENTITY clear.label "Limpar">
+<!ENTITY mini.label "Pequeno">
+<!ENTITY full.label "Completo">
+<!ENTITY pTitle.label "Opcións para a barra de estado de descarga">
+<!ENTITY pGeneral.label "Xerais">
+<!ENTITY pStatusMode.label "Modo da barra de estado">
+<!ENTITY pFullMode.label "Modo completo">
+<!ENTITY pMiniMode.label "Modo pequeno">
+<!ENTITY pFeatures.label "Características">
+<!ENTITY pLaunchClose.label "Continuar automaticamente as descargas no xestor cando se pechar o navegador">
+<!ENTITY pClearFin.label "Limpar todas as descargas rematadas cando se pechar o navegador">
+<!ENTITY pConfirm.label "Confirmar antes de eliminar un ficheiro do sistema">
+<!ENTITY pRmvOpen.label "Limpar todas as descargas rematadas despois de as abrir">
+<!ENTITY pRmvShow.label "Limpar todas as descargas rematadas despois de abrir o cartafol">
+<!ENTITY pSupAlert.label "Amosar a notificación de descarga completa (aínda que se recomenda o contrario)">
+<!ENTITY pAutoClear.label "Limpar automaticamente estes tipos de ficheiros">
+<!ENTITY pAfter.label "despois">
+<!ENTITY pSeconds.label "segundos">
+<!ENTITY pIgnore.label "Ingorar estes tipos de ficheiros">
+<!ENTITY pFiletypesHelp.label "(Debe inserir * para todos os tipos ou deixar en branco se ningún)">
+<!ENTITY pHistory.label "Historial de descargas">
+<!ENTITY pCloseHist.label "(cando se pecha o navegador)">
+<!ENTITY pKeepHist.label "Manter un historial de descargas">
+<!ENTITY pTrimHist.label "Recortar o historial de descargar">
+<!ENTITY pDlItems.label "descargas">
+<!ENTITY pPlaySound.label "Reproducir un son ao se completaren as descargas">
+<!ENTITY pCheckmarkSound.label "Verificación">
+<!ENTITY pCustomSound.label "[ficheiro .WAV personalizado...]">
+<!ENTITY pSoundExceptFiletypes.label "Agás para os tipos:">
+<!ENTITY pQueue.label "Modo de cola de espera">
+<!ENTITY pQueEna.label "Activar o modo de espera">
+<!ENTITY pQueDownload.label "Só descarga">
+<!ENTITY pQueFiles.label "ficheiros ao mesmo tempo">
+<!ENTITY pAppearance.label "Aparencia">
+<!ENTITY pDefaultStyle.label "Estilo predefinido">
+<!ENTITY pCustomStyle.label "Estilo personalizado">
+<!ENTITY pResetCustom.label "Restabelecer o personalizado">
+<!ENTITY pProgNotify.label "Progreso das notificacións">
+<!ENTITY pDispPer.label "Porcentaxe de progreso">
+<!ENTITY pDispSpeed.label "Velocidade de descarga">
+<!ENTITY pDispSize.label "Canto se descargou até agora">
+<!ENTITY pDispTime.label "Tempo restante">
+<!ENTITY pTextSize.label "Tamaños do texto">
+<!ENTITY pFileText.label "Tamaño do nome do ficheiro:">
+<!ENTITY pProgNotiText.label "Tamaños da notificación do progreso:">
+<!ENTITY pDLItemSize.label "Tamaño dos elementos de descarga">
+<!ENTITY pWidth.label "Largura:">
+<!ENTITY pHeight.label "Altura:">
+<!ENTITY pColors.label "Cores">
+<!ENTITY pLeaveBlank.label "(déixeo en branco para o tema predeterminado)">
+<!ENTITY pProgBar.label "Barra de progreso">
+<!ENTITY pProgRemain.label "Progreso restante">
+<!ENTITY pFinishedBox.label "Rematouse a descarga">
+<!ENTITY pStoppedBox.label "Detívose a descarga">
+<!ENTITY pPausedOutline.label "Enmarcar pausadas">
+<!ENTITY pTextColor.label "Texto">
+<!ENTITY pStatusBack.label "Fondo da barra de estado">
+<!ENTITY pUseGradients.label "Usar gradación de cores">
+<!ENTITY pUseAnimation.label "Usar a animación">
+<!ENTITY pShowButtons.label "Amosar estes botóns:">
+<!ENTITY pDownloadsButton.label "Botón principal de descargas">
+<!ENTITY pClearButton.label "Botón limpar as descargas">
+<!ENTITY pToMiniButton.label "Botón en modo pequeno/completo">
+<!ENTITY pSpeedColors.label "Cores de velocidade">
+<!ENTITY pEnableSC.label "Activar as cores de velocidade">
+<!ENTITY pBetween.label "Entre">
+<!ENTITY pAnd.label "e">
+<!ENTITY pkbSec.label "KB/seg">
+<!ENTITY pMoreThan.label "Máis que">
+<!ENTITY pVScan.label "Proba de virus">
+<!ENTITY pShouldScan.label "Comprobar manualmente as descargas que se completaron">
+<!ENTITY pExclude.label "Non probar estes tipos de ficheiros">
+<!ENTITY pAVLoc.label "Localización do programa antivirus">
+<!ENTITY pArgs.label "Argumentos">
+<!ENTITY pAVdesc.label "(usar &#37;1 nos argurmentos para o ficheiro para probar)">
+<!ENTITY pAbout.label "Sobre">
+<!ENTITY pOK.label "Aceptar">
+<!ENTITY pApply.label "Aplicar">
+<!ENTITY pCancel.label "Cancelar">
+<!ENTITY previewColour.label "Vista previa:">
+<!ENTITY cpWinTitle.title "Selector de cor">
+<!ENTITY predef.label "Cores predefinidas:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Vermello:">
+<!ENTITY green.label "Verde:">
+<!ENTITY blue.label "Azul:">
+<!ENTITY hue.label "Matiz:">
+<!ENTITY saturation.label "Saturación:">
+<!ENTITY brightness.label "Brillo:">
+<!ENTITY hexColor.label "Hexadecimal:">
+<!ENTITY nameColor.label "Nome:">
+<!ENTITY cpUseThemeDef.label "Usar os tema predefinido">
+<!ENTITY openOpt.label "Opción...">
+<!ENTITY hideDownbar.label "Ocultar a barra de descargas">
+<!ENTITY allDownloads.label "Accións de descarga">
+<!ENTITY openDLHist.label "Historial de descargas">
+<!ENTITY stoppedDL.label "Descargas detidas:">
+<!ENTITY transparency.label "Transparente">
+<!ENTITY background.label "Fondo para:">
+<!ENTITY background.accessKey "B">
+<!ENTITY table.label "Táboa">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Cela(s)">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "Cor que se elixiu a última vez">
+<!ENTITY lastPickedColor.accessKey "L">

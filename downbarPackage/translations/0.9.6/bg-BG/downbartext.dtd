@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Спри Всичко">
+<!ENTITY resumeAll.label "Възобнови Всичко">
+<!ENTITY pauseAll.label "Паузирай всичко">
+<!ENTITY cancelAll.label "Откажи Всички Текущи">
+<!ENTITY removeAll.label "Изчисти Всички Завършени">
+<!ENTITY copySource.label "Копирай изходния УРЛ">
+<!ENTITY visitSource.label "Посети изходната уеб страница">
+<!ENTITY stopOne.label "Спри">
+<!ENTITY pauseOne.label "Паузирай">
+<!ENTITY cancelOne.label "Откажи">
+<!ENTITY resumeOne.label "Възобнови">
+<!ENTITY properties.label "Свойства">
+<!ENTITY delete.label "Изтрий от системата">
+<!ENTITY remove.label "Изчисти от панела">
+<!ENTITY show.label "Отвори Съдържащата Папка">
+<!ENTITY open.label "Отвори">
+<!ENTITY start.label "Започни">
+<!ENTITY rename.label "Преименувай">
+<!ENTITY fromTip.label "От:">
+<!ENTITY toTip.label "До:">
+<!ENTITY statusTip.label "Положение:">
+<!ENTITY timeTip.label "Оставащо време:">
+<!ENTITY percentTip.label "Проценти свършено:">
+<!ENTITY sizeTip.label "Файл размер:">
+<!ENTITY timeCompleteTip.label "Време за завършване:">
+<!ENTITY avgSpeedTip.label "Средна Скорост:">
+<!ENTITY numFinishedTip.label "Завършени Сваляния:">
+<!ENTITY sizeFinishedTip.label "Размер на Завършените Сваляния:">
+<!ENTITY numCurrentTip.label "Файлове свалящи се в момента:">
+<!ENTITY totalSpeedTip.label "Обща Скорост:">
+<!ENTITY totalTimeTip.label "Общо Оставащо Време:">
+<!ENTITY toMiniTip.label "Превключи на Мини Режим">
+<!ENTITY toFullTip.label "Превключи на Цял Режим">
+<!ENTITY downloadsCap.label "Сваляния">
+<!ENTITY clear.label "Изчисти">
+<!ENTITY mini.label "Мини">
+<!ENTITY full.label "Цял Режим">
+<!ENTITY pTitle.label "Настройки за Download Statusbar">
+<!ENTITY pGeneral.label "Общи">
+<!ENTITY pStatusMode.label "Режим Статусбар">
+<!ENTITY pFullMode.label "Пълен режим">
+<!ENTITY pMiniMode.label "Мини режми">
+<!ENTITY pFeatures.label "Възможности">
+<!ENTITY pLaunchClose.label "Автоматично продължи сваляния в мениджъра за сваляния при затваряне на браузъра">
+<!ENTITY pClearFin.label "Изчисти завършените сваляния когато браузъра се затвори">
+<!ENTITY pConfirm.label "Потвърди преди изтриване на файл от системата">
+<!ENTITY pRmvOpen.label "Изчисти завършеното сваляне след отварянето му">
+<!ENTITY pRmvShow.label "Изчисти завършеното сваляне след отварянето на съдържащата папка">
+<!ENTITY pSupAlert.label "Покажи &quot;Свалянията завършени&quot; известие (Препоръчително - изкл.)">
+<!ENTITY pAutoClear.label "Автоматично изчисти тези типове файлове">
+<!ENTITY pAfter.label "след">
+<!ENTITY pSeconds.label "секунди">
+<!ENTITY pIgnore.label "Пренебрегвай следния тип файлове">
+<!ENTITY pFiletypesHelp.label "(Въведи * за всички файлови типове, остави празно за никакви)">
+<!ENTITY pHistory.label "История на свалянията">
+<!ENTITY pCloseHist.label "(При затваряне на браузъра)">
+<!ENTITY pKeepHist.label "Пази история на свалянето">
+<!ENTITY pTrimHist.label "Trim the download history to">
+<!ENTITY pDlItems.label "сваляния">
+<!ENTITY pPlaySound.label "Изсвири звук, когато сваляне завърши">
+<!ENTITY pCheckmarkSound.label "Отметка">
+<!ENTITY pCustomSound.label ".WAV файл по избор">
+<!ENTITY pSoundExceptFiletypes.label "Освен типове файлове">
+<!ENTITY pQueue.label "Режим Опашка">
+<!ENTITY pQueEna.label "Разреши Режим опашка">
+<!ENTITY pQueDownload.label "Само сваляне">
+<!ENTITY pQueFiles.label "файлове в момента">
+<!ENTITY pAppearance.label "Изглед">
+<!ENTITY pDefaultStyle.label "Стандартен Стил">
+<!ENTITY pCustomStyle.label "Стил по избор">
+<!ENTITY pResetCustom.label "Reset Custom">
+<!ENTITY pProgNotify.label "Известие за Прогрес">
+<!ENTITY pDispPer.label "Процент прогрес">
+<!ENTITY pDispSpeed.label "Скорост на сваляне">
+<!ENTITY pDispSize.label "Size downloaded so far">
+<!ENTITY pDispTime.label "Оставащо време">
+<!ENTITY pTextSize.label "Text Sizes">
+<!ENTITY pFileText.label "File Name Size:">
+<!ENTITY pProgNotiText.label "Progress Notification Size:">
+<!ENTITY pDLItemSize.label "Download Item Sizes">
+<!ENTITY pWidth.label "Широчина:">
+<!ENTITY pHeight.label "Височина:">
+<!ENTITY pColors.label "Цветове">
+<!ENTITY pLeaveBlank.label "(Остави празно за вида по подразбиране на темата)">
+<!ENTITY pProgBar.label "Панел за Напредък">
+<!ENTITY pProgRemain.label "Остатък на Напредъкът">
+<!ENTITY pFinishedBox.label "Завършено Сваляне">
+<!ENTITY pStoppedBox.label "Спряно Сваляне">
+<!ENTITY pPausedOutline.label "Паузирано Очертание">
+<!ENTITY pTextColor.label "Текст">
+<!ENTITY pStatusBack.label "Фон на панела за Положението">
+<!ENTITY pUseGradients.label "Използвай Цветни Градиенти">
+<!ENTITY pUseAnimation.label "Използвай Анимация">
+<!ENTITY pShowButtons.label "Покажи тези бутони:">
+<!ENTITY pDownloadsButton.label "Бутон Основни Сваляния">
+<!ENTITY pClearButton.label "Бутон Изчисти Завършилите">
+<!ENTITY pToMiniButton.label "Бутон Мини/Пълен Режим">
+<!ENTITY pSpeedColors.label "Цветове на скоростта">
+<!ENTITY pEnableSC.label "Разреши Цветове на Скоростта">
+<!ENTITY pBetween.label "Между">
+<!ENTITY pAnd.label "и">
+<!ENTITY pkbSec.label "КБ/сек">
+<!ENTITY pMoreThan.label "Повече от">
+<!ENTITY pVScan.label "Вирусно Сканиране">
+<!ENTITY pShouldScan.label "Ръчно сканиране на завършените сваляния">
+<!ENTITY pExclude.label "Не сканирай следния тип файлове">
+<!ENTITY pAVLoc.label "Местоположение на Анти-Вирусна програма">
+<!ENTITY pArgs.label "Доводи">
+<!ENTITY pAVdesc.label "(Използвай &#37;1 в доводите за файла за сканиране)">
+<!ENTITY pAbout.label "Относно">
+<!ENTITY pOK.label "ОК">
+<!ENTITY pApply.label "Приложи">
+<!ENTITY pCancel.label "Отказ">
+<!ENTITY previewColour.label "Предв. изглед:">
+<!ENTITY cpWinTitle.title "Цветова палитра">
+<!ENTITY predef.label "Установени цветове:">
+<!ENTITY rgb.label "РГБ">
+<!ENTITY hsb.label "ХСБ">
+<!ENTITY red.label "Червено:">
+<!ENTITY green.label "Зелено:">
+<!ENTITY blue.label "Синьо:">
+<!ENTITY hue.label "Нюанс:">
+<!ENTITY saturation.label "Наситеност:">
+<!ENTITY brightness.label "Яркост:">
+<!ENTITY hexColor.label "Хекс:">
+<!ENTITY nameColor.label "Име:">
+<!ENTITY cpUseThemeDef.label "Използвай Тема по Подразбиране">
+<!ENTITY openOpt.label "Опции...">
+<!ENTITY hideDownbar.label "Скрий долният панел">
+<!ENTITY allDownloads.label "Свалящи Действия">
+<!ENTITY openDLHist.label "История на Свалянето">
+<!ENTITY stoppedDL.label "Спряно Сваляне:">
+<!ENTITY transparency.label "Прозрачност">
+<!ENTITY background.label "Фон за:">
+<!ENTITY background.accessKey "Б">
+<!ENTITY table.label "Таблица">
+<!ENTITY table.accessKey "Т">
+<!ENTITY cell.label "Клетка(и)">
+<!ENTITY cell.accessKey "Ц">
+<!ENTITY lastPickedColor.label "Последно избран цвят">
+<!ENTITY lastPickedColor.accessKey "Л">

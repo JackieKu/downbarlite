@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Припинити всі">
+<!ENTITY resumeAll.label "Відновити всі">
+<!ENTITY pauseAll.label "Призупинити всі">
+<!ENTITY cancelAll.label "Скасувати всі">
+<!ENTITY removeAll.label "Прибрати всі завантажені">
+<!ENTITY copySource.label "Скопіювати адресу на сервері">
+<!ENTITY visitSource.label "Відвіати первинний сайт">
+<!ENTITY stopOne.label "Припинити">
+<!ENTITY pauseOne.label "Призупинити">
+<!ENTITY cancelOne.label "Скасувати">
+<!ENTITY resumeOne.label "Відновити">
+<!ENTITY properties.label "Налаштування">
+<!ENTITY delete.label "Видалити з системи">
+<!ENTITY remove.label "Прибрати з панелі">
+<!ENTITY show.label "Відкрити теку, що містить файл">
+<!ENTITY open.label "Відкрити">
+<!ENTITY start.label "Розпочати">
+<!ENTITY rename.label "Перейменувати">
+<!ENTITY fromTip.label "Від:">
+<!ENTITY toTip.label "До:">
+<!ENTITY statusTip.label "Стан:">
+<!ENTITY timeTip.label "Залишилося часу:">
+<!ENTITY percentTip.label "Завантажено:">
+<!ENTITY sizeTip.label "Розмір файлу:">
+<!ENTITY timeCompleteTip.label "Залишилося часу:">
+<!ENTITY avgSpeedTip.label "Середня швидкість:">
+<!ENTITY numFinishedTip.label "Готові завантаження:">
+<!ENTITY sizeFinishedTip.label "Розмір готових завантажень:">
+<!ENTITY numCurrentTip.label "Наразі завантажуються файли:">
+<!ENTITY totalSpeedTip.label "Загальна швидкість:">
+<!ENTITY totalTimeTip.label "Всього залишилося часу:">
+<!ENTITY toMiniTip.label "Перейти до міні режиму">
+<!ENTITY toFullTip.label "Перейти до повноцінного режиму">
+<!ENTITY downloadsCap.label "Завантаження">
+<!ENTITY clear.label "Прибрати">
+<!ENTITY mini.label "Міні">
+<!ENTITY full.label "Повноцінний режим">
+<!ENTITY pTitle.label "Налаштування Download Statusbar">
+<!ENTITY pGeneral.label "Основні">
+<!ENTITY pStatusMode.label "Режим доповнення">
+<!ENTITY pFullMode.label "Повноцінний режим">
+<!ENTITY pMiniMode.label "Міні режим">
+<!ENTITY pFeatures.label "Особливости">
+<!ENTITY pLaunchClose.label "Автоматично продовжувати завантаження у розпоряднику завантажень, коли ви закриваєте Firefox">
+<!ENTITY pClearFin.label "Прибирати готові завантаження, коли ви закриваєте браузер">
+<!ENTITY pConfirm.label "Підтвердіть що ви насправді хочете видалити файл">
+<!ENTITY pRmvOpen.label "Прибрати готове завантаження, після того, як ви його відкрили">
+<!ENTITY pRmvShow.label "Прибрати готове завантаження після того, як ви відкрили теку, що його містить">
+<!ENTITY pSupAlert.label "Показувати сповіщення про закінчення завантаження (Рекомендуємо тримати вимкненим)">
+<!ENTITY pAutoClear.label "Автоматично прибирати ці типи файлів">
+<!ENTITY pAfter.label "після">
+<!ENTITY pSeconds.label "секунд">
+<!ENTITY pIgnore.label "Ігнорувати ці типи файлів">
+<!ENTITY pFiletypesHelp.label "(Подайте * для всіх видів файлів, подайте пробіл для жодних видів файлів)">
+<!ENTITY pHistory.label "Історія завантажень">
+<!ENTITY pCloseHist.label "(Коли браузер закривають)">
+<!ENTITY pKeepHist.label "Утримувати журнал завантажень">
+<!ENTITY pTrimHist.label "Очищати журнал завантажень до">
+<!ENTITY pDlItems.label "завантажень">
+<!ENTITY pPlaySound.label "Грати звук коли файл завантажено">
+<!ENTITY pCheckmarkSound.label "Галочка!">
+<!ENTITY pCustomSound.label "[Власний файл у форматі .WAV ...]">
+<!ENTITY pSoundExceptFiletypes.label "Окрім таких видів файлів:">
+<!ENTITY pQueue.label "Режим черги">
+<!ENTITY pQueEna.label "Увімкнути режим черги">
+<!ENTITY pQueDownload.label "Лише завантажувати">
+<!ENTITY pQueFiles.label "файлів за раз">
+<!ENTITY pAppearance.label "Вигляд">
+<!ENTITY pDefaultStyle.label "Типовий стиль">
+<!ENTITY pCustomStyle.label "Власний стиль">
+<!ENTITY pResetCustom.label "Змінити власний стиль">
+<!ENTITY pProgNotify.label "Повідомлення про поступ">
+<!ENTITY pDispPer.label "Відсотків завантажено">
+<!ENTITY pDispSpeed.label "Швидкість завантаження">
+<!ENTITY pDispSize.label "Обсяг вже завантаженого матеріалу">
+<!ENTITY pDispTime.label "Залишилося часу">
+<!ENTITY pTextSize.label "Розмір тексту">
+<!ENTITY pFileText.label "Розмір назви файлу:">
+<!ENTITY pProgNotiText.label "Розмір повідомлень про поступ">
+<!ENTITY pDLItemSize.label "Розміри завантажених файлів">
+<!ENTITY pWidth.label "Ширина:">
+<!ENTITY pHeight.label "Висота:">
+<!ENTITY pColors.label "Кольори">
+<!ENTITY pLeaveBlank.label "(Залиште порожнім аби використовувати типову тему)">
+<!ENTITY pProgBar.label "Панель поступу">
+<!ENTITY pProgRemain.label "Залишок поступу">
+<!ENTITY pFinishedBox.label "Завантаження завершено">
+<!ENTITY pStoppedBox.label "Завантаження припинено">
+<!ENTITY pPausedOutline.label "Призупинений контур">
+<!ENTITY pTextColor.label "Текст">
+<!ENTITY pStatusBack.label "Фон панелі стану">
+<!ENTITY pUseGradients.label "Використовувати кольорові градієнти">
+<!ENTITY pUseAnimation.label "Використовувати анімацію">
+<!ENTITY pShowButtons.label "Показувати ці кнопки:">
+<!ENTITY pDownloadsButton.label "Основні кнопки завантаження">
+<!ENTITY pClearButton.label "Кнопка &quot;Прибрати завантажені&quot;">
+<!ENTITY pToMiniButton.label "Кнопка переходу у міні режим">
+<!ENTITY pSpeedColors.label "Кольори швидкости">
+<!ENTITY pEnableSC.label "Увімкнути кольори швидкости">
+<!ENTITY pBetween.label "Поміж">
+<!ENTITY pAnd.label "та">
+<!ENTITY pkbSec.label "КБ/сек">
+<!ENTITY pMoreThan.label "Більше ніж">
+<!ENTITY pVScan.label "Виявлення вірусів">
+<!ENTITY pShouldScan.label "Самостійно сканувати завантажені файли">
+<!ENTITY pExclude.label "Не сканувати такі види файлів">
+<!ENTITY pAVLoc.label "Розташування антивірусної програми">
+<!ENTITY pArgs.label "Аргументи">
+<!ENTITY pAVdesc.label "(В аргументах використовуйте &#37;1 для сканування файлу)">
+<!ENTITY pAbout.label "Про Download Statusbar">
+<!ENTITY pOK.label "Гаразд">
+<!ENTITY pApply.label "Застосувати">
+<!ENTITY pCancel.label "Скасувати">
+<!ENTITY previewColour.label "Попередній перегляд:">
+<!ENTITY cpWinTitle.title "Піпетка">
+<!ENTITY predef.label "Наперед встановлені кольори:">
+<!ENTITY rgb.label "RGB(ЧЗБ)">
+<!ENTITY hsb.label "HSB(ТНЯ)">
+<!ENTITY red.label "Червоний:">
+<!ENTITY green.label "Зелений:">
+<!ENTITY blue.label "Блакитний:">
+<!ENTITY hue.label "Тональність:">
+<!ENTITY saturation.label "Насичення:">
+<!ENTITY brightness.label "Яскравість:">
+<!ENTITY hexColor.label "Шістнадцятковий код:">
+<!ENTITY nameColor.label "Назва:">
+<!ENTITY cpUseThemeDef.label "Використовувати типовий для теми">
+<!ENTITY openOpt.label "Налаштування...">
+<!ENTITY hideDownbar.label "Приховати панель завантаження">
+<!ENTITY allDownloads.label "Дії пов&apos;язанi із завантаженням">
+<!ENTITY openDLHist.label "Журнал завантажень">
+<!ENTITY stoppedDL.label "Зупинене завантаження:">
+<!ENTITY transparency.label "Прозорий">
+<!ENTITY background.label "Фон для:">
+<!ENTITY background.accessKey "Ф">
+<!ENTITY table.label "Таблиця">
+<!ENTITY table.accessKey "Т">
+<!ENTITY cell.label "Клітинки">
+<!ENTITY cell.accessKey "К">
+<!ENTITY lastPickedColor.label "Востаннє обраний колір">
+<!ENTITY lastPickedColor.accessKey "В">

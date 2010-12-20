@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Összes megállítása">
+<!ENTITY resumeAll.label "Összes újraindítása">
+<!ENTITY pauseAll.label "Összes szüneteltetése">
+<!ENTITY cancelAll.label "Folyamtban lévők visszavonása">
+<!ENTITY removeAll.label "Elkészültek törlése">
+<!ENTITY copySource.label "Forrás URL másolása">
+<!ENTITY visitSource.label "Látogassa meg a forrás webhelyet">
+<!ENTITY stopOne.label "Stop">
+<!ENTITY pauseOne.label "Szünet">
+<!ENTITY cancelOne.label "Mégse">
+<!ENTITY resumeOne.label "Folytatás">
+<!ENTITY properties.label "Tulajdonságok">
+<!ENTITY delete.label "Törlés a rendszerből">
+<!ENTITY remove.label "Törlés a sorról">
+<!ENTITY show.label "Tartalmazó mappa megnyitása">
+<!ENTITY open.label "Megnyitás">
+<!ENTITY start.label "Indítás">
+<!ENTITY rename.label "Átnevezés">
+<!ENTITY fromTip.label "Tól:">
+<!ENTITY toTip.label "Ig:">
+<!ENTITY statusTip.label "Státusz:">
+<!ENTITY timeTip.label "Idő maradt:">
+<!ENTITY percentTip.label "Letöltött százalék:">
+<!ENTITY sizeTip.label "Fájlméret:">
+<!ENTITY timeCompleteTip.label "Idő a befejezéshez:">
+<!ENTITY avgSpeedTip.label "Átlagsebesség:">
+<!ENTITY numFinishedTip.label "Befejezett letöltések:">
+<!ENTITY sizeFinishedTip.label "Befejezett letöltések mérete:">
+<!ENTITY numCurrentTip.label "Letöltés alatt álló fájlok:">
+<!ENTITY totalSpeedTip.label "Összsebesség:">
+<!ENTITY totalTimeTip.label "Össz fennmaradó idő:">
+<!ENTITY toMiniTip.label "Mini módba kapcsolás">
+<!ENTITY toFullTip.label "Váltás teljes módba">
+<!ENTITY downloadsCap.label "Letöltések">
+<!ENTITY clear.label "Törlés">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Teljes mód">
+<!ENTITY pTitle.label "Letöltés státuszsor beállításai">
+<!ENTITY pGeneral.label "Általános">
+<!ENTITY pStatusMode.label "Státuszsor mód">
+<!ENTITY pFullMode.label "Teljes mód">
+<!ENTITY pMiniMode.label "Mini Mód">
+<!ENTITY pFeatures.label "Tulajdonságok">
+<!ENTITY pLaunchClose.label "Automatikusan folytassa a letöltéseket a letöltéskezelőben amikor a böngésző bezáródik">
+<!ENTITY pClearFin.label "Befejezett letöltések törlése, amikor a böngésző bezáródik">
+<!ENTITY pConfirm.label "Jóváhagyás a fájl rendszerről való törlése előtt">
+<!ENTITY pRmvOpen.label "Befejezett letöltés törlése megnyitása után">
+<!ENTITY pRmvShow.label "Befejezett letöltés törlése a mappa megnyitása után">
+<!ENTITY pSupAlert.label "Mutassa a  &apos;Letöltés kész&apos; értesítést (Kikapcsolva ajánlott)">
+<!ENTITY pAutoClear.label "Automatikusan törölje ezeket a fájltípusokat">
+<!ENTITY pAfter.label "után">
+<!ENTITY pSeconds.label "másodperc">
+<!ENTITY pIgnore.label "Hagyja figyelmen kívül ezeket a fájltípusokat">
+<!ENTITY pFiletypesHelp.label "(Írjon be *-t minden fájltípushoz, hagyja üresen, ha egyiket sem)">
+<!ENTITY pHistory.label "Letöltés történet">
+<!ENTITY pCloseHist.label "(Amikor a böngésző bezáródik)">
+<!ENTITY pKeepHist.label "Tartsa meg a letöltés történetet">
+<!ENTITY pTrimHist.label "A letöltés történet vágása">
+<!ENTITY pDlItems.label "letöltések">
+<!ENTITY pPlaySound.label "Hang lejátszása amikor a letöltés kész">
+<!ENTITY pCheckmarkSound.label "Ellenőrző jel!">
+<!ENTITY pCustomSound.label "[egyedi .WAV fájl...]">
+<!ENTITY pSoundExceptFiletypes.label "A fájltípusokat kivéve:">
+<!ENTITY pQueue.label "Sor mód">
+<!ENTITY pQueEna.label "Sor mód engedélyezése">
+<!ENTITY pQueDownload.label "Csak letöltés">
+<!ENTITY pQueFiles.label "fájlok egyidőben">
+<!ENTITY pAppearance.label "Megjelenés">
+<!ENTITY pDefaultStyle.label "Alapértelmezett stílus">
+<!ENTITY pCustomStyle.label "Egyedi stílus">
+<!ENTITY pResetCustom.label "Egyedi visszaállítása">
+<!ENTITY pProgNotify.label "Folyamatjelzés">
+<!ENTITY pDispPer.label "Folyamat százaléka">
+<!ENTITY pDispSpeed.label "Letöltési sebesség">
+<!ENTITY pDispSize.label "Eddig letöltöttek mérete">
+<!ENTITY pDispTime.label "Fennmaradó idő">
+<!ENTITY pTextSize.label "Szöveg méret">
+<!ENTITY pFileText.label "Fájlnév méret:">
+<!ENTITY pProgNotiText.label "Haladási értesítés méret:">
+<!ENTITY pDLItemSize.label "Letöltés darab méret">
+<!ENTITY pWidth.label "Szélesség">
+<!ENTITY pHeight.label "Magasság">
+<!ENTITY pColors.label "Szinek">
+<!ENTITY pLeaveBlank.label "Hagyja üresen az alapértelmezett témához">
+<!ENTITY pProgBar.label "Folyamatsor">
+<!ENTITY pProgRemain.label "A folyamatban lévőből fennmaradó">
+<!ENTITY pFinishedBox.label "Befejezett letöltés">
+<!ENTITY pStoppedBox.label "Megállított letöltés">
+<!ENTITY pPausedOutline.label "Megállított körvonala">
+<!ENTITY pTextColor.label "Szöveg">
+<!ENTITY pStatusBack.label "Státuszsor háttér">
+<!ENTITY pUseGradients.label "Színátmenetek használata">
+<!ENTITY pUseAnimation.label "Animáció használata">
+<!ENTITY pShowButtons.label "Mutasd ezeket a gombokat">
+<!ENTITY pDownloadsButton.label "Fő letöltés gomb">
+<!ENTITY pClearButton.label "Befejezett letöltések törlése gomb">
+<!ENTITY pToMiniButton.label "Mini/Teljes mód gomb">
+<!ENTITY pSpeedColors.label "Sebesség színek">
+<!ENTITY pEnableSC.label "Sebesség színek engedélyezése">
+<!ENTITY pBetween.label "Között">
+<!ENTITY pAnd.label "és">
+<!ENTITY pkbSec.label "KB/ms">
+<!ENTITY pMoreThan.label "Több mint">
+<!ENTITY pVScan.label "Vírus keresés">
+<!ENTITY pShouldScan.label "Befejezett letöltések víruskeresése kézzel">
+<!ENTITY pExclude.label "Ne keressen vírust ezekben a fájltípusokban">
+<!ENTITY pAVLoc.label "Antivírus program hely">
+<!ENTITY pArgs.label "paraméterek">
+<!ENTITY pAVdesc.label "(Használjon &#37;1 a paraméterben a keresni kívánt fájlhoz">
+<!ENTITY pAbout.label "Névjegy">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Alkalmaz">
+<!ENTITY pCancel.label "Mégsem">
+<!ENTITY previewColour.label "Előnézet:">
+<!ENTITY cpWinTitle.title "Színválasztó">
+<!ENTITY predef.label "Előre beállított szinek:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Vörös:">
+<!ENTITY green.label "Zöld:">
+<!ENTITY blue.label "Kék:">
+<!ENTITY hue.label "Árnyalat:">
+<!ENTITY saturation.label "Telitettség">
+<!ENTITY brightness.label "Fényesség">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Név:">
+<!ENTITY cpUseThemeDef.label "Alapértelmezett téma használata">
+<!ENTITY openOpt.label "Beállítások...">
+<!ENTITY hideDownbar.label "Letöltési sor elrejtése">
+<!ENTITY allDownloads.label "Letöltési műveletek">
+<!ENTITY openDLHist.label "Letöltés történet">
+<!ENTITY stoppedDL.label "Megállított letöltés">
+<!ENTITY transparency.label "Átlátszó">
+<!ENTITY background.label "Háttér:">
+<!ENTITY background.accessKey "H">
+<!ENTITY table.label "Tábla">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Cell(ák)">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "Utoljára kiválasztott szín">
+<!ENTITY lastPickedColor.accessKey "U">

@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Parar Todos">
+<!ENTITY resumeAll.label "Continuar Todos">
+<!ENTITY pauseAll.label "Pausar Todos">
+<!ENTITY cancelAll.label "Cancelar Todos em Progresso">
+<!ENTITY removeAll.label "Limpar Todos Terminados">
+<!ENTITY copySource.label "Copiar Endereço">
+<!ENTITY visitSource.label "Visitar sítio web de origem">
+<!ENTITY stopOne.label "Parar">
+<!ENTITY pauseOne.label "Pausa">
+<!ENTITY cancelOne.label "Cancelar">
+<!ENTITY resumeOne.label "Continuar">
+<!ENTITY properties.label "Propriedades">
+<!ENTITY delete.label "Apagar do sistema">
+<!ENTITY remove.label "Limpar da barra">
+<!ENTITY show.label "Abrir Pasta de Origem">
+<!ENTITY open.label "Abrir">
+<!ENTITY start.label "Iniciar">
+<!ENTITY rename.label "Renomear">
+<!ENTITY fromTip.label "De:">
+<!ENTITY toTip.label "Para:">
+<!ENTITY statusTip.label "Estado:">
+<!ENTITY timeTip.label "Tempo Restante:">
+<!ENTITY percentTip.label "Percentagem Concluída:">
+<!ENTITY sizeTip.label "Tamanho do Ficheiro:">
+<!ENTITY timeCompleteTip.label "Tempo Restante:">
+<!ENTITY avgSpeedTip.label "Velocidade Média">
+<!ENTITY numFinishedTip.label "Transferências terminadas:">
+<!ENTITY sizeFinishedTip.label "Tamanho das transferências terminadas:">
+<!ENTITY numCurrentTip.label "Ficheiros com transferência em curso:">
+<!ENTITY totalSpeedTip.label "Velocidade Total:">
+<!ENTITY totalTimeTip.label "Tempo Restante Total:">
+<!ENTITY toMiniTip.label "Mudar para modo mini">
+<!ENTITY toFullTip.label "Mudar para modo completo">
+<!ENTITY downloadsCap.label "Transferências">
+<!ENTITY clear.label "Limpar">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Modo completo">
+<!ENTITY pTitle.label "Preferências do Download Statusbar">
+<!ENTITY pGeneral.label "Geral">
+<!ENTITY pStatusMode.label "Modo Barra de Estado">
+<!ENTITY pFullMode.label "Modo Completo">
+<!ENTITY pMiniMode.label "Modo Mini">
+<!ENTITY pFeatures.label "Funcionalidades">
+<!ENTITY pLaunchClose.label "Continuar transferências automaticamente no gestor de transferências quando fechar o Firefox">
+<!ENTITY pClearFin.label "Limpar transferências terminadas quando fechar o Firefox">
+<!ENTITY pConfirm.label "Perguntar antes de apagar um ficheiro do sistema">
+<!ENTITY pRmvOpen.label "Limpar a transferência terminada depois de a abrir">
+<!ENTITY pRmvShow.label "Limpar a transferência terminada depois de abrir a pasta de origem">
+<!ENTITY pSupAlert.label "Mostrar a notificação &quot;Transferências Terminadas&quot; (Recomendado: Desligado)">
+<!ENTITY pAutoClear.label "Automaticamente limpar estes tipos de ficheiros">
+<!ENTITY pAfter.label "após">
+<!ENTITY pSeconds.label "segundos">
+<!ENTITY pIgnore.label "Ignorar estes tipos de ficheiros">
+<!ENTITY pFiletypesHelp.label "(Digite * para todos os tipos de ficheiros, deixe em branco para nenhum)">
+<!ENTITY pHistory.label "Histórico de transferências">
+<!ENTITY pCloseHist.label "(Quando o Firefox fecha)">
+<!ENTITY pKeepHist.label "Manter um histórico de transferência">
+<!ENTITY pTrimHist.label "Limitar o histórico de transferências a">
+<!ENTITY pDlItems.label "transferências">
+<!ENTITY pPlaySound.label "Tocar som quando uma transferência terminar">
+<!ENTITY pCheckmarkSound.label "Checkmark!">
+<!ENTITY pCustomSound.label "(Escolher ficheiro .WAV...)">
+<!ENTITY pSoundExceptFiletypes.label "Excepto para os tipos de ficheiro:">
+<!ENTITY pQueue.label "Modo de Fila">
+<!ENTITY pQueEna.label "Activar Modo de Fila">
+<!ENTITY pQueDownload.label "Transferir apenas">
+<!ENTITY pQueFiles.label "ficheiros ao mesmo tempo">
+<!ENTITY pAppearance.label "Aparência">
+<!ENTITY pDefaultStyle.label "Estilo pré-definido">
+<!ENTITY pCustomStyle.label "Estilo Personalizado">
+<!ENTITY pResetCustom.label "Reinicializar Personalizado">
+<!ENTITY pProgNotify.label "Notificações de evolução">
+<!ENTITY pDispPer.label "Percentagem de evolução">
+<!ENTITY pDispSpeed.label "Velocidade da transferência">
+<!ENTITY pDispSize.label "Tamanho transferido até agora">
+<!ENTITY pDispTime.label "Tempo Restante">
+<!ENTITY pTextSize.label "Tamanhos de Texto">
+<!ENTITY pFileText.label "Tamanho do Nome de Ficheiro:">
+<!ENTITY pProgNotiText.label "Tamanho da notificação de evolução:">
+<!ENTITY pDLItemSize.label "Transferir tamanho dos itens">
+<!ENTITY pWidth.label "Largura">
+<!ENTITY pHeight.label "Altura">
+<!ENTITY pColors.label "Cores">
+<!ENTITY pLeaveBlank.label "(Deixe vazio para o tema pré-definido)">
+<!ENTITY pProgBar.label "Barra de evolução">
+<!ENTITY pProgRemain.label "Lembrança da evolução">
+<!ENTITY pFinishedBox.label "Transferência terminada">
+<!ENTITY pStoppedBox.label "Transferência parada">
+<!ENTITY pPausedOutline.label "Pausado - Contorno">
+<!ENTITY pTextColor.label "Texto">
+<!ENTITY pStatusBack.label "Fundo da Barra de Estado">
+<!ENTITY pUseGradients.label "Usar Gradientes de Cores">
+<!ENTITY pUseAnimation.label "Usar Animação">
+<!ENTITY pShowButtons.label "Mostrar estes botões:">
+<!ENTITY pDownloadsButton.label "Botão de transferência principal">
+<!ENTITY pClearButton.label "Botão de limpeza dos terminados">
+<!ENTITY pToMiniButton.label "Botão de modo mini">
+<!ENTITY pSpeedColors.label "Cores de velocidade">
+<!ENTITY pEnableSC.label "Activar cores de velocidade">
+<!ENTITY pBetween.label "Entre">
+<!ENTITY pAnd.label "e">
+<!ENTITY pkbSec.label "KB/sec">
+<!ENTITY pMoreThan.label "Maior que">
+<!ENTITY pVScan.label "Verificar Vírus">
+<!ENTITY pShouldScan.label "Verificar manualmente as transferências terminadas">
+<!ENTITY pExclude.label "Não verificar estes tipos de ficheiros">
+<!ENTITY pAVLoc.label "Localização do programa de Anti-Vírus">
+<!ENTITY pArgs.label "Argumentos">
+<!ENTITY pAVdesc.label "(Use &#37;1 nos argumentos para o ficheiro a verificar)">
+<!ENTITY pAbout.label "Sobre">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Aplicar">
+<!ENTITY pCancel.label "Cancelar">
+<!ENTITY previewColour.label "Pré-visualizar:">
+<!ENTITY cpWinTitle.title "Escolher cor">
+<!ENTITY predef.label "Cores pré-definidas:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Vermelho:">
+<!ENTITY green.label "Verde:">
+<!ENTITY blue.label "Azul:">
+<!ENTITY hue.label "Tom:">
+<!ENTITY saturation.label "Saturação:">
+<!ENTITY brightness.label "Brilho:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Nome:">
+<!ENTITY cpUseThemeDef.label "Usar tema pré-definido">
+<!ENTITY openOpt.label "Opções...">
+<!ENTITY hideDownbar.label "Ocultar barra de transferências">
+<!ENTITY allDownloads.label "Acções da transferência">
+<!ENTITY openDLHist.label "Histórico de transferência">
+<!ENTITY stoppedDL.label "Transferências interrompidas:">
+<!ENTITY transparency.label "Transparente">
+<!ENTITY background.label "Fundo para:">
+<!ENTITY background.accessKey "B">
+<!ENTITY table.label "Tabela">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Célula(s)">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "Última cor escolhida">
+<!ENTITY lastPickedColor.accessKey "L">

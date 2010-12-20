@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Stanna alla">
+<!ENTITY resumeAll.label "Återuppta alla">
+<!ENTITY pauseAll.label "Gör paus i alla">
+<!ENTITY cancelAll.label "Avbryt alla pågående förlopp">
+<!ENTITY removeAll.label "Rensa alla färdiga">
+<!ENTITY copySource.label "Kopiera källans adress">
+<!ENTITY visitSource.label "Besök källans hemsida">
+<!ENTITY stopOne.label "Stanna">
+<!ENTITY pauseOne.label "Paus">
+<!ENTITY cancelOne.label "Avbryt">
+<!ENTITY resumeOne.label "Återuppta">
+<!ENTITY properties.label "Egenskaper">
+<!ENTITY delete.label "Ta bort från systemet">
+<!ENTITY remove.label "Ta bort från fält">
+<!ENTITY show.label "Öppna katalog">
+<!ENTITY open.label "Öppna">
+<!ENTITY start.label "Starta">
+<!ENTITY rename.label "Byt namn">
+<!ENTITY fromTip.label "Från:">
+<!ENTITY toTip.label "Till:">
+<!ENTITY statusTip.label "Status:">
+<!ENTITY timeTip.label "Tid kvar:">
+<!ENTITY percentTip.label "Procent klart:">
+<!ENTITY sizeTip.label "Filstorlek:">
+<!ENTITY timeCompleteTip.label "Tid kvar:">
+<!ENTITY avgSpeedTip.label "Medelhastighet:">
+<!ENTITY numFinishedTip.label "Färdiga filhämtningar:">
+<!ENTITY sizeFinishedTip.label "Storlek på färdiga filhämtningar:">
+<!ENTITY numCurrentTip.label "Laddar ner:">
+<!ENTITY totalSpeedTip.label "Total hastighet:">
+<!ENTITY totalTimeTip.label "Total återstående tid:">
+<!ENTITY toMiniTip.label "Byt till mini-läge">
+<!ENTITY toFullTip.label "Byt till fullt läge">
+<!ENTITY downloadsCap.label "Filhämtningar">
+<!ENTITY clear.label "Rensa">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Fullt läge">
+<!ENTITY pTitle.label "Inställningar för filhämtningsraden">
+<!ENTITY pGeneral.label "Allmänt">
+<!ENTITY pStatusMode.label "Läge för statusrad">
+<!ENTITY pFullMode.label "Fullt läge">
+<!ENTITY pMiniMode.label "Mini-läge">
+<!ENTITY pFeatures.label "Funktioner">
+<!ENTITY pLaunchClose.label "Fortsätt automatiskt filhämtningar i filhämtaren när webbläsaren stängs">
+<!ENTITY pClearFin.label "Rensa färdiga filhämtningar när webbläsaren stängs">
+<!ENTITY pConfirm.label "Bekräfta före borttagning av fil från systemet">
+<!ENTITY pRmvOpen.label "Ta bort en färdig filhämtning efter att ha öppnat den">
+<!ENTITY pRmvShow.label "Ta bort en färdig filhämtning efter att ha öppnat dess katalog">
+<!ENTITY pSupAlert.label "Visa underrättelsen &quot;Filhämtningar slutförda&quot; (Rekommenderas av)">
+<!ENTITY pAutoClear.label "Ta automatiskt bort de här filtyperna">
+<!ENTITY pAfter.label "efter">
+<!ENTITY pSeconds.label "sekunder">
+<!ENTITY pIgnore.label "Ignorera de här filtyperna">
+<!ENTITY pFiletypesHelp.label "(Ange * för alla filtyper, lämna tomt för ingen)">
+<!ENTITY pHistory.label "Historik över filhämtning">
+<!ENTITY pCloseHist.label "(När webbläsaren stängs)">
+<!ENTITY pKeepHist.label "Spara en historik över filhämtningar">
+<!ENTITY pTrimHist.label "Justera historiken över filhämtningar till">
+<!ENTITY pDlItems.label "filhämtningar">
+<!ENTITY pPlaySound.label "Spela upp ljud när filhämtningen blir färdig.">
+<!ENTITY pCheckmarkSound.label "Standardljud">
+<!ENTITY pCustomSound.label "[Egen .WAV-fil..]">
+<!ENTITY pSoundExceptFiletypes.label "Undantagna filtyper:">
+<!ENTITY pQueue.label "Köläge">
+<!ENTITY pQueEna.label "Aktivera köläge">
+<!ENTITY pQueDownload.label "Hämta bara">
+<!ENTITY pQueFiles.label "filer i taget">
+<!ENTITY pAppearance.label "Utseende">
+<!ENTITY pDefaultStyle.label "Standardstil">
+<!ENTITY pCustomStyle.label "Anpassad stil">
+<!ENTITY pResetCustom.label "Återställ anpassad stil">
+<!ENTITY pProgNotify.label "Förloppsunderrättelse">
+<!ENTITY pDispPer.label "Procent av förlopp">
+<!ENTITY pDispSpeed.label "Filhämtningens hastighet">
+<!ENTITY pDispSize.label "Hämtad storlek">
+<!ENTITY pDispTime.label "Tid kvar">
+<!ENTITY pTextSize.label "Textstorlek">
+<!ENTITY pFileText.label "Filnamnsstorlek:">
+<!ENTITY pProgNotiText.label "Storlek på förloppsunderrättelse:">
+<!ENTITY pDLItemSize.label "Hämta storlek på objekt">
+<!ENTITY pWidth.label "Bredd:">
+<!ENTITY pHeight.label "Höjd:">
+<!ENTITY pColors.label "Färger">
+<!ENTITY pLeaveBlank.label "(Lämna tomt för temats standard)">
+<!ENTITY pProgBar.label "Förloppsrad">
+<!ENTITY pProgRemain.label "Resten av förloppet">
+<!ENTITY pFinishedBox.label "Slutförd filhämtning">
+<!ENTITY pStoppedBox.label "Stoppad filhämtning">
+<!ENTITY pPausedOutline.label "Pausad kant">
+<!ENTITY pTextColor.label "Text">
+<!ENTITY pStatusBack.label "Statusfältets bakgrund">
+<!ENTITY pUseGradients.label "Använd färggradienter">
+<!ENTITY pUseAnimation.label "Använd animering">
+<!ENTITY pShowButtons.label "Visa de här knapparna:">
+<!ENTITY pDownloadsButton.label "Filhämtningsknappen">
+<!ENTITY pClearButton.label "Töm färdig knapp">
+<!ENTITY pToMiniButton.label "Knappen för mini/fullt läge">
+<!ENTITY pSpeedColors.label "Hastighetsfärger">
+<!ENTITY pEnableSC.label "Aktivera hastighetsfärger">
+<!ENTITY pBetween.label "Mellan">
+<!ENTITY pAnd.label "och">
+<!ENTITY pkbSec.label "kB/sek">
+<!ENTITY pMoreThan.label "Mer än">
+<!ENTITY pVScan.label "Virusscanning">
+<!ENTITY pShouldScan.label "Scanna färdiga filhämtningar manuellt">
+<!ENTITY pExclude.label "Scanna inte dessa filtyper">
+<!ENTITY pAVLoc.label "Sökväg till antivirusprogram">
+<!ENTITY pArgs.label "Argument">
+<!ENTITY pAVdesc.label "(Använd &#37;1 i argumenten för filen som ska scannas)">
+<!ENTITY pAbout.label "Om">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Verkställ">
+<!ENTITY pCancel.label "Avbryt">
+<!ENTITY previewColour.label "Förhandsgranskning:">
+<!ENTITY cpWinTitle.title "Färgväljare">
+<!ENTITY predef.label "Fördefinierade färger:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Röd:">
+<!ENTITY green.label "Grön">
+<!ENTITY blue.label "Blå:">
+<!ENTITY hue.label "Färgton:">
+<!ENTITY saturation.label "Mättnad:">
+<!ENTITY brightness.label "Ljusstyrka:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Namn:">
+<!ENTITY cpUseThemeDef.label "Använd temats standard">
+<!ENTITY openOpt.label "Inställningar...">
+<!ENTITY hideDownbar.label "Dölj Downbar">
+<!ENTITY allDownloads.label "Filhämtningshändeler">
+<!ENTITY openDLHist.label "Filhämtningshistorik">
+<!ENTITY stoppedDL.label "Stoppad filhämtning:">
+<!ENTITY transparency.label "Genomskinlig">
+<!ENTITY background.label "Bakgrund för;">
+<!ENTITY background.accessKey "B">
+<!ENTITY table.label "Tabell">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Cell">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "Sista valda färg">
+<!ENTITY lastPickedColor.accessKey "L">

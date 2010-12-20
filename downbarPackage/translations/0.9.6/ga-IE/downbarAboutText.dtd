@@ -1,0 +1,115 @@
+<!ENTITY aboutTitle.label "Maidir le Download Statusbar">
+<!ENTITY introTab.label "Réamhrá">
+<!ENTITY by.label "Le Devon Jensen">
+<!ENTITY version.label "Leagan">
+<!ENTITY tagLine.label "Trí úsáid an bhreiseáin seo is féidir do chuid íosluchtaithe a fheiceáil agus a bhainistiú ó bharra stádais cuimseartha.">
+<!ENTITY ifNew.label "Mura bhfuil taithí agat ar Download Statusbar fós, lean ort ag léamh chun eolas a fháil ar úsáid an bhreiseáin seo.">
+<!ENTITY toView.label "Chun an scáileán cabhrach seo a fheiceáil arís as seo amach,">
+<!ENTITY pressAbout.label "beidh ort dul go dtí roghanna Download Statusbar, agus an cnaipe &apos;Maidir leis an gclár seo&apos; a bhrú.">
+<!ENTITY donateText.label "Chun an fhírinne a rá, chaith mé a lán ama ag cruthú, ag cothú is ag tabhairt tacaíocht don bhreiseán seo. Má cuireann sé feabhas ar d&apos;eispéireas Firefox, breathnaigh ar beagán airgid a bhronnadh le do thoil. (Níl cuntas Paypal de dhíth. Glactar le cártaí creidmheasa.)">
+<!ENTITY donate.label "Bronn.">
+<!ENTITY majorRelease.label "Eisiúint Mhór!">
+<!ENTITY changelog.label "Féach céard atá nua">
+<!ENTITY whatNewTab.label "Rudaí atá nua sa Leagan seo">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Leideanna agus Noda">
+<!ENTITY tip1Title.label "Radharc Sealadach">
+<!ENTITY tip1.label "Is é aidhm Download Statusbar ná áit shealadach a sholáthar chun d&apos;íosluchtaithe reatha agus na cinn atá críochnaithe le déanaí a fheiceáil. Is fiú é a choinneáil glan trí rogha glantacháin uathoibríoch a shocrú, nó sean-íosluchtaithe críochnaithe a bhaint de nuair nach gá leo fós. Níl sé chomh fóinteach sin nuair atá na híosluchtaithe chomh beag sin nach féidir iad a aithint óna chéile. Is féidir stair iomlán d&apos;íosluchtaithe a fheiceáil am ar bith sa bhainisteoir caighdeánach Firefox (Uirlisí|Íosluchtú). Lean ort ag léamh le níos mó leideanna simplí a fháil.">
+<!ENTITY tip2Title.label "Aicearraí do Ghníomhartha Coitianta">
+<!ENTITY tip2.label "Is féidir liosta gníomhartha do bhainistiú íosluchtaithe a fháil trí dheaschliceáil ar a mhír, ach tá bealaí níos tapúla ann:">
+<!ENTITY tip2a.label "- Chun íosluchtú críochnaithe amháin a ghlanadh, lárchliceáil air.  (ar an gcuid mó de lucha, is ionann lárchliceáil agus brú ar an roth scrollaithe)">
+<!ENTITY tip2b.label "- Chun GACH íosluchtú críochnaithe a ghlanadh, cliceáil faoi dhó ar cuid folamh den bharra stádais.">
+<!ENTITY tip2c.label "- Chun íosluchtú críochnaithe a oscailt, cliceáil faoi dhó air.">
+<!ENTITY tip2d.label "- Chun íosluchtú críochnaithe a scriosadh, coinnigh síos an eochair Ctrl agus ansin lárchliceáil air.">
+<!ENTITY tip2e.label "- Chun íosluchtú reatha a chur ar sos nó leanúint leis, cléchliceáil air.">
+<!ENTITY tip2f.label "- Chun íosluchtú críochnaithe a athainmniú, coinnigh síos an eochair Shift agus cléchliceáil air">
+<!ENTITY tip3Title.label "Leideanna Uirlise">
+<!ENTITY tip3.label "Uaireanta, is mioneolas ar íosluchtú atá uait. Chun staitisticí íosluchtaithe a thaispeáint, cuir cúrsóir do luiche ar mír íosluchtaithe agus fan go dtaispeánfaidh an leid uirlise. D&apos;íosluchtaithe reatha, taispeánfar leid nuashonraithe go leanúnach a bhfuil faisnéis mar luas reatha, méid íosluchtaithe agus am fágtha. D&apos;íosluchtaithe críochnaithe, taispeánfar faisnéis mar an áit a sábháladh an comhad, a mhéid, achar an íosluchtaithe agus an meánluas.">
+<!ENTITY tip4Title.label "Beochana">
+<!ENTITY tip4.label "Cuir beochana as chun gníomhartha bainistíochta a luathú. Is féidir aiseolas luachmhar a sholáthar duit ar stádas d&apos;íosluchtaithe trí bheochana (mar shampla, léiríonn X dearg gur iarr tú íosluchtú críochnaithe a scriosadh), ach is féidir leo do ríomhaire a mhoilliú freisin. Is féidir stop sealadach a chur le beochana agus tú ag baint íosluchtaithe trí an eochair Shift a choinneáil síos. Lena chois sin, is féidir iad a chur as ina n-iomlán leis an socrú &apos;downbar.function.useAnimation&apos; in about:config">
+<!ENTITY tip5Title.label "Stad Íosluchtaithe">
+<!ENTITY tip5.label "Stad íosluchtú agus sábháil é chun leanúint leis amach anseo. Ní féidir le Firefox íosluchtú a athdhúiseacht i ndiaidh scor ón gclár (tá sé ar intinn acu an cumas a chur isteach sa todhchaí), ach féideann tú íosluchtú a stad agus é a atosú an chéad uair eile a osclóidh tú Firefox. Stad íosluchtú trí dheaschliceáil air agus Stad a roghnú. Atosaigh íosluchtú stadta trí dheaschliceáil air agus Tosaigh a roghnú - sin nó déchliceáil air.">
+<!ENTITY tip6Title.label "Bainistiú Mórán Íosluchtaithe le Chéile">
+<!ENTITY tip6.label "Deaschliceáil ar chuid folamh an bharra stádais agus gheobhaidh tú roghanna chun mórán íosluchtaithe a bhainistiú le chéile. Is féidir gach comhad críochnaithe a ghlanadh nó comhaid reatha a chur ar sos, a stad nó a chealú. Féadann tú rogha a dhéanamh freisin idir Lánmhodh agus Mionmhodh.">
+<!ENTITY tip7Title.label "Mionmhodh">
+<!ENTITY tip7.label "Chun liosta íosluchtaithe a fheiceáil, cléchliceáil ar an gcnaipe Mionmhodha i mbarra stádais Firefox. Nuair a nochtfar an liosta, is féidir iad a bhainistiú mar is gnách - deaschliceáil le haghaidh gníomhartha bainistithe, lárchliceáil chun glanadh srl. Deaschliceáil ar an gcnaipe Mionmhodha le haghaidh roghanna do bhainistiú mórán íosluchtaithe le chéile. Ceiltear an cnaipe Íosluchtaithe mara bhfuil rud éigin sa liosta íosluchtaithe.">
+<!ENTITY prefsTab.label "Roghanna">
+<!ENTITY general.label "Ginearálta">
+<!ENTITY pref1Title.label "Fógraí Dhul Chun Cinn">
+<!ENTITY pref1.label "- Is féidir mioneolas nuashonraithe a thaispeáint i dtéacs beag ar an mír íosluchtaithe féin. Roghnaigh na fógraí is maith leat a fheiceáil. Leis an méid réamhshocraithe don mhír íosluchtaithe, thoillfeadh dhá cheann ann, ach is féidir an méid téacs a athrú ar an gcluaisín Cuma.">
+<!ENTITY pref2Title.label "Modh">
+<!ENTITY pref2.label "- Roghnaigh Lánmhodh (barra stádais ar leith) nó Mionmhodh (cnaipe ar bharra stádais Firefox). Bain triail astu araon go bhfeicfidh tú cé acu is fearr leat.">
+<!ENTITY pref3Title.label "Coimeád stair na n-íosluchtaithe...">
+<!ENTITY pref3.label "- Mar réamhshocrú, coimeádann Firefox stair d&apos;íosluchtú uile sa bhainisteoir íosluchtaithe. Má tá an rogha seo díchumasaithe, bainfear íosluchtaithe ón stair chomh luath agus a bhainfear ón mbarra stádais iad. Tabhair faoi deara: caithfidh an breiseán dul i bhfeighil an shocraithe Firefox &apos;browser.download.manager.retention&apos; chun é seo a chur i bhfeidhm.">
+<!ENTITY pref4Title.label "Gearr stair na n-íosluchtaithe...">
+<!ENTITY pref4.label "Tar éis tamaill, éiríonn stair na n-íosluchtaithe an-fhada ar fad agus moillíonn sé Firefox. Leis an socrú seo, gearrfar an liosta nuair a dhúnann Firefox agus coinneofar ar mhéid réasúnta é.">
+<!ENTITY pref5Title.label "Lean le híosluchtaithe go huathoibríoch...">
+<!ENTITY pref5.label "- Má tá íosluchtaithe ar siúil agat agus déanann tú iarracht Firefox a dhúnadh, taispeánfar rabhadh faoi cealú na n-íosluchtaithe. Leis an socrú seo, preabfaidh bainisteoir íosluchtaithe Firefox aníos ina ionad agus leanfaidh sé ag íosluchtú cé go mbeidh fuinneog an bhrabhsálaí dúnta.">
+<!ENTITY pref6Title.label "Glan íosluchtaithe críochnaithe nuair a dhúnann an brabhsálaí">
+<!ENTITY pref6.label "- Glanann sé seo na híosluchtaithe críochnaithe ón mbarra stádais, ach ní bhaineann sé ón stair sa bhainisteoir íosluchtaithe iad. Níl toradh ar bith don chomhad íosluchtaithe é féin.">
+<!ENTITY pref7Title.label "Fiafraigh roimh scriosadh...">
+<!ENTITY pref7.label "- Taispeánfaidh sé seo teachtaireacht deimhniúcháin sula scriosfaidh comhad i ndáiríre. Nuair atá comhad scriosta agat, ní féidir é a fháil ar ais (seachas é a íosluchtú arís).">
+<!ENTITY pref8Title.label "Glan íosluchtú críochnaithe tar éis é a oscailt">
+<!ENTITY pref8.label "- Ní bhaineann sé an t-íosluchtú ón stair sa bhainisteoir íosluchtaithe.">
+<!ENTITY pref9Title.label "Glan íosluchtú críochnaithe tar éis a fhillteán a oscailt">
+<!ENTITY pref9.label "- Ní bhaineann sé an t-íosluchtú ón stair sa bhainisteoir íosluchtaithe.">
+<!ENTITY pref10Title.label "Taispeáin an fógra &apos;Íosluchtaithe Críochnaithe&apos;">
+<!ENTITY pref10.label "- Is sainrogha Firefox é seo ach níl bealach furasta ann chun é a athrú.  Moltar duit é a chur as mar níl gá leis nuair atá Download Statusbar á úsáid agat">
+<!ENTITY pref11Title.label "Ná bac leis na cineálacha comhaid seo">
+<!ENTITY pref11.label "- Nuair atá na cineálacha comhaid seo á n-íosluchtú agat, ní feictear iad sa Download Statusbar ar chor ar bith, ach tá siad fós i stair íosluchtaithe Firefox. 
+Deighil gach cineál comhad óna chéile le camóg, agus is cuma faoi spásanna. Mar shampla: &apos;jpg, jpeg, png, gif&apos; (gan chomharthaí athfhriotail)">
+<!ENTITY pref12Title.label "Glan na cineálacha comhaid seo go huathoibríoch...">
+<!ENTITY pref12.label "- Tar éis íosluchtú a chríochnú, tosóidh uaineadóir agus glanfaidh sé an t-íosluchtú ón mbarra stádais san am réamhshocraithe. Is fóinteach an áis í seo mar is féidir feiceáil gur éirigh leis an íosluchtú, ach níl ort níos mó bainistithe a dhéanamh air mura mian leat. 
+Deighil gach cineál comhad óna chéile le camóg, agus is cuma faoi spásanna. Mar shampla: &apos;jpg, jpeg, png, gif&apos; (gan chomharthaí athfhriotail)">
+<!ENTITY pref13Title.label "Seinn fuaim nuair a chríochnaíonn an t-íosluchtú">
+<!ENTITY pref13.label "- Roghnaigh fuaim réamhshocraithe nó comhad .WAV de do chuid féin le seinm nuair a chríochnaíonn íosluchtú. Mura maith leat go seinnfear an fhuaim do chineálacha comhaid ar leith, cuir iad isteach sa bhosca.  Mar shampla: &apos;jpg, jpeg, png, gif&apos; (gan chomharthaí athfhriotail)">
+<!ENTITY appearance.label "Cuma">
+<!ENTITY pref14Title.label "Stíl Réamhshocraithe nó Saincheaptha">
+<!ENTITY pref14.label "- Roghnaigh &apos;Stíl Saincheaptha&apos; chun roghnóirí dathanna agus boscaí méide a chumasú. Roghnaigh &apos;Stíl Réamhshocraithe&apos; chun tiontú ar ais chuig an stíl bhunaidh gan do stíleanna saincheaptha a chailleadh.">
+<!ENTITY pref15Title.label "Dathanna">
+<!ENTITY pref15.label "- Cliceáil ar bosca datha chun roghnóir dathanna a oscailt le haghaidh na míre sin. Cliceáil agus tarraing sa phailéad chun dath a aimsiú nó roghnaigh ceann de na dathanna réamhshocraithe. Más maith leat cóip a dhéanamh de dhath, cóipeáil a luach Heics agus greamaigh é i roghnóir dathanna eile. Is féidir cliceáil ar an gcnaipe &apos;Bain feidhm as an Téama Réamhshocraithe&apos; chun an rogha dathanna a scriosadh agus an téama réamhshocraithe a thaispeáint. Go hiondúil, ní fóinteach é seo ach do dhath Téacs agus do Chúlra an Bharra Stádais.">
+<!ENTITY pref16Title.label "Bain feidhm as Grádáin Datha">
+<!ENTITY pref16.label "- Roghnaigh é seo agus forleagfar íomhá bán-go-trédhearcach thar dath an chúlra a chuirfidh cuma 3D ar do mhíreanna íosluchtaithe. Oibríonn sé le stíleanna réamhshocraithe agus saincheaptha.">
+<!ENTITY pref17Title.label "Bain feidhm as Beochan">
+<!ENTITY pref17.label "- Tá beochana ann le haghaidh a lán gníomhartha bainistithe. Bíonn siad gearr go hiondúil agus tá súil agam nach gráiniúil iad, ach is féidir iad a chur as.">
+<!ENTITY pref18Title.label "Taispeáin na cnaipí seo:">
+<!ENTITY pref18.label "Roghnaigh má taispeánfar príomhchnaipe na n-íosluchtaithe, an cnaipe glanta (Glan comhaid chríochnaithe), agus an cnaipe Mion (Tiontaigh go Mionmhodh)">
+<!ENTITY pref19Title.label "Dathanna Luais">
+<!ENTITY pref19.label "- Má tá an rogha seo cumasaithe, athrófar dath d&apos;íosluchtú reatha go dinimiciúil de réir luas an íosluchtaithe. Mar sin feicfidh tú luas an íosluchtaithe ar an gcéad amharc. Sa chéad áit, cumasaigh dathanna luais. Ansin, socraigh raonta luais réasúnta de réir do cheangal idirlín. (Tá na réamhshocruithe bunaithe ar luasanna cábla) Faoi dheireadh, cliceáil ar na boscaí datha chun dath a shocrú do gach raon luais. B&apos;fhéidir an ghné seo a úsáid i mbealaí éagsúla. Mar shampla, is féidir íosluchtaithe tapa a dhéanamh níos gile ná íosluchtaithe malla. Nó is féidir dath amháin a úsáid don 3 raon is tapúla, ach dath rabhaidh a úsáid don luas is moille sa chaoi go dtabharfaidh tú faoi deara é nuair a thiteann luas íosluchtaithe faoi 10 KB/soic.">
+<!ENTITY virusScan.label "Scanadh le haghaidh Víreas">
+<!ENTITY pref20Title.label "Scan íosluchtaithe críochnaithe">
+<!ENTITY pref20.label "- Cliceáil ar an ticbhosca chun an gné seo a chumasú. Ní féidir é a chumasú gan aontú le Comhaontú na Gné Frithvíreas.">
+<!ENTITY pref21Title.label "Ná scan na cineálacha comhaid seo">
+<!ENTITY pref21.label "- Deighil gach cineál comhad óna chéile le camóg, agus is cuma faoi spásanna. Mar shampla: &apos;jpg, jpeg, png, gif&apos; (gan chomharthaí athfhriotail)">
+<!ENTITY pref22Title.label "Suíomh an chláir frithvíreas">
+<!ENTITY pref22.label "- Caithfear go bhfuil clár frithvíreas insealbhaithe agat cheana féin agus gur féidir leis paraiméadair a ghlacadh ar líne na n-orduithe. Brúigh ar an gcnaipe &apos;...&apos; agus aimsigh an clár i do chóras comhad.">
+<!ENTITY pref23Title.label "Paraiméadair">
+<!ENTITY pref23.label "- Cuir isteach paraiméadair riachtanach nó roghnach le haghaidh do chlár frithvíreas. Cuir &#37;1 isteach in ionad an chomhaid le scanadh. Oibríonn a lán clár le &#37;1 mar an t-aon pharaiméadar amháin. Seiceáil cáipéisí don chlár frithvíreas chun fháil amach na paraiméadair chearta.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Dún">
+<!ENTITY openPref.label "Oscail Roghanna na mBreiseán">
+<!ENTITY support.label "Tacaigh an breiseáin seo -">
+<!ENTITY donate2.label "Bronn airgead!">
+<!ENTITY credits.label "Teidil chreidiúna">
+<!ENTITY transFor.label "Aistriúchán do">
+<!ENTITY currLocale.label "ga-IE">
+<!ENTITY locale.label ":">
+<!ENTITY translatorName.label "Seán Ó Séaghdha agus Seanán Ó Coistín">
+<!ENTITY projectHost.label "Óstáil ghréasáin don thionscadal:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Ríomhchlárú agus Dearadh:">
+<!ENTITY soundsBy.label "Fuaimeanna:">
+<!ENTITY soundPeople.label "Dallin Jensen agus Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Click here to scan for System Errors and Optimize PC Performance">

@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Thông tin về Download Statusbar">
+<!ENTITY introTab.label "Giới thiệu">
+<!ENTITY by.label "Bởi Devon Jensen">
+<!ENTITY version.label "Phiên bản">
+<!ENTITY tagLine.label "Phần mở rộng này cho phép bạn xem và quản lí những tập tin tải xuống từ một thanh trạng thái nhỏ gọn.">
+<!ENTITY ifNew.label "Nếu bạn mới dùng Download Statusbar, vui lòng đọc tiếp thông tin để biết cách sử dụng.">
+<!ENTITY toView.label "Để thấy phần trợ giúp này trong tương lai,">
+<!ENTITY pressAbout.label "bạn sẽ cần vào tùy chọn Download Statusbar, và nhấn nút 'Giới thiệu'.">
+<!ENTITY donateText.label "Thành thật mà nói, tôi tốn khá nhiều thời gian để tạo ra, duy trì, và hỗ trợ phần mở rộng này. Nếu nó giúp trải nghiệm trên Firefox của bạn tốt hơn, vui lòng cân nhắc đến việc quyên góp một khoản nhỏ (Không cần tài khoản Paypal. Thẻ tín dụng cũng được chấp nhận.)">
+<!ENTITY donate.label "Quyên góp">
+<!ENTITY majorRelease.label "Phát hành Chính thức!">
+<!ENTITY changelog.label "Xem có gì mới">
+<!ENTITY whatNewTab.label "Mới trong Phiên bản này">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Mẹo và Thủ thuật">
+<!ENTITY tip1Title.label "Địa chỉ Xem tạm thời">
+<!ENTITY tip1.label "Download Statusbar được xem như một địa chỉ xem tạm thời cho các tập tin đang được tải và đã tải xong gần đây. Giữ nó gọn gàng bằng cách thiết lập tùy chọn tự động xóa trắng, hoặc bằng cách xóa thủ công những cái bạn không cần nữa. Nó sẽ không còn hữu ích khi mà bạn cứ để tập tin nhiều đến mức không còn nhận ra cái nào ra cái nào. Bạn luôn có thể xem lược sử tải xuống bằng cách mở trình quản lí tải xuống chuẩn của Firefox (Công cụ|Tải xuống). Tiếp tục đọc để biết thêm các mẹo giúp dễ dàng dọn dẹp các tập tin đã tải xong.">
+<!ENTITY tip2Title.label "Tạo phím tắt cho các Thao tác Thông thường">
+<!ENTITY tip2.label "Bạn có thể xem một danh sách thao tác trong việc quản lí tải bằng cách nhấp chuột phải vào nó, nhưng có vài cách nhanh hơn để làm các thao tác thông thường:">
+<!ENTITY tip2a.label "- Để xóa một tập tin đã tải xong, nhấp chuột giữa lên nó. (trên đa số các chuột, chuột giữa là đè nút cuộn xuống)">
+<!ENTITY tip2b.label "- Để xóa TẤT CẢ tập tin đã tải xong, nhấp đôi trên phần trống của thanh trạng thái.">
+<!ENTITY tip2c.label "- Để mở một tập tin đã tải xong, nhấp đôi lên nó.">
+<!ENTITY tip2d.label "- Để xóa một tập tin đã tải xong, giữ phím control và nhấn chuột giữa lên nó.">
+<!ENTITY tip2e.label "- Để tạm dừng hay tiếp tục một tập tin đang tải, nhấn chuột trái (đơn) lên nó.">
+<!ENTITY tip2f.label "- Để đổi tên một tập tin đã tải xong, giữ phím shift và nhấn chuột trái lên nó.">
+<!ENTITY tip3Title.label "Chú thích">
+<!ENTITY tip3.label "Đôi khi bạn chỉ muốn biết thêm thông tin chi tiết về một tập tin được tải. Để xem thống kê của một tập tin, đưa con trỏ lên trên một tập tin và đợi một chút để chú thích hiện ra. Các tập tin đang tải sẽ hiện một chú thích liên tục được cập nhật với các thông tin như tốc độ hiện tại, kích thước đã tải được và thời gian còn lại. Các tập tin đã tải xong sẽ hiện thông tin như nơi được lưu, kích thước của nó, thời gian tải mất bao lâu, và tốc độ trung bình.">
+<!ENTITY tip4Title.label "Hình động">
+<!ENTITY tip4.label "Bỏ qua hình động để tăng tốc thao tác quản lí. Hình động có thể cung cấp các phản hồi có giá trị về những gì đang xảy ra đối với các tập tin được tải của bạn (Ví dụ, một dấu X đỏ sẽ chỉ ra rằng bạn vừa yêu cầu xóa một tập tin đã tải xong), nhưng chúng cũng có thể làm chậm máy. Bạn có thể giữ shift khi xóa thủ công để tạm dừng hình động. Thêm nữa, bạn có thể tắt chúng hoàn toàn bằng thiết lập 'downbar.function.useAnimation' trong about:config">
+<!ENTITY tip5Title.label ".">
+<!ENTITY tip5.label ".">
+<!ENTITY tip6Title.label "Quản lí Cùng lúc Một vài Tập tin Được tải">
+<!ENTITY tip6.label "Nhấn chuột phải lên một phần còn trống của thanh trạng thái (hoặc trên nút chế độ Mini) sẽ cung cấp tùy chọn để quản lí cùng lúc nhiều tập tin được tải. Xóa tất cả tập tin tải xong, hoặc tạm dừng, dừng hẳn hoặc hủy bỏ tất cả các tập tin đang tải. Bạn cũng có thể chuyển đổi qua lại giữa chế độ Mini và Đầy đủ.">
+<!ENTITY tip7Title.label "Chế độ Mini">
+<!ENTITY tip7.label "Để xem danh sách các tập tin được tải, nhấn chuột trái lên nút chế độ mini trên thanh trạng thái Firefox. Một khi các tập tin được tải bật ra, bạn có thể quản lí chúng theo cách thông thường, nhấn chuột phải để chọn thao tác quản lí, chuột giữa để xóa, vv. Nhấn chuột phải lên nút chế độ mini để có tùy chọn quản lí cùng lúc nhiều tập tin được tải. Nút tải xuống sẽ bị ẩn nếu không có gì trong danh sách tải xuống.">
+<!ENTITY prefsTab.label "Tùy chọn Trợ giúp">
+<!ENTITY general.label "Thẻ Tổng Quát">
+<!ENTITY pref1Title.label "Thông báo Tiến trình">
+<!ENTITY pref1.label "Các tập tin đang tải có thể có thông tin chi tiết được cập nhật trong một dòng văn bản nhỏ trên chính nó. Chọn thông báo mà bạn muốn xem hoặc không chọn gì cả. Hai có lẽ là vừa đối với kích thước tải xuống mặc định nhưng bạn cũng có thể thay đổi kích thước văn bản trong Thẻ Diện Mạo.">
+<!ENTITY pref2Title.label "Chế độ">
+<!ENTITY pref2.label "- Chọn chế độ Đầy đủ (thanh trạng thái riêng biệt) hoặc chế độ Mini (tích hợp vào thanh trạng thái của Firefox). Hãy thử một lần để xem bạn thích cái nào nhất.">
+<!ENTITY pref3Title.label "Giữ lại lược sử tải xuống">
+<!ENTITY pref3.label "- Mặc định, Firefox giữ lược sử tất cả các tập tin được tải của bạn trong trình quản lí tải xuống. Khi không chọn, thiết lập này sẽ xóa lược sử về một tập tin ngay khi nó bị xóa khỏi thanh trạng thái. Chú ý: để cho phần này làm việc chính xác, phần mở rộng phải kiểm soát thiết lập 'browser.download.manager.retention' trên Firefox">
+<!ENTITY pref4Title.label "Cắt bỏ lược sử tải xuống...">
+<!ENTITY pref4.label "- Sau một thời gian, danh sách lược sử tải xuống có thể rất dài và làm chậm Firefox. Sử dụng phần này để cắt bớt danh sách mỗi khi Firefox đóng lại và giữ danh sách theo kích thước bạn muốn. Chú ý: tính năng này thuộc về Download Statusbar, nhưng không ảnh hưởng trực tiếp đến thanh trạng thái.">
+<!ENTITY pref5Title.label "Tự động tiếp tục tải...">
+<!ENTITY pref5.label "- Nếu bạn có các tập tin đang tải và đóng Firefox, nó sẽ bung ra cảnh báo về việc hủy bỏ các tập tin được tải. Sử dụng tính năng này, trình quản lí của Firefox sẽ bung ra và tiếp tục tải xuống cho dù cửa sổ trình duyệt đã đóng.">
+<!ENTITY pref6Title.label "Xóa các tập tin đã tải xong khi trình duyệt đóng">
+<!ENTITY pref6.label "- Xóa các tập tin đã tải xong khỏi thanh trạng thái, nhưng không xóa các tập tin được tải trong lược sử tải xuống. Điều này không gây ảnh hưởng tới bản thân tập tin được tải.">
+<!ENTITY pref7Title.label "Xác nhận trước khi xóa...">
+<!ENTITY pref7.label "- Phần này sẽ đưa ra thông điệp yêu cầu xác nhận trước khi một tập tin thật sự bị xóa. Một khi bạn xóa tập tin, không còn cách nào khôi phục được (ngoại trừ việc tải lại).">
+<!ENTITY pref8Title.label "Xóa một tập tin đã tải xong sau khi mở nó">
+<!ENTITY pref8.label "- Không xóa tên tập tin khỏi lược sử tải xuống.">
+<!ENTITY pref9Title.label "Xóa một tập tin đã tải xong sau khi mở thư mục chứa nó">
+<!ENTITY pref9.label "- Không xóa tên tập tin khỏi lược sử tải xuống.">
+<!ENTITY pref10Title.label "Hiện thông báo 'Tải xong Hoàn tất'">
+<!ENTITY pref10.label "- Đây thực ra là một tùy chọn có sẵn trong Firefox nhưng không có cách nào truy xuất nó dễ dàng. Nên tắt vì thật ra không cần thiết lắm khi bạn đã dùng Download Statusbar">
+<!ENTITY pref11Title.label "Bỏ qua các kiểu tập tin này">
+<!ENTITY pref11.label "- Khi tải xuống các kiểu tập tin này, chúng sẽ không hiện lên trong Download Statusbar, nhưng vẫn hiện hữu trong lược sử tải xuống của Firefox. Mỗi kiểu tập tin phải được ngăn cách bởi dấu phẩy, còn khoảng trống thì không ảnh hưởng. Ví dụ: 'jpg, jpeg, png, gif' (không có ngoặc)">
+<!ENTITY pref12Title.label "Tự động xóa các kiểu tập tin này...">
+<!ENTITY pref12.label "- Một khi tập tin được tải xong, phần này sẽ canh giờ để xóa nó khỏi thanh trạng thái sau vài giây. Điều này khá hữu ích vì bạn có thể thấy tập tin đã được tải thành công, nhưng bạn không cần phải tự mình quản lí nó, trừ khi chính bạn muốn. Mỗi kiểu tập tin phải được ngăn cách bởi dấu phẩy, còn khoảng trống thì không ảnh hưởng. Ví dụ: 'jpg, jpeg, png, gif' (không có ngoặc) Nếu bạn muốn tất cả các tập tin đều được xóa trắng, chỉ cần gõ *">
+<!ENTITY pref13Title.label "Phát tiếng khi việc tải hoàn tất">
+<!ENTITY pref13.label "- Chọn một tập tin âm thanh sẵn có hoặc tự chọn một tập tin .WAV của bạn để phát khi việc tải hoàn tất. Nếu bạn muốn âm thanh không được phát đối với một số kiểu tập tin nào đó, nhập chúng vào hộp. Ví dụ: 'jpg, jpeg, png, gif' (không có ngoặc)">
+<!ENTITY appearance.label "Thẻ Diện Mạo">
+<!ENTITY pref14Title.label "Style Mặc định hoặc Tùy biến">
+<!ENTITY pref14.label "- Chọn 'Style Tùy biến' sẽ bật tất cả trình chọn màu và hộp kích thước. Chọn 'Style Mặc định' sẽ cho phép bạn nhanh chóng chuyển về kiểu gốc, nhưng các thiết lập cho kiểu tùy biến vẫn được lưu lại.">
+<!ENTITY pref15Title.label "Màu">
+<!ENTITY pref15.label "- Chọn một hộp màu để mở cửa sổ trình chọn màu cho mục đó. Nhấn và thả xung quanh bảng màu để tìm màu bạn thích hoặc chỉ cần chọn một trong các màu có sẵn. Nếu bạn muốn nhân đôi một màu, chép giá trị Hex của nó và nhập vào thủ công trong trình chọn màu kế tiếp. Bạn cũng có thể nhấn nút 'Sử dụng Giao diện Mặc định' để làm trắng một vùng màu trước đó và để cho màu giao diện mặc định hiện ra. Phần này thường chỉ hữu ích cho màu Văn bản và màu Nền của Thanh trạng thái.">
+<!ENTITY pref16Title.label "Dùng độ dốc màu">
+<!ENTITY pref16.label "Nếu được chọn, phần này sẽ phủ lên một ảnh trắng-chuyển-sang-trong-suốt lên màu nền để tạo ra cảm giác 3D thú vị. Hoạt động trên cả giao diện mặc định và tùy biến.">
+<!ENTITY pref17Title.label "Dùng hình động">
+<!ENTITY pref17.label "- Vài thao tác quản lí tải xuống có hình động tương ứng. Hình động thường diễn ra nhanh và hi vọng là không gây khó chịu, nhưng chúng có thể được tắt đi.">
+<!ENTITY pref18Title.label "Hiện những nút này:">
+<!ENTITY pref18.label "Chọn xem liệu có cho hiện nút tải chính, nút xóa (Xóa trắng Tất cả Những phần đã hoàn thành), và nút mini (Chuyển sang Chế độ Mini).">
+<!ENTITY pref19Title.label "Màu cho Tốc độ">
+<!ENTITY pref19.label "- Bật phần này lên sẽ thay đổi liên hoàn màu sắc của một tập tin đang tải dựa trên tốc độ tải của nó. Phần này cho phép bạn có thể 'nhìn thấy' tốc độ tải đang nhanh đến mức nào chỉ bằng cách nhìn vào màu của nó. Đầu tiên, kích hoạt màu cho tốc độ. Sau đó, tạo các khoảng cách tốc độ hợp lí bằng cách thay đổi số dựa trên kiểu kết nối internet của bạn. (Thiết lập mặc định dựa trên tốc độ modem cáp) Cuối cùng, nhấn lên hộp màu để gán màu cho mỗi khoảng cách tốc độ. Có vài cách sử dụng tính năng này. Có một ý là nên gán cho màu của tốc độ nhanh sáng hơn màu của tốc độ chậm. Một ý khác là nên để 3 khoảng tốc độ cao nhất có cùng một màu (không thay đổi), nhưng gán tốc độ chậm nhất một màu cảnh báo khác, để ví dụ như, bạn sẽ nhận thấy ngay một tập tin có tốc độ tải dưới 10KB/giây khi thanh trạng thái chuyển sang màu đỏ.">
+<!ENTITY virusScan.label "Thẻ Quét Virus">
+<!ENTITY pref20Title.label "Quét thủ công các tập tin đã tải xong">
+<!ENTITY pref20.label "- Nhấn vào hộp kiểm để bật tính năng này. Bạn phải đồng ý Thỏa thuận Tính năng Diệt virus trước khi nó có thể hoạt động.">
+<!ENTITY pref21Title.label "Không quét các kiểu tập tin này">
+<!ENTITY pref21.label "- Mỗi kiểu tập tin phải được ngăn cách bởi một dấu phẩy, còn khoảng trống thì không ảnh hưởng. Ví dụ: 'jpg, jpeg, png, gif' (không có ngoặc)">
+<!ENTITY pref22Title.label "Địa chỉ của chương trình diệt virus">
+<!ENTITY pref22.label "- Bạn phải có sẵn một chương trình diệt virus có khả năng chạy dòng lệnh để quét thủ công. Nhấn nút '...' và tìm chương trình trong hệ thống của bạn.">
+<!ENTITY pref23Title.label "Tham số">
+<!ENTITY pref23.label "- Nhập tham số tùy chọn hay cần thiết bất kì cho chương trình diệt virus của bạn. &#37;1 ám chỉ tập tin sẽ được quét (trước kia là [Path]) và sẽ phải có đâu đó trong tham số. Nhiều chương trình vẫn sẽ hoạt động dù &#37;1 là tham số duy nhất. Hãy đọc tài liệu của phần mềm Diệt Virus của bạn để biết tham số nào sẽ hoạt động với chương trình.">
+<!ENTITY listMarker.label     "&#183; ">
+<!ENTITY OK.label "Đóng">
+<!ENTITY openPref.label "Mở Tùy chọn cho Phần mở rộng">
+<!ENTITY support.label "Hỗ trợ phần mở rộng này -">
+<!ENTITY donate2.label "Quyên góp!">
+<!ENTITY credits.label "Công trạng">
+<!ENTITY transFor.label "Bản dịch cho">
+<!ENTITY currLocale.label "vi-VN">
+<!ENTITY locale.label "được cung cấp bởi:">
+<!ENTITY translatorName.label "NGUYỄN Mạnh Hùng (http://vi.mozdev.org)">
+<!ENTITY projectHost.label "Máy chủ web được cung cấp bởi:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Lập trình và Thiết kế bởi:">
+<!ENTITY soundsBy.label "Âm thanh tạo bởi:">
+<!ENTITY soundPeople.label "Dallin Jensen và Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Click here to scan for System Errors and Optimize PC Performance">

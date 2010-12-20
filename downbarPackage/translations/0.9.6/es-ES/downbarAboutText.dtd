@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Acerca de Download Statusbar">
+<!ENTITY introTab.label "Introducción">
+<!ENTITY by.label "Por Devon Jensen">
+<!ENTITY version.label "Versión">
+<!ENTITY tagLine.label "Esta extensión para Mozilla Firefox le permite ver y gestionar las descargas desde una barra de estado ordenada">
+<!ENTITY ifNew.label "Si Download Statusbar es nueva para usted, por favor, siga leyendo la información sobre cómo usar esta extensión">
+<!ENTITY toView.label "Para ver esta pantalla de ayuda en el futuro,">
+<!ENTITY pressAbout.label "tendrá que ir a las opciones de Download Statusbar, y pulsar el botón &apos;Acerca de&apos;">
+<!ENTITY donateText.label "Para ser honesto, he invertido un montón de tiempo en hacer esta extensión. Si mejora su experiencia con Firefox, por favor, considere la posibilidad de una pequeña donación. (No se precisa cuenta de Paypal, se aceptan tarjetas de Crédito)">
+<!ENTITY donate.label "Donar">
+<!ENTITY majorRelease.label "Nueva versión con cambios importantes">
+<!ENTITY changelog.label "Ver novedades">
+<!ENTITY whatNewTab.label "Novedades de esta versión">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Consejos y trucos">
+<!ENTITY tip1Title.label "Visualización transitoria de las descargas">
+<!ENTITY tip1.label "Download Statusbar pretende ser un lugar para mostrar transitoriamente sus descargas en progreso y recién terminadas. Manténgala limpia habilitando la opción de auto-limpiar, o limpiando manualmente las descargas que ya no necesite ver. La visualización resulta mucho menos útil si las descargas están tan apretadas que apenas puede distinguirlas. Si desea ver su historial de descargas completo puede abrir el gestor de descargas estándar de Firefox (Herramientas|Descargas). Siga leyendo otros consejos sobre cómo puede eliminar con facilidad las descargas ya finalizadas.">
+<!ENTITY tip2Title.label "Atajos de teclado para acciones frecuentes">
+<!ENTITY tip2.label "Puede obtener una lista de acciones para gestionar una descarga pulsando sobre ella con botón derecho, pero existen otras formas más rápidas de realizar acciones frecuentes:">
+<!ENTITY tip2a.label "- Para limpiar una descarga finalizada, haga click central sobre ella (en la mayoría de los ratones, el botón central se hace presionando la rueda)">
+<!ENTITY tip2b.label "- Para limpiar TODAS las descargas finalizadas, haga doble click en una zona vacía de la barra de estado.">
+<!ENTITY tip2c.label "- Para abrir una descarga finalizada, haga doble click sobre ella">
+<!ENTITY tip2d.label "- Para borrar una descarga finalizada, haga click central sobre ella mientras aprieta Control">
+<!ENTITY tip2e.label "- Para pausar o continuar una tarea en progreso, haga click izquierdo (sólo uno) sobre ella">
+<!ENTITY tip2f.label "- Para renombrar una descarga finalizada, haga click izquierdo sobre ella mientras aprieta la tecla Mayúsculas">
+<!ENTITY tip3Title.label "Consejos">
+<!ENTITY tip3.label "En ocasiones se quiere información detallada sobre una descarga. Para mostrar estadísticas de una descarga, coloque el ratón sobre la descarga y espera un momento a que aparezca el mensaje emergente. Las descargas en progreso muestran un mensaje que se va actualizando con información como la velocidad actual, el tamaño descargado y el tiempo restante. Las descargas ya finalizadas mostrarán información como el lugar donde se guardó la descarga, su tamaño, cuánto tiempo tardó y la velocidad media.">
+<!ENTITY tip4Title.label "Animaciones">
+<!ENTITY tip4.label "Desactive las animaciones para acelerar las actuaciones de gestión. Las animaciones dan información valiosa sobre lo que ocurre con la descarga (por ejemplo, una X roja indica que ha pedido borrar una descarga ya finalizada), pero pueden provocar retrasos. Si mantiene presionado Mayúsculas mientras elimina manualmente una descarga, detendrá las animaciones de forma temporal. También puede deshabilitarlas completamente con la preferencia &quot;downbar.function.useAnimation&quot; en about:config">
+<!ENTITY tip5Title.label "Detener descargas">
+<!ENTITY tip5.label "Detener una descarga para reanudarla después.  Actualmente Firefox no puede reanudar una descarga después de que se ha cerrado el programa (está previsto para la versión 3.0), pero ahora usted puede detener una descarga e iniciarla nuevamente la siguiente vez que abra Firefox.  Detenga una descarga haciendo click-derecho en la misma y eligiendo Detener.  Reanude una descarga detenida haciendo click-derecho sobre la misma y eligiendo iniciar - o simplemente haga doble-click sobre ella.">
+<!ENTITY tip6Title.label "Gestionar varias descargas a la vez">
+<!ENTITY tip6.label "Haciendo click derecho en una zona vacía de la barra de estado (o en el botón de modo mini) aparecerán opciones para gestionar varias descargas a la vez: eliminar todas las descargas ya terminadas, y pausar, parar o cancelar todas las descargas en progreso. También podrá conmutar entre el modo mini y el modo completo.">
+<!ENTITY tip7Title.label "Modo mini">
+<!ENTITY tip7.label "Para ver la lista de descargas haga click izquierdo en el botón de descargas de modo mini en la barra de estado de Firefox. Cuando aparezca la lista de descargas, puede gestionarlas de la forma habitual: click derecho para gestionar acciones, click intermedio para eliminar, etc. Con click derecho en el botón de modo mini aparecerán opciones para gestionar varias descargas a la vez. El botón de descargas estará oculto si no hay ninguna descarga en la lista.">
+<!ENTITY prefsTab.label "Ayuda para opciones">
+<!ENTITY general.label "Pestaña general">
+<!ENTITY pref1Title.label "Notificaciones de progreso">
+<!ENTITY pref1.label "- Las descargas en progreso pueden mostrar información detallada y actualizada en texto de pequeño tamaño sobre la misma descarga. Elija las notificaciones que quiera ver, o no ver ninguna. Con el tamaño predeterminado se aconseja no más de dos notificaciones, pero puede cambiar el tamaño de texto en la pestaña de aspecto.">
+<!ENTITY pref2Title.label "Modo">
+<!ENTITY pref2.label "- Elija modo completo (barra de estado separada) o modo mini (integrado en la barra de estado de Firefox). Pruebe las dos para ver cuál le gusta más.">
+<!ENTITY pref3Title.label "Mantener historial de descargas...">
+<!ENTITY pref3.label "- Firefox mantiene por defecto todas sus descargas en el gestor de descargas. Cuando no se selecciona, esta predisposición eliminará una descarga del historial en cuanto se elimine de la barra de estado. Nota: para que funcione correctamente, esta extensión tiene que tener el control de la preferencia de Firefox &quot;browser.download.manager.retention&quot;.">
+<!ENTITY pref4Title.label "Limitar el historial de descargas...">
+<!ENTITY pref4.label "- Con el tiempo, la lista del historial de descargas puede llegar a ser muy larga y ralentizar Firefox. Use esta función para limitarla cada vez que se cierre Firefox, manteniendo así una lista de un tamaño más manejable. Nota: está función está en la barra de estado de descargas, pero no afecta directamente a la misma barra de estado.">
+<!ENTITY pref5Title.label "Continuar automáticamente las descargas...">
+<!ENTITY pref5.label "- Si tiene descargas en progreso e intenta cerrar Firefox, aparecerá un aviso de que se cancelarán las descargas. Si activa esta función, en vez de eso aparecerá el gestor de descargas de Firefox que seguirá descargando aunque se haya cerrado la ventana principal del navegador.">
+<!ENTITY pref6Title.label "Eliminar descargas terminadas al cerrar el navegador...">
+<!ENTITY pref6.label "- Elimina de la barra de estado las descargas terminadas, pero no del historial del gestor de descargas. No tiene ningún efecto sobre el archivo descargado.">
+<!ENTITY pref7Title.label "Confirmar antes de eliminar...">
+<!ENTITY pref7.label "- Hará que se muestre un mensaje de confirmación antes de eliminar un archivo. Una vez eliminado el archivo la acción no se puede deshacer (salvo volviéndolo a descargar).">
+<!ENTITY pref8Title.label "Eliminar una descarga ya terminada tras abrir el archivo">
+<!ENTITY pref8.label "- No elimina la descarga del historial del gestor de descargas.">
+<!ENTITY pref9Title.label "Eliminar una descarga ya terminada tras abrir la carpeta que la contiene.">
+<!ENTITY pref9.label "- No elimina la descarga del historial del gestor de descargas.">
+<!ENTITY pref10Title.label "Mostrar la notificación de &quot;Descargas completadas&quot;">
+<!ENTITY pref10.label "- Se trata de un preferencia interna de Firefox, pero no resulta fácil acceder a ella. Se recomienda tenerla deshabilitada pues no es realmente necesaria cuando se usa Download Statusbar.">
+<!ENTITY pref11Title.label "Ignorar estos tipos de archivo">
+<!ENTITY pref11.label "- Al descargar estos tipos de archivos, no se mostrarán en la barra de estado de descargas, aunque sí estarán en el historial de descargas de Firefox. Los tipos de archivo deben ir separados por comas, y los espacios no se tienen en cuenta. Por ejemplo &quot;jpg, jpeg, png, gif&quot; (sin comillas).">
+<!ENTITY pref12Title.label "Limpiar automáticamente estos tipos de archivo">
+<!ENTITY pref12.label "- Cuando termina una descarga, inicia un contador para limpiar la barra de estado tras un cierto periodo de tiempo. Resulta útil para que pueda ver que la descarga acabó con éxito, pero que no tenga que gestionarla a menos que quiera hacerlo. Los tipos de archivo deben ir separados por comas, y los espacios no se tienen en cuenta. Por ejemplo: &quot;jpg, jpeg, png, gif&quot; (sin comillas). Si quiere que se limpien automáticamente todos lo">
+<!ENTITY pref13Title.label "Reproducir un sonido cuando se completa una descarga">
+<!ENTITY pref13.label "- Seleccione un sonido predeterminado o un archivo .WAV personalizado para que se reproduzca cuando finalice una descarga. Si desea que el sonido no se reproduzca para ciertos tipos de archivo, introdúzcalos. Por ejemplo: &quot;jpg, jpeg, png, gif&quot; (sin comillas).">
+<!ENTITY appearance.label "Pestaña de aspecto">
+<!ENTITY pref14Title.label "Estilo predeterminado o personalizado">
+<!ENTITY pref14.label "- Al seleccionar &quot;Estilo personalizado&quot; se activarán los selectores de color y las cajas de tamaño. Al seleccionar &quot;Estilo predeterminado&quot; podrá volver de forma rápida el estilo original, pero las predisposiciones del estilo personalizado quedan guardadas.">
+<!ENTITY pref15Title.label "Colores">
+<!ENTITY pref15.label "- Pulse en un color para abrir una ventana de selección de colores para ese elemento. Pulse y arrastre por la paleta para encontrar el color que quiere o seleccione uno de los ya predefinidos. Si quiere duplicar un color, copie su valor hexadecimal (Hex) e introdúzcalo manualmente en el selector. También puede pulsar el botón de &quot;Usar tema predeterminado&quot; para suprimir una selección anterior de colores y volver a mostrar el tema predeterminado. Normalmente sólo se usa para el color de texto y el color de fondo de la barra de estado.">
+<!ENTITY pref16Title.label "Usar gradientes de colores">
+<!ENTITY pref16.label "- Si se selecciona, se superpondrá una imagen entre blanca y transparente sobre el color de fondo dando a las descargas un bonito efecto 3D. Funciona con el estilo predeterminado y con los personalizados.">
+<!ENTITY pref17Title.label "Usar animaciones">
+<!ENTITY pref17.label "- Algunas acciones tienen asignadas animaciones. Las animaciones suelen ser cortas y espero que no molestas, pero se pueden desactivar.">
+<!ENTITY pref18Title.label "Mostrar estos botones">
+<!ENTITY pref18.label "- Elegir si se muestra el botón principal de descargas, el de eliminar (eliminar todas las terminadas) o el de mini (cambiar a modo mini).">
+<!ENTITY pref19Title.label "Colores de velocidad">
+<!ENTITY pref19.label "- Si se activa cambiará dinámicamente el color de las descargas en progreso según lo rápido que vayan. Así puede &quot;ver&quot; de un vistazo lo rápido que progresa una descarga según su color. Primero active los colores de velocidad, luego establezca intervalos de tiempo razonables cambiando las cifras según su tipo de conexión (los que se dan por defecto se basan en velocidades de modems por cable). Por último, pulse en las cajas de colores para elegir color para cada intervalo de velocidades. Esta función se puede usar de varias formas. Una idea sería hacer que las descargas más rápidas sean más brillantes que las lentas, o que los 3 mayores intervalos de velocidad tengan el mismo color (sin cambios) y el de menor velocidad tenga un color que sirva de aviso, de forma que pueda ver, por ejemplo, si una descarga cae a menos de 10KB/seg si la barra de progreso se pone en rojo.">
+<!ENTITY virusScan.label "Pestaña de antivirus">
+<!ENTITY pref20Title.label "Escanear manualmente las descargas completadas">
+<!ENTITY pref20.label "- Marque la opción para habilitar esta función. Debe aceptar el Acuerdo sobre la función de antivirus antes de usarla.">
+<!ENTITY pref21Title.label "No escanear estos tipos de archivo">
+<!ENTITY pref21.label "- Cada tipo de archivo debe estar separado con comas, y los espacios no se tienen en cuenta. Por ejemplo &quot;jpg, jpeg, png, gif&quot; (sin las comillas).">
+<!ENTITY pref22Title.label "Ubicación del programa antivirus">
+<!ENTITY pref22.label "- Debe tener un programa antivirus instalado previamente y que sea capaz de aceptar peticiones de línea de comandos para un escaneo manual. Pulse el botón &quot;...&quot; y busque el programa en sus sistema de archivos.">
+<!ENTITY pref23Title.label "Argumentos">
+<!ENTITY pref23.label "- Introduzca los argumentos necesarios u opcionales específicos para su programa antivirus. &#37;1 representa el archivo a escanear (anteriormente era [Path]) y debe aparecer en algún lugar de los argumentos. Mucho programas funcionarán correctamente si &#37;1 constituye el único argumento. Consulte la documentación de su programa antivirus para saber qué argumentos necesita.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Cerrar">
+<!ENTITY openPref.label "Abrir opciones de extensión">
+<!ENTITY support.label "Ayude a esta extensión -">
+<!ENTITY donate2.label "¡Done!">
+<!ENTITY credits.label "Créditos">
+<!ENTITY transFor.label "Traducción para:">
+<!ENTITY currLocale.label "es-ES">
+<!ENTITY locale.label "traducción española de:">
+<!ENTITY translatorName.label "Enrique Vallejo y Urko">
+<!ENTITY projectHost.label "Alojamiento web del proyecto proporcionado por:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Programación y diseño de:">
+<!ENTITY soundsBy.label "Sonidos creados por:">
+<!ENTITY soundPeople.label "Dallin Jensen y Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Consejo:">
+<!ENTITY uniblueLink.label     "Haga clic aquí para escanear en busca de Errores de Sistema y Optimizar el Rendimiento del PC">

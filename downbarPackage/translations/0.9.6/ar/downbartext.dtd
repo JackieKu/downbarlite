@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "إيقاف الكل">
+<!ENTITY resumeAll.label "متابعة الكل">
+<!ENTITY pauseAll.label "إيقاف الكل مؤقتاً">
+<!ENTITY cancelAll.label "إلغاء الكل في العملية">
+<!ENTITY removeAll.label "تنظيف كل المنتهي">
+<!ENTITY copySource.label "نسخ عنوان المصدر">
+<!ENTITY visitSource.label "زيارة موقع المصدر">
+<!ENTITY stopOne.label "إيقاف">
+<!ENTITY pauseOne.label "إيقاف مؤقت">
+<!ENTITY cancelOne.label "إلغاء">
+<!ENTITY resumeOne.label "متابعة">
+<!ENTITY properties.label "الخصائص">
+<!ENTITY delete.label "حذف من النظام">
+<!ENTITY remove.label "تنظيف من الشريط">
+<!ENTITY show.label "فتح المجلد الحاول">
+<!ENTITY open.label "فتح">
+<!ENTITY start.label "بداية">
+<!ENTITY rename.label "إعادة تسمية">
+<!ENTITY fromTip.label "من:">
+<!ENTITY toTip.label "إلى:">
+<!ENTITY statusTip.label "الحالة:">
+<!ENTITY timeTip.label "الوقت الباقي:">
+<!ENTITY percentTip.label "النسبة المئوية المنتهية:">
+<!ENTITY sizeTip.label "حجم الملف:">
+<!ENTITY timeCompleteTip.label "الوقت للإنتهاء:">
+<!ENTITY avgSpeedTip.label "متوسط السرعة:">
+<!ENTITY numFinishedTip.label "التحميلات المنتهية:">
+<!ENTITY sizeFinishedTip.label "حجم التحميلات المنتهية:">
+<!ENTITY numCurrentTip.label "الملفات التي يتم تحميلها حالياً:">
+<!ENTITY totalSpeedTip.label "السرعة الكلية:">
+<!ENTITY totalTimeTip.label "الوقت الكلي المتبقي:">
+<!ENTITY toMiniTip.label "تبديل إلى الوضع المصغر">
+<!ENTITY toFullTip.label "التبديل إلى الوضع الكامل">
+<!ENTITY downloadsCap.label "التحميلات">
+<!ENTITY clear.label "تنظيف">
+<!ENTITY mini.label "مصغر">
+<!ENTITY full.label "الوضع الكامل">
+<!ENTITY pTitle.label "Download Statusbarالتفضيلات لـ">
+<!ENTITY pGeneral.label "عام">
+<!ENTITY pStatusMode.label "حالة الشريط">
+<!ENTITY pFullMode.label "الحالة الكاملة">
+<!ENTITY pMiniMode.label "الحالة الصغيرة">
+<!ENTITY pFeatures.label "الميزات">
+<!ENTITY pLaunchClose.label "متابعة التحميلات تلقائياً في مدير التحميل بعد إغلاق المتصفح">
+<!ENTITY pClearFin.label "تنظيف التحميلات المنتهية عند إغلاق المتصفح">
+<!ENTITY pConfirm.label "التأكيد قبل حذف ملف من النظام">
+<!ENTITY pRmvOpen.label "تنظيف التحميل المنتهي بعد فتحه">
+<!ENTITY pRmvShow.label "تنظيف التحميل المنتهي بعد فتح المجلد الحاوي">
+<!ENTITY pSupAlert.label "إظهار تنبيه إنتهاء التحميلات (يستحسن لا)">
+<!ENTITY pAutoClear.label "تنظيف أنواع الملفات هذه تلقائياً">
+<!ENTITY pAfter.label "بعد">
+<!ENTITY pSeconds.label "ثواني">
+<!ENTITY pIgnore.label "تجاهل أنواع الملفات هذه">
+<!ENTITY pFiletypesHelp.label "(اكتب * لكل أنواع الملفات، و اتركه فارغاً للا شيء)">
+<!ENTITY pHistory.label "تاريخ التحميل">
+<!ENTITY pCloseHist.label "(عند إغلاق المتصفح)">
+<!ENTITY pKeepHist.label "إبقاء تاريخ التحميل">
+<!ENTITY pTrimHist.label "جعل تاريخ التحميل مقتصراً على">
+<!ENTITY pDlItems.label "التحميلات">
+<!ENTITY pPlaySound.label "تشغيل صوت عن اكتمال التحميل">
+<!ENTITY pCheckmarkSound.label "علامة">
+<!ENTITY pCustomSound.label "ملف WAV مخصص">
+<!ENTITY pSoundExceptFiletypes.label "ماعدا أنواع الملفات:">
+<!ENTITY pQueue.label "وضع الصف">
+<!ENTITY pQueEna.label "تفعيل وضع الصف">
+<!ENTITY pQueDownload.label "فقط تحميل">
+<!ENTITY pQueFiles.label "ملفات في وقت واحد">
+<!ENTITY pAppearance.label "الهيئة">
+<!ENTITY pDefaultStyle.label "المظهر الافتراضي">
+<!ENTITY pCustomStyle.label "مظهر معد">
+<!ENTITY pResetCustom.label "إعادة ضبط المعد">
+<!ENTITY pProgNotify.label "تحذيرات التقدم">
+<!ENTITY pDispPer.label "النسبة المئوية للتقدم">
+<!ENTITY pDispSpeed.label "سرعة التحميل">
+<!ENTITY pDispSize.label "الحجم المحمل حتى الآن">
+<!ENTITY pDispTime.label "الوقت المتبقي">
+<!ENTITY pTextSize.label "حجوم النص">
+<!ENTITY pFileText.label "حجم اسم الملف:">
+<!ENTITY pProgNotiText.label "حجم تحذير التقدم:">
+<!ENTITY pDLItemSize.label "حجوم تحميل الملف:">
+<!ENTITY pWidth.label "العرض:">
+<!ENTITY pHeight.label "الارتفاع:">
+<!ENTITY pColors.label "الألوان">
+<!ENTITY pLeaveBlank.label "(أبقيه فارغاً للسمة الافتراضية)">
+<!ENTITY pProgBar.label "شريط التقدم">
+<!ENTITY pProgRemain.label "التقدم المتبقي">
+<!ENTITY pFinishedBox.label "التحميل المنتهي">
+<!ENTITY pStoppedBox.label "التحميل الموقف">
+<!ENTITY pPausedOutline.label "المختصر الموقف مؤقتاً">
+<!ENTITY pTextColor.label "النص">
+<!ENTITY pStatusBack.label "خلفية شريط الحالة">
+<!ENTITY pUseGradients.label "استعمال تدرج الألوان">
+<!ENTITY pUseAnimation.label "استعمال الحركة">
+<!ENTITY pShowButtons.label "عرض هذه الأزرار">
+<!ENTITY pDownloadsButton.label "زر التحميلات الأساسية">
+<!ENTITY pClearButton.label "زر تنظيف التحميلات">
+<!ENTITY pToMiniButton.label "زر الوضع المصغر">
+<!ENTITY pSpeedColors.label "ألوان السرعة">
+<!ENTITY pEnableSC.label "تفعيل ألوان السرعة">
+<!ENTITY pBetween.label "بين">
+<!ENTITY pAnd.label "و">
+<!ENTITY pkbSec.label "كيلوبايت/ثانية">
+<!ENTITY pMoreThan.label "أكثر من">
+<!ENTITY pVScan.label "فحص الفيروسات">
+<!ENTITY pShouldScan.label "فحص التحميلات المنتهية يدوياً">
+<!ENTITY pExclude.label "لا تقم بفحص أنواع الملفات هذه">
+<!ENTITY pAVLoc.label "موضع برنامج مضاد الفيروسات">
+<!ENTITY pArgs.label "Arguments">
+<!ENTITY pAVdesc.label "(Use &#37;1 in the arguments for the file to scan)">
+<!ENTITY pAbout.label "عن">
+<!ENTITY pOK.label "موافق">
+<!ENTITY pApply.label "تطبيق">
+<!ENTITY pCancel.label "إلغاء">
+<!ENTITY previewColour.label "معاينة مبكرة:">
+<!ENTITY cpWinTitle.title "ملتقط الألوان:">
+<!ENTITY predef.label ":ألوان محددة مسبقاً">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "أحمر:">
+<!ENTITY green.label "أخضر:">
+<!ENTITY blue.label "أزرق:">
+<!ENTITY hue.label "درجة اللون:">
+<!ENTITY saturation.label "الإشباع:">
+<!ENTITY brightness.label "السطوع:">
+<!ENTITY hexColor.label "العد الست عشري:">
+<!ENTITY nameColor.label "الاسم:">
+<!ENTITY cpUseThemeDef.label "استخدام السمة الافتراضية">
+<!ENTITY openOpt.label "الخيارات">
+<!ENTITY hideDownbar.label "إخفاء الشريط السفلي">
+<!ENTITY allDownloads.label "أعمال التحميل">
+<!ENTITY openDLHist.label "تاريخ التحميل">
+<!ENTITY stoppedDL.label "التحميلات الموقفة:">
+<!ENTITY transparency.label "الشفافية">
+<!ENTITY background.label "خلفية لـ:">
+<!ENTITY background.accessKey "B">
+<!ENTITY table.label "جدول">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "خلية">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "آخر لون مختار">
+<!ENTITY lastPickedColor.accessKey "L">

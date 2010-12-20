@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Tietoa Download Statusbar laajennuksesta">
+<!ENTITY introTab.label "Esittely">
+<!ENTITY by.label "Kehittäjä: Devon jensen">
+<!ENTITY version.label "Versio">
+<!ENTITY tagLine.label "Tämä laajennus Mozilla Firefoxille antaa sinun tarkastella ja hallita latauksia tilariviltä.">
+<!ENTITY ifNew.label "Jos käytät Download Statusbaria ensimmäistä kertaa, ole hyvä ja jatka lukemista saadaksesi tietoa tämän laajennuksen käytöstä.">
+<!ENTITY toView.label "Avataksesi tämän ohje ruudun uudelleen tulevaisuudessa,">
+<!ENTITY pressAbout.label "sinun tarvitsee mennä Download Statusbar asetuksiin, ja painaa 'Tietoa' painikkeesta.">
+<!ENTITY donateText.label "Ollakseni rehellinen, vietin runsaasti aikaa tämän laajennuksen tekemiseen. Jos se parantaa Firefox kokemustasi, harkitse pienen lahjoituksen antamista. (Paypal tili ei ole välttämätön. Luottokortit sallitaan.)">
+<!ENTITY donate.label "Lahjoita">
+<!ENTITY majorRelease.label "Tärkeä julkaisu!">
+<!ENTITY changelog.label "Mitä uutta">
+<!ENTITY whatNewTab.label "Uutta tässä versiossa">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Vinkkejä ja ohjeita">
+<!ENTITY tip1Title.label "Tilapäinen tarkastelusijainti">
+<!ENTITY tip1.label "Download Statusbar on tarkoitettu olemaan tilapäinen tarkastelusijainti keskenoleville ja valmistuneille latauksillesi. Pidä se siistinä ottamalla käyttöön auto-tyhjennys -toiminnon, tai manuaalisesti poistamalla valmistuneet  lataukset joita et enää näe. Se on paljon hyödyttömämpi kun lataukset pirstoutuvat niin pieniksi että et tiedä mikä on mikäkin. Voit aina nähdä täydellisen lataushistoriasi avaamalla Firefoxin lataushallinnan (Työkalut | Lataukset). Jatka lukemista saadaksesi lisää vinkkejä tyhjentääksesi valmistuneet lautaukset.">
+<!ENTITY tip2Title.label "Oikotiet yleisimpiin toimintoihin">
+<!ENTITY tip2.label "Voit saada listan toiminnoista latauksen hallintaan napsauttamalla sitä hiiren oikeanpuoleisella näppäimellä, mutta on olemassa useita nopeampia tapoja tehdä yleisimmät toiminnot:">
+<!ENTITY tip2a.label "- Poistaaksesi listasta valmistuneen latauksen, keskinapsauta sitä. (useimmissa hiirissä, keskinapsautus on rullan painaminen)">
+<!ENTITY tip2b.label "- Tyhjentääksesi listan KAIKISTA valmistuneista latauksista, kaksoisnapsauta tilarivin tyhjästä kohdasta.">
+<!ENTITY tip2c.label "- Avataksesi valmistuneen latauksen, kaksoisnapsauta sitä.">
+<!ENTITY tip2d.label "- Poistaaksesi valmistuneen latauksen, paina ctrl pohjaan ja keskinapsauta sitä.">
+<!ENTITY tip2e.label "- Keskeyttääksesi tai jatkaaksesi latausta, napsauta sitä.">
+<!ENTITY tip2f.label "- Nimetäksesi valmistuneen latauksen uudelleen, paina vaihto -näppäin pohjaan ja napsauta sitä">
+<!ENTITY tip3Title.label "Vihjelaatikot">
+<!ENTITY tip3.label "Joskus haluat yksityiskohtaisempia tietoja latauksesta. Tarkastellaksesi latauksen tietoja, aseta hiiren kursori latauksen päälle ja odota hetki kunnes vihjelaatikko ilmestyy. Kesken olevissa latauksissa näytetään jatkuvasti pävittyvä vihjelaatikko varustettuna tiedoilla kuten senhetkinen nopeus, koko ja jäljellä oleva aika. Valmistuneissa latauksissa näytetään tietoa kuten minne lataus oli tallennettu, sen koko, kuinka kauan lataus kesti, ja keskinopeus.">
+<!ENTITY tip4Title.label "Animaatiot">
+<!ENTITY tip4.label "Poista animaatiot käytöstä nopeuttaaksesi hallintatoimintoja. Animaatiot voivat antaa hyödyllistä tietoa siitä mitä latauksellesi on tapahtumassa (esim., punainen X näyttää kun olet pyytänyt poistaa valmistuneen latauksen), mutta ne voivat myös hidastaa työskentelyäsi. Poista rastitus 'Käytä animaatioita' valinnasta Ulkonäkö -välilehdessä Download Statusbarin asetuksissa pitääksesi toiminnot nopeina. Voit myös painaa VAIHTO -näppäintä pohjassa poistaessasi latausta käsin poistaaksesi animaatiot väliaikaisesti.">
+<!ENTITY tip5Title.label "">
+<!ENTITY tip5.label "">
+<!ENTITY tip6Title.label "Usean latauksen hallitseminen samaan aikaan.">
+<!ENTITY tip6.label "Napsauttamalla hiiren oikeanpuoleisella näppäimellä tilarivin tyhjää osaa (tai Minitila valinnan päältä) sinulle tarjotaan valintoja useamman latauksen samaanaikaan hallitsemiseen. Poista kaikki valmistuneet lataukset, Keskeytä, Pysäytä tai Peruuta kaikki kesken olevat lataukset. Voit myös siirtyä Täystilan ja Minitilan välillä">
+<!ENTITY tip7Title.label "Minitila">
+<!ENTITY tip7.label "Avataksesi latauksien listan, napsauta minitilan latauspainiketta Firefoxin tilarivillä. Kun lataukset ovat tulleet esiin, voit hallita niitä yleisellä tavalla - napsauttamalla oikeanpuoleista näppäintä saadaksesi hallintatoiminnot, keskinapsautus tyhjentääksesi jne. Napsauta minitila painiketta oikeanpuoleisella näppäimellä saadaksesi valintoja useamman latauksen hallitsemiseen samanaikaisesti. Lataus painike on piilotettu jos latauslistassa ei ole mitään.">
+<!ENTITY prefsTab.label "Asetusten ohje">
+<!ENTITY general.label "Yleisvälilehti">
+<!ENTITY pref1Title.label "Edistymistiedot">
+<!ENTITY pref1.label "- Kesken olevilla latauksilla voi olla yksityiskohtaisempaa tietoa pienenä tekstinä latauksessa itsessään. Valitse mitä tietoa haluat nähdä tai älä valitse yhtään mitään. Kahden pitäisi mahtua latauksen oletuskokoon mutta voit vaihtaa tekstin kokoa ulkonäkövälilehdellä.">
+<!ENTITY pref2Title.label "Tila">
+<!ENTITY pref2.label "- Valitse Täystila (erillinen tilarivi) tai Minitila (sisällytetty Firefoxin tilariviin). Kokeile kumpaakin nähdäksesi kummasta pidät enenmmän.">
+<!ENTITY pref3Title.label "Pidä lataushistoriaa">
+<!ENTITY pref3.label "- Oletuksena selain pitää kaikki latauksesi lataushallinnassa. Rastittamattomana, tämä valinta poistaa latauksen historiasta kun se poistetaan tilariviltä. Huomaa: jotta tämä toimisi oikein, on laajenuksen hallittava Firefoxin asetusta 'browser.download.manager.retention'">
+<!ENTITY pref4Title.label "Rajaa lataushistoriaa...">
+<!ENTITY pref4.label "- Ajan kuluessa, lataushistorian lista voi kasvaa erittäin pitkäksi ja hidastaa selaimen toimintaa. Käytä tätä rajataksesi listaa joka kerta kun selain suljetaan ja pitääksesi sen hallittavan kokoisena. Huomaa: tämä ominaisuus on latauspalkissa, mutta ei vaikuta suoraan itse tilariviin.">
+<!ENTITY pref5Title.label "Jatka latauksia automaattisesti...">
+<!ENTITY pref5.label "- Jos sinulla on latauksia kesken kun yrität sulkea Firefoxin, se varoittaa sinua ponnahdusikkunalla latausten keskeyttämisestä. Käyttämällä tätä ominaisuutta, Firefoxin lataushallinta ponnahtaa sen sijaan esiin ja jatkaa lataamista vaikka selainikkuna on suljettu.">
+<!ENTITY pref6Title.label "Tyhjennä valmistuneet lataukset kun selain suljetaan">
+<!ENTITY pref6.label "- Tyhjetää valmistuneet lataukset tilarviltä, mutta ei poista latauksia lataushallinnan historiasta. Tällä ei ole vaikutusta itse ladattuun tiedostoon.">
+<!ENTITY pref7Title.label "Vahvista poistamminen...">
+<!ENTITY pref7.label "- Tämä antaa vahvistus viestin ennen kuin tiedosto on poistettu. Kun poistat tiedoston, ei ole tapaa saada se takaisin (muuta kuin ladata se uudestaan)">
+<!ENTITY pref8Title.label "Tyhjennä valmistunut tiedosto avaamisen jälkeen">
+<!ENTITY pref8.label "- Ei poista latausta lataushallinnan historiasta.">
+<!ENTITY pref9Title.label "Tyhjennä valmistunut lataus kohdekansion avaamisen jälkeen">
+<!ENTITY pref9.label "- Ei poista latausta lataushallinnan historiasta">
+<!ENTITY pref10Title.label "Näytä 'Lataukset valmistuneet' ilmoitus">
+<!ENTITY pref10.label "- Tämä on itse asiassa Firefoxiin kuuluva asetus mutta siihen ei ole helppoa tapaa päästä käsiksi. Suositeltavaa pitää pois päältä koska siitä ei ole hyötyä kun käytetään Download Statusbar laajennusta">
+<!ENTITY pref11Title.label "Jätä nämä tiedotomuodot huomiotta">
+<!ENTITY pref11.label "- Kun ladataan näitä tiedototyyppejä, ne eivät näyttäydy Download Statusbarissa ollenkaan, mutta ne ovat silti Firefoxin lataushistoriassa. Jokainen tiedostotyyppi pitää olla erotettu pilkulla, ja välit eivät haittaa. Esim: 'jpg, jpeg, png, gif' (ilman lainaus merkkejä)">
+<!ENTITY pref12Title.label "Tyhjennä nämä tiedostotyypit automaattisesti...">
+<!ENTITY pref12.label "- Kun lataus valmistuu, tämä asettaa ajastimen sen tyhjentymiseen tilariviltä asetetun sekunti määrän jälkeen. Tämä on hyödyllistä koska voit nähdä että lataus on valmistunut, mutta sinun ei tarvitse hallita sitä eteenpäin ellet halua. Jokainen tiedostotyyppi pitää olla erotettu pilkulla, ja välit eivät haittaa. Esim: 'jpg, jpeg, png, gif' (ilman lainaus merkkejä) Jos haluat kaikkien tiedostojen tyhjentyä automaattisesti, kirjoita ainoastaan *">
+<!ENTITY pref13Title.label "Toista ääni latauksen valmistuttua">
+<!ENTITY pref13.label "- Valitse ennaltamäärätty ääni tai oma WAV -tiedosto toistettavaksi latuksen valmistuttua. Jos haluat äänen jäävän toistamatta tietyillä tiedostomuodoilla, kirjoita ne kenttään 'jpg, jpeg, png, gif' (ilman lainausmerkkejä)">
+<!ENTITY appearance.label "Ulkonäkö -välilehti">
+<!ENTITY pref14Title.label "Oletus- tai oma tyyli">
+<!ENTITY pref14.label "- 'Oma tyyli' valinnan valitseminen ottaa käyttöön kaikki värinvalitsimet ja koko kentät. 'Oletus tyyli' valinta sallii sinun siirtyä nopeasti takaisin perinteiseen tyyliin, mutta oman tyylin asetukset ovat silti tallennettu.">
+<!ENTITY pref15Title.label "Värit">
+<!ENTITY pref15.label "- Napsauta värikenttää avataksesi värinvalitsin -ikkunan sille kohteelle. Napsauta ja vedä ympäri palettia löytääksesi värin josta pidät tai valitse yksi ennaltamääritetyistä väreistä. Jos haluat kopioida värin, kopioi sen heksa -arvo ja syötä se manuaalisesti seuraavaan värinvalitsimeen. Voit myös painaa 'Käytä teeman oletusta' painiketta tyhjentääksesi edellisen värivalinnan ja antaa teeman oletusvärin tulla tilalle. Tämä on hyödyllistä käytännössä ainoastaan tekstin värille ja tilarivin taustavärille.">
+<!ENTITY pref16Title.label "Käytä väri liuskeita">
+<!ENTITY pref16.label "- Valittuna peittää taustavärin vaaleasta tummaan kuvan antaen latauskohteille kivan kolmiulotteisen tehosteen. Toimii sekä oletus että omassa tyylissä.">
+<!ENTITY pref17Title.label "Käytä animaatiota">
+<!ENTITY pref17.label "- Useilla latauksen hallintatoiminnoilla on omanlaisensa animaatio. Animaatiot ovat pääasiassa lyhyitä ja toivottavasti eivät liian vastenmielisiä, mutta ne voidaan ottaa pois käytöstä.">
+<!ENTITY pref18Title.label "Näytä nämä painikkeet">
+<!ENTITY pref18.label "- Tämän ottaminen käyttöön vaihtaa kesken olevan latauksen väriä latausnopeuden perusteella. Tämä sallii sinun 'nähdä' visuaalisesti kuinka nopeasti lataus edistyy vilkaisemalla sen väriä. Ensimmäiseksi, ota käyttöön nopeusvärit. Sitten, aseta sopivat nopeusvälit muuttamalla numeroita suhteessa internet yhteytesi nopeuteen. (Oletus asetukset perustuvat kaapelimodeemin nopeuksiin) Lopulta, napsauta värikenttiä asettaaksesi värin kullekin nopeusvälille. On useita tapoja käyttää tätä ominaisuutta. Yksi tapa on tehdä nopeammista latauksista kirkkaampia kuin hitaammat lataukset. Toinen tapa on tehdä 3 korkeimmasta nopeusvälistä saman värisiä (ei muutoksia), mutta tehdä hitaimmasta nopeusvälistä varoitus värillinen, esim. huomaat jos latausnopeus laskee alle 10 Kt/sek kun edistymispalkki muuttuu punaiseksi.">
+<!ENTITY pref19Title.label "Nopeusvärit">
+<!ENTITY pref19.label "- Tämän ottaminen käyttöön vaihtaa kesken olevan latauksen väriä latausnopeuden perusteella. Tämä sallii sinun 'nähdä' visuaalisesti kuinka nopeasti lataus edistyy vilkaisemalla sen väriä. Ensimmäiseksi, ota käyttöön nopeusvärit. Sitten, aseta sopivat nopeusvälit muuttamalla numeroita suhteessa internet yhteytesi nopeuteen. (Oletus asetukset perustuvat kaapelimodeemin nopeuksiin) Lopulta, napsauta värikenttiä asettaaksesi värin kullekin nopeusvälille. On useita tapoja käyttää tätä ominaisuutta. Yksi tapa on tehdä nopeammista latauksista kirkkaampia kuin hitaammat lataukset. Toinen tapa on tehdä 3 korkeimmasta nopeusvälistä saman värisiä (ei muutoksia), mutta tehdä hitaimmasta nopeusvälistä varoitus värillinen, esim. huomaat jos latausnopeus laskee alle 10 Kt/sek kun edistymispalkki muuttuu punaiseksi.">
+<!ENTITY virusScan.label "Virustarkistusvälilehti">
+<!ENTITY pref20Title.label "Tarkista valmistuneet lataukset manuaalisesti">
+<!ENTITY pref20.label "- Napsauta ruutua ottaaksesi käyttöön tämän ominaisuuden. Sinun täytyy hyväksyä Virustarkistustoiminnon sopimus ennen kuin se toimii.">
+<!ENTITY pref21Title.label "Älä tarkista näitä tiedostotyyppejä">
+<!ENTITY pref21.label "Jokainen tiedostotyyppi pitää olla erotettu pilkulla, ja välit eivät haittaa. Esim: 'jpg, jpeg, png, gif' (ilman lainausmerkkejä)">
+<!ENTITY pref22Title.label "Viruksentorjuntaohjelman sijainti">
+<!ENTITY pref22.label "- Sinunlla täytyy olla asennettuna virustarkistus ohjelma joka pystyy ottamaan vastaan komentorivi -komentoja manuaaliselle tarkistukselle. Paina '...' painiketta ja etsi ohjelma tiedostojärjestelmästäsi">
+<!ENTITY pref23Title.label "Muuttujat">
+<!ENTITY pref23.label "- Anna kaikki tarpeelliset tai valinnaiset muuttujat viruksentorjuntaohjelmaasi. &#37;1 edustaa tarkastettavaa tiedostoa (tämä oli ennen [Polku]) ja pitäisi olla jossain kohti muuttujia. Monet ohjelmat toimivat jos &#37;1 on ainoa muuttuja. Tarkista viruksentorjuntaohjelmistosi ohjeet selvittääksesi mitkä muuttujat toimivat ohjemasi kanssa">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Sulje">
+<!ENTITY openPref.label "Avaa laajennuksen asetukset">
+<!ENTITY support.label "Tue tätä laajennusta -">
+<!ENTITY donate2.label "Lahjoita!">
+<!ENTITY credits.label "Tekijät">
+<!ENTITY transFor.label "Tekstin käännöksen">
+<!ENTITY currLocale.label "fi-FI">
+<!ENTITY locale.label "lokalisaation tarjosi:">
+<!ENTITY translatorName.label "Mikko Tervahauta">
+<!ENTITY projectHost.label "Projektin sivuston ylläpitäjä:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Ohjelmointi ja suunnittelu:">
+<!ENTITY soundsBy.label "Äänet:">
+<!ENTITY soundPeople.label "Dallin Jensen ja Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Click here to scan for System Errors and Optimize PC Performance">

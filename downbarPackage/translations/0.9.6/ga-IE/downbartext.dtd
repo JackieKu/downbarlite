@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Stad iad uile">
+<!ENTITY resumeAll.label "Lean leo uile">
+<!ENTITY pauseAll.label "Cuir iad uile ar sos">
+<!ENTITY cancelAll.label "Cealaigh a bhfuil ar bun faoi láthair">
+<!ENTITY removeAll.label "Glan comhaid chríochnaithe">
+<!ENTITY copySource.label "Cóipeáil foinse an URL">
+<!ENTITY visitSource.label "Tabhair cuairt ar suíomh fhoinse">
+<!ENTITY stopOne.label "Stad">
+<!ENTITY pauseOne.label "Cuir ar sos">
+<!ENTITY cancelOne.label "Cealaigh">
+<!ENTITY resumeOne.label "Lean leis">
+<!ENTITY properties.label "Airíonna">
+<!ENTITY delete.label "Scrios ón gcóras">
+<!ENTITY remove.label "Glan ón mbarra">
+<!ENTITY show.label "Oscail an fillteán a bhfuil an comhad ann">
+<!ENTITY open.label "Oscail">
+<!ENTITY start.label "Tosaigh">
+<!ENTITY rename.label "Athainmnigh">
+<!ENTITY fromTip.label "Ó:">
+<!ENTITY toTip.label "Go:">
+<!ENTITY statusTip.label "Stádas:">
+<!ENTITY timeTip.label "Am Fágtha:">
+<!ENTITY percentTip.label "Céatadán Déanta:">
+<!ENTITY sizeTip.label "Méid an Chomhaid:">
+<!ENTITY timeCompleteTip.label "Achar an Íosluchtaithe:">
+<!ENTITY avgSpeedTip.label "Meánluas:">
+<!ENTITY numFinishedTip.label "Íosluchtaithe Críochnaithe:">
+<!ENTITY sizeFinishedTip.label "Méid na nÍosluchtaithe Críochnaithe:">
+<!ENTITY numCurrentTip.label "Comhaid á n-íosluchtú faoi láthair:">
+<!ENTITY totalSpeedTip.label "Luas Iomlán:">
+<!ENTITY totalTimeTip.label "Am Iomlán Fágtha:">
+<!ENTITY toMiniTip.label "Tiontaigh go Mionmhodh">
+<!ENTITY toFullTip.label "Tiontaigh go Lánmhodh">
+<!ENTITY downloadsCap.label "Íosluchtaithe">
+<!ENTITY clear.label "Glan">
+<!ENTITY mini.label "Mion">
+<!ENTITY full.label "Lánmhodh">
+<!ENTITY pTitle.label "Roghanna do Download Statusbar">
+<!ENTITY pGeneral.label "Ginearálta">
+<!ENTITY pStatusMode.label "Modh an Bharra Stádais">
+<!ENTITY pFullMode.label "Lánmhodh">
+<!ENTITY pMiniMode.label "Mionmhodh">
+<!ENTITY pFeatures.label "Gnéithe">
+<!ENTITY pLaunchClose.label "Lean leis na híosluchtaithe go huathoibríoch sa bhainisteoir íosluchtaithe nuair a dhúnann an brabhsálaí">
+<!ENTITY pClearFin.label "Glan na híosluchtaithe críochnaithe nuair a dhúnann an brabhsálaí">
+<!ENTITY pConfirm.label "Fiafraigh díom roimh comhad a scriosadh ón gcóras">
+<!ENTITY pRmvOpen.label "Glan íosluchtú críochnaithe tar éis é a oscailt">
+<!ENTITY pRmvShow.label "Glan íosluchtú críochnaithe tar éis a fhillteán a oscailt">
+<!ENTITY pSupAlert.label "Taispeáin an fógra &apos;Íosluchtaithe Críochnaithe&apos; (Molaimid é a chur as)">
+<!ENTITY pAutoClear.label "Glan na cineálacha comhaid seo go huathoibríoch">
+<!ENTITY pAfter.label "tar éis">
+<!ENTITY pSeconds.label "soicind">
+<!ENTITY pIgnore.label "Ná bac leis na cineálacha comhaid seo">
+<!ENTITY pFiletypesHelp.label "(* = gach cineál comhaid, folamh = ná glan comhaid)">
+<!ENTITY pHistory.label "Stair na nÍosluchtaithe">
+<!ENTITY pCloseHist.label "(Nuair a dhúnann an brabhsálaí)">
+<!ENTITY pKeepHist.label "Coimeád stair na n-íosluchtaithe">
+<!ENTITY pTrimHist.label "Gearr stair na n-íosluchtaithe go">
+<!ENTITY pDlItems.label "íosluchtú">
+<!ENTITY pPlaySound.label "Seinn fuaim nuair a chríochnaíonn an t-íosluchtú">
+<!ENTITY pCheckmarkSound.label "Ticmharc!">
+<!ENTITY pCustomSound.label "{Comhad .WAV saincheaptha...]">
+<!ENTITY pSoundExceptFiletypes.label "Seachas na cineálacha comhaid seo:">
+<!ENTITY pQueue.label "Modh Scuaine">
+<!ENTITY pQueEna.label "Cumasaigh Modh Scuaine">
+<!ENTITY pQueDownload.label "Ná híosluchtaigh ach">
+<!ENTITY pQueFiles.label "comhad ag an am céanna">
+<!ENTITY pAppearance.label "Cuma">
+<!ENTITY pDefaultStyle.label "Stíl Réamhshocraithe">
+<!ENTITY pCustomStyle.label "Stíl Shaincheaptha">
+<!ENTITY pResetCustom.label "Athshocraigh an Stíl Shaincheaptha">
+<!ENTITY pProgNotify.label "Fógraí Dhul Chun Cinn">
+<!ENTITY pDispPer.label "Céatadán déanta">
+<!ENTITY pDispSpeed.label "Luas íosluchtaithe">
+<!ENTITY pDispSize.label "Méid íosluchtaithe go dtí seo">
+<!ENTITY pDispTime.label "Am Fágtha">
+<!ENTITY pTextSize.label "Méid Téacs">
+<!ENTITY pFileText.label "Méid don Ainm Comhaid:">
+<!ENTITY pProgNotiText.label "Méid don Fhógra Dhul Chun Cinn:">
+<!ENTITY pDLItemSize.label "Méid na Míre Íosluchtaithe">
+<!ENTITY pWidth.label "Leithead:">
+<!ENTITY pHeight.label "Airde:">
+<!ENTITY pColors.label "Dathanna">
+<!ENTITY pLeaveBlank.label "(Fág bán don téama réamhshocraithe)">
+<!ENTITY pProgBar.label "Barra Dhul Chun Cinn">
+<!ENTITY pProgRemain.label "Méid Fágtha">
+<!ENTITY pFinishedBox.label "Íosluchtú Críochnaithe">
+<!ENTITY pStoppedBox.label "Íosluchtú Stadta">
+<!ENTITY pPausedOutline.label "Imlíne &apos;Ar Sos&apos;">
+<!ENTITY pTextColor.label "Téacs">
+<!ENTITY pStatusBack.label "Cúlra an Bharra Stádais">
+<!ENTITY pUseGradients.label "Bain feidhm as Grádáin Datha">
+<!ENTITY pUseAnimation.label "Bain feidhm as Beochan">
+<!ENTITY pShowButtons.label "Taispeáin na cnaipí seo:">
+<!ENTITY pDownloadsButton.label "Príomhchnaipe na nÍosluchtaithe">
+<!ENTITY pClearButton.label "Cnaipe &apos;Glan comhaid chríochnaithe&apos;">
+<!ENTITY pToMiniButton.label "Cnaipe &apos;Mionmhodh / Lánmhodh&apos;">
+<!ENTITY pSpeedColors.label "Dathanna Luais">
+<!ENTITY pEnableSC.label "Cumasaigh Dathanna Luais">
+<!ENTITY pBetween.label "Idir">
+<!ENTITY pAnd.label "agus">
+<!ENTITY pkbSec.label "KB/soic">
+<!ENTITY pMoreThan.label "Níos mó ná">
+<!ENTITY pVScan.label "Scanadh le haghaidh Víreas">
+<!ENTITY pShouldScan.label "Scan íosluchtaithe críochnaithe">
+<!ENTITY pExclude.label "Ná scan na cineálacha comhaid seo">
+<!ENTITY pAVLoc.label "Suíomh an chláir frithvíreas">
+<!ENTITY pArgs.label "Paraiméadair">
+<!ENTITY pAVdesc.label "(Bain feidhm as &#37;1 sna paraiméadair chun an comhad sprice a léiriú)">
+<!ENTITY pAbout.label "Maidir leis an gclár seo">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Cuir i bhfeidhm">
+<!ENTITY pCancel.label "Cealaigh">
+<!ENTITY previewColour.label "Réamhamharc:">
+<!ENTITY cpWinTitle.title "Roghnóir Dathanna">
+<!ENTITY predef.label "Dathanna réamhshainithe:">
+<!ENTITY rgb.label "DUG">
+<!ENTITY hsb.label "LSG">
+<!ENTITY red.label "Dearg:">
+<!ENTITY green.label "Uaine:">
+<!ENTITY blue.label "Gorm:">
+<!ENTITY hue.label "Lí:">
+<!ENTITY saturation.label "Sáithiú:">
+<!ENTITY brightness.label "Gile:">
+<!ENTITY hexColor.label "Heics:">
+<!ENTITY nameColor.label "Ainm:">
+<!ENTITY cpUseThemeDef.label "Bain feidhm as an Téama Réamhshocraithe">
+<!ENTITY openOpt.label "Roghanna...">
+<!ENTITY hideDownbar.label "Folaigh an Barra Íosluchtaithe">
+<!ENTITY allDownloads.label "Gníomhartha">
+<!ENTITY openDLHist.label "Stair Íosluchtaithe">
+<!ENTITY stoppedDL.label "Íosluchtú Stadta:">
+<!ENTITY transparency.label "Trédhearcach">
+<!ENTITY background.label "Cúlra do:">
+<!ENTITY background.accessKey "C">
+<!ENTITY table.label "Tábla">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Cill(íní)">
+<!ENTITY cell.accessKey "L">
+<!ENTITY lastPickedColor.label "An dath deiridh roghnaithe">
+<!ENTITY lastPickedColor.accessKey "D">

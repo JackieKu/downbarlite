@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Om Download Statusbar">
+<!ENTITY introTab.label "Introduktion">
+<!ENTITY by.label "Af Devon Jensen">
+<!ENTITY version.label "Version">
+<!ENTITY tagLine.label "Denne browserudvidelse tillader dig at se og kontrollere filhentninger fra en smart statusbjælke.">
+<!ENTITY ifNew.label "Hvis du er ny i Download Statusbar, vær venlig at læse videre for at få informationer omkring hvordan man bruger denne udvidelse.">
+<!ENTITY toView.label "For at se denne hjælpeside i fremtiden,">
+<!ENTITY pressAbout.label "er du nødt til at gå til Download Statusbar Indstillinger, og trykke på &apos;Om&apos; knappen.">
+<!ENTITY donateText.label "For at være helt ærlig, har jeg brugt meget tid til at lave, vedligeholde, og understøtte denne udvidelse.  Hvis den får din Firefox oplevelse til at blive bedre, må du gerne overveje, at give en lille donation.  (Paypal konto er ikke nødvendig.  Kreditkort accepteres.)">
+<!ENTITY donate.label "Donér">
+<!ENTITY majorRelease.label "Hovedudgivelse!">
+<!ENTITY changelog.label "Se hvad der er nyt">
+<!ENTITY whatNewTab.label "Nyt i denne version">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Hints og Tips">
+<!ENTITY tip1Title.label "Midlertidig placering til gennemsyn">
+<!ENTITY tip1.label "Det er meningen at Download Statusbar skal være en midlertidig placering til gennemsyn af dine igangværende og tidligere afsluttede filhentninger.  Hold den ren ved at indstille auto-fjern muligheden, eller ved at fjerne afsluttede filhentninger manuelt, når du ikke har behov for at se dem længere.  Det er ikke særlig brugbart når filhentningerne bliver presset så meget sammen at du ikke kan se hvilken der er hvilken.  Du kan altid se din afsluttede filhentningshistorik ved at åbne Firefox&apos;s standard Filhentning (Funktioner | Filhentning).  Fortsæt med at læse, og få flere tips til at fjerne afsluttede filhentninger.">
+<!ENTITY tip2Title.label "Genvej til Almindelige handlinger">
+<!ENTITY tip2.label "Du kan få en liste af handlinger til at styre en filhentning ved at højre-klikke på den, men der er flere hurtigere måder at lave almindelige handlinger:">
+<!ENTITY tip2a.label "- For at fjerne en enkelt afsluttet filhentning, midter-klik på den.  (på de fleste mus, er midter-klik at trykke ned på scroll hjulet)">
+<!ENTITY tip2b.label "- For at fjerne alle afsluttede filhentninger, dobbelt-klik i et tomt område af statusbjælken.">
+<!ENTITY tip2c.label "- For at åbne en afsluttet filhentning, dobbelt-klik på den.">
+<!ENTITY tip2d.label "- For at slette en afsluttet filhentning, hold Ctrl tasten ned og midter-klik på filhentningen.">
+<!ENTITY tip2e.label "- For at pausere eller fortsætte en igangværende filhentning, (enkelt) venstre-klik på den.">
+<!ENTITY tip2f.label "- For en omdøbe en afsluttet filhentning, hold Shift tasten ned og venstre-klik på filhentningen">
+<!ENTITY tip3Title.label "Værktøjstips">
+<!ENTITY tip3.label "Nogengange vil du gerne have flere detaljerede informationer om en filhentning.  For at vise en filhentnings statistik, placer din muse cursor over en filhentning og vent et kort stykke tid, for at værktøjstippet kommer frem.  Igangværende filhentninger vil vise et konstant opdaterende værktøjstip med information som nudværende hastighed, størrelse indtil videre og den tilbageværende tid.  Afsluttede filhentninger vil vise inforamtion som, hvor filhentningen er gemt, dens størrelse, hvor lang tid filhentningen tog og den midlertidige hastighed.">
+<!ENTITY tip4Title.label "Animationer">
+<!ENTITY tip4.label "Skip animationerne for at sætte hastigheden op på de styrende handlinger.  Animationerne kan give værdifulde oplysninger om hvad der sker med dine filhentninger (For eksempel, et rødt X vil indikere når du har bedt om at slette en afsluttet filhentning), men de kan også sætte din hastighed ned.  Du kan holde Shift tasten ned imens du manuelt fjerner en filhentning, for midlertidigt at stoppe animationerne.  Du kan også slå dem fuldstændigt fra med &apos;downbar.function.useAnimation&apos; indstillingen i about:config">
+<!ENTITY tip5Title.label "-">
+<!ENTITY tip5.label "-">
+<!ENTITY tip6Title.label "Styre flere filhentninger på samme tid">
+<!ENTITY tip6.label "Højre-klik et tomt sted på statusbjælken (eller på Mini tilstandsknappen) vil vise muligheder til at styre flere filhentninger på samme tid.  Fjern alle afsluttede filhentninger, og pauser, stop eller afbryd alle igangværende filhentninger.  Du kan også skifte imellem Fuld tilstand og Mini tilstand.">
+<!ENTITY tip7Title.label "Mini tilstand">
+<!ENTITY tip7.label "For at se listen af filhentninger, venstre-klik på mini tilstandsknappen i Firefox statusbjælken.  Når filhentningerne har været poppet op, kan du styre dem på den normale måde højre-klik for at kunne styre handlingerne, midter-klik for at fjerne osv.  Højre-klik på mini tilstandsknappen for at få mulighederne til at styre flere filhentninger på samme tid.  Filhentnings knappen vil være gemt hvis der ikke er noget i filhentningslisten.">
+<!ENTITY prefsTab.label "Hjælp til muligheder">
+<!ENTITY general.label "Fanebladet Generel">
+<!ENTITY pref1Title.label "Igangværende beskeder">
+<!ENTITY pref1.label "- Igangværende filhentninger kan have flere detaljerede informationer opdateret i en lille tekst direkte på filhentningen.  Vælg hvilken besked du vil se eller vælg ingen overhovedet.  To burde passe i standard filhentnings størrelsen, men du kan ændre tekststørrelsen under fanebladet Udseende.">
+<!ENTITY pref2Title.label "Tilstand">
+<!ENTITY pref2.label "- Vælg Fuld tilstand (separat statusbjælke) eller Mini tilstand (integreret i Firefox&apos;s statusbjælke).  Prøv hver af dem for at se hvilken du bedst kan lide.">
+<!ENTITY pref3Title.label "Behold en filhentningshistorik">
+<!ENTITY pref3.label "- Som standard, beholder Firefox en historik over alle dine filhentninger i Filhentning.  Når den ikke er markeret, vil denne indstilling fjerne en filhentning fra historikken så snart den er fjernet fra statusbjælken.  Husk: for at dette kan virke korrekt, skal denne udvidelse have kontrol over Firefox indstillingen &apos;browser.download.manager.retention&apos;">
+<!ENTITY pref4Title.label "Bekræft filhentningshistorikken...">
+<!ENTITY pref4.label "- Efter et stykke tid, kan filhentningshistorikken blive temmelig lang og sløve Firefox&apos;s hastighed.  Brug denne for at beskære listen hver gang Firefox lukkes og gem listen i en brugbar størrelse.  Husk: denne mulighed er i Download Statusbar, men har ingen direkte affekt på selve statusbjælken.">
+<!ENTITY pref5Title.label "Automatisk fortsættelse af filhentninger...">
+<!ENTITY pref5.label "- Hvis du har nogle filhentninger igang og du prøver at lukke Firefox, vil der poppe en advarsel op om at afbryde filhentningerne.  Ved at bruge denne mulighed, vil Firefox&apos;s Filhentning poppe op i stedet og fortsætte filhentning selv om browser vinduet er lukket.">
+<!ENTITY pref6Title.label "Fjern afsluttede filhentninger når browseren lukkes">
+<!ENTITY pref6.label "- Fjerner de afsluttede filhentninger fra statusbjælken, men fjerner dem ikke fra filhentningshistorikken.  Dette har ingen affekt på selve filhentningen.">
+<!ENTITY pref7Title.label "Bekræft før sletning...">
+<!ENTITY pref7.label "- Dette vil vise en bekræftelsesbesked før en fil slettes.  Når først en fil er slettet er der ingen vej tilbage for at få den frem igen (andet end at hente den endnu engang).">
+<!ENTITY pref8Title.label "Fjern en afsluttet filhentning efter at åbne den">
+<!ENTITY pref8.label "- Fjerner ikke filhentningen fra filhentningshistorikken.">
+<!ENTITY pref9Title.label "Fjern en afsluttet filhentning efter at åbne Indholdsmappen">
+<!ENTITY pref9.label "- Fjerner ikke filhentningen fra filhentningshistorikken.">
+<!ENTITY pref10Title.label "Viser beskeden &apos;Filhentning Færdig&apos;">
+<!ENTITY pref10.label "- Dette er faktisk en indbygget funktion i Firefox men der er ingen let vej at få adgang til den.  Anbefalet slået fra da den egentligt ikke er nødvendig når man bruger Download Statusbar">
+<!ENTITY pref11Title.label "Ignorer disse filtyper">
+<!ENTITY pref11.label "- Når man henter disse filtyper, vil de overhovedet ikke komme frem på Download Statusbar, men de vil stadig være i Firefox&apos;s filhentningshistorik.  Hver filtype skal deles med et komma, og mellemrum betyder ikke noget.  Eksempel: &apos;jpg, jpeg, png, gif&apos;  (uden gåsetegn)">
+<!ENTITY pref12Title.label "Automatisk fjernelse af disse filtyper...">
+<!ENTITY pref12.label "- Når en filhentning er afsluttet, vil dette sætte en forsinkelse i sekunder, før den fjernes fra statusbjælken.  Dette er brugbart fordi du kan se at filhentningen var succesfuld, men du behøver ikke at styre den med mindre du vil.  Hver filtype bør deles med et komma, og mellemrum betyder ikke noget.  Eksempel: &apos;jpg, jpeg, png, gif&apos;  (uden gåsetegn)  Hvis du vil have alle filer fjernet automatisk, skrives der kun *">
+<!ENTITY pref13Title.label "Afspil lyd når filhentning færdiggøres">
+<!ENTITY pref13.label "- Vælg en forudbestemt lyd eller vælg din egen .WAV fil som skal afspilles når en filhentning færdiggøres.  Hvis du ikke ønsker en afspilning af lyden ved bestemte filtyper, indtast dem i feltet. Eksempel: &apos;jpg, jpeg, png, gif&apos;  (uden gåsetegn)">
+<!ENTITY appearance.label "Fanebladet Udseende">
+<!ENTITY pref14Title.label "Standard eller Eget tema">
+<!ENTITY pref14.label "- Ved at vælge &apos;Eget tema&apos; slås alle farvevalg og størrelsesbokse til.  Ved at vælge &apos;Standard tema&apos; kan du hurtigt skifte tilbage til original temaet, men &apos;Eget temaets&apos; indstillinger gemmes stadig.">
+<!ENTITY pref15Title.label "Farver">
+<!ENTITY pref15.label "- Klik på en farveboks for at åbne et farvevælger vindue for denne mulighed.  Klik og træk rundt på paletten for at finde den farve du kan lide, eller vælg en af de forudbestemte farver.  Hvis du vil kopiere en farve, skal du kopiere dens Hex værdi og indtast den manuelt i næste farvevælger.  Du kan også trykke på &apos;Brug standard tema&apos; knappen for at fjerne et tidligere farvevalg, og lad standard temaets farver vise igennem.  Dette er generelt kun brugbart ved Tekstfarve og Statusbar baggrundsfarve.">
+<!ENTITY pref16Title.label "Brug farvegradienter">
+<!ENTITY pref16.label "- Hvis valgt, vil dette lægge et hvidt-til-gennemsigtigt billede over baggrundsfarven, og giver dit filhentningsbillede en flot 3D fornemmelse.  Dette virker i både standard og &apos;Eget temaerne&apos;.">
+<!ENTITY pref17Title.label "Brug animation">
+<!ENTITY pref17.label "- Flere filhentnings handlinger har medfølgende animationer.  Animationerne er generelt korte og forhåbentligt ikke irriterende, men de kan slås fra.">
+<!ENTITY pref18Title.label "Vis disse knapper:">
+<!ENTITY pref18.label "Vælg enten at vise hoved filhentnings knappen, fjern knappen (Fjern alle afsluttede), og mini knappen (Skift til Mini tilstand)">
+<!ENTITY pref19Title.label "Hastighedsfarver">
+<!ENTITY pref19.label "- Ved at slå dette til, vil farverne dynamisk ændres i en igangværende filhentning, alt efter hvor hurtigt filhentningen kører.  Dette tillader dig visuelt at &apos;se&apos; hvor hurtigt en filhentning udvikler sig, ved at se på dens farve.  Først, slå hastighedsfarver til.  Derefter, indstil fornuftige hastigheds intervaller ved at ændre tallene som er baseret på din internet forbindelsestype.  (Standard indstillingerne er baseret på kabelmodem hastigheder)  Slutteligt, klik på farveboksene for at indstille en farve for hvert hastigheds interval.  Der er flere måder denne funktion kan blive brugt.  En ide er at vise hurtigere filhentninger lysere og langsommere filhentninger mørkere.  En anden ide er at have top 3 hastigheds intervallerne i same farve (ingen ændringer), og vis de langsommeste hastigheds intervaller i en advarselsfarve, for eksempel, vil du lægge mærke til hvis en filhentning kommer under 10 KB/sek når procesbjælken bliver rød.">
+<!ENTITY virusScan.label "Fanebladet Virusskanning">
+<!ENTITY pref20Title.label "Manuel skanning af afsluttede filhentninger">
+<!ENTITY pref20.label "- Klik på checkboksen for at slå denne funktion til.  Du må være enig med Antivirus programmets funktionssamtykkelse før det vil virke.">
+<!ENTITY pref21Title.label "Skan ikke disse filtyper">
+<!ENTITY pref21.label "- Hver filtype skal deles med et komma, og mellemrum betyder ikke noget.  Eksempel: &apos;jpg, jpeg, png, gif&apos;  (uden gåsetegn)">
+<!ENTITY pref22Title.label "Antivirus programmets placering">
+<!ENTITY pref22.label "- Du skal i forvejen have et antivirus program installeret, som kan acceptere kommandolinje forespørgsler til en manuel skanning.  Tryk på &apos;...&apos; knap og find programmet i dit filsystem.">
+<!ENTITY pref23Title.label "Parametre">
+<!ENTITY pref23.label "- Indtast ethvert nødvendigt eller valgfrit argument, som er specifikt til dit antivirus program.  &#37;1 repræsenterer filen som vil blive skannet (det var før i tiden [Path]) og bør befinde sig et sted i parametrene.  Mange programmer vil virke hvis &#37;1 er det eneste argument.  Kontroller dokumentationen i din Antivirus software for at finde ud af hvilke parametre der virker sammen med dit program.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Luk">
+<!ENTITY openPref.label "Åben Udvidelses-indstillinger">
+<!ENTITY support.label "Support denne udvidelse -">
+<!ENTITY donate2.label "Donér!">
+<!ENTITY credits.label "Kredit">
+<!ENTITY transFor.label "Tekst oversættelse til">
+<!ENTITY currLocale.label "da-DK">
+<!ENTITY locale.label "leveret af:">
+<!ENTITY translatorName.label "typh og Dr.Diesel">
+<!ENTITY projectHost.label "Projekt webhosting leveret af:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Programmering og design af:">
+<!ENTITY soundsBy.label "Lyde lavet af:">
+<!ENTITY soundPeople.label "Dallin Jensen og Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Klik her for at scanne efter systemfejl og optimere din computers ydeevne">

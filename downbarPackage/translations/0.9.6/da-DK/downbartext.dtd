@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Stop alle">
+<!ENTITY resumeAll.label "Fortsæt alle">
+<!ENTITY pauseAll.label "Pauser alle">
+<!ENTITY cancelAll.label "Fortryd alle igangværende">
+<!ENTITY removeAll.label "Fjern alle afsluttede">
+<!ENTITY copySource.label "Kopier kildeadresse">
+<!ENTITY visitSource.label "Besøg kilde-internetside">
+<!ENTITY stopOne.label "Stop">
+<!ENTITY pauseOne.label "Pause">
+<!ENTITY cancelOne.label "Fortryd">
+<!ENTITY resumeOne.label "Fortsæt">
+<!ENTITY properties.label "Egenskaber">
+<!ENTITY delete.label "Slet fra system">
+<!ENTITY remove.label "Slet fra bjælke">
+<!ENTITY show.label "Åben indeholdende mappe">
+<!ENTITY open.label "Åben">
+<!ENTITY start.label "Start">
+<!ENTITY rename.label "Omdøb">
+<!ENTITY fromTip.label "Fra:">
+<!ENTITY toTip.label "Til:">
+<!ENTITY statusTip.label "Status:">
+<!ENTITY timeTip.label "Tid tilbage:">
+<!ENTITY percentTip.label "Procent færdig:">
+<!ENTITY sizeTip.label "Filstørrelse:">
+<!ENTITY timeCompleteTip.label "Tid til afslutning:">
+<!ENTITY avgSpeedTip.label "Gennemsnitshastighed:">
+<!ENTITY numFinishedTip.label "Afsluttede filhentninger:">
+<!ENTITY sizeFinishedTip.label "Størrelse af afsluttede filhentninger:">
+<!ENTITY numCurrentTip.label "Filer som er under filhentning:">
+<!ENTITY totalSpeedTip.label "Total hastighed:">
+<!ENTITY totalTimeTip.label "Total tid til afslutning:">
+<!ENTITY toMiniTip.label "Skift til Mini tilstand">
+<!ENTITY toFullTip.label "Skift til Fuld tilstand">
+<!ENTITY downloadsCap.label "Filhentninger">
+<!ENTITY clear.label "Fjern">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Fuld tilstand">
+<!ENTITY pTitle.label "Indstillinger til Download Statusbar">
+<!ENTITY pGeneral.label "Generelt">
+<!ENTITY pStatusMode.label "Statusbar tilstand">
+<!ENTITY pFullMode.label "Fuld tilstand">
+<!ENTITY pMiniMode.label "Mini tilstand">
+<!ENTITY pFeatures.label "Egenskaber">
+<!ENTITY pLaunchClose.label "Automatisk fortsættelse af filhentninger i Firefox&apos;s filhentning, når browseren lukkes">
+<!ENTITY pClearFin.label "Fjern afsluttede filhentninger, når browseren lukkes">
+<!ENTITY pConfirm.label "Bekræft før sletning af en fil fra systemet">
+<!ENTITY pRmvOpen.label "Fjern en afsluttet filhentning efter åbning heraf">
+<!ENTITY pRmvShow.label "Fjern en afsluttet filhentning efter åbning af indeholdende mappe">
+<!ENTITY pSupAlert.label "Vis beskeden &apos;Filhentning afsluttet&apos; (Anbefales ikke)">
+<!ENTITY pAutoClear.label "Automatisk fjernelse af disse filtyper">
+<!ENTITY pAfter.label "efter">
+<!ENTITY pSeconds.label "sekunder">
+<!ENTITY pIgnore.label "Ignorer disse filtyper">
+<!ENTITY pFiletypesHelp.label "(Indtast * for alle filtyper, efterlad tom ved ingen valgte)">
+<!ENTITY pHistory.label "Filhentningshistorik">
+<!ENTITY pCloseHist.label "(Når browseren lukkes)">
+<!ENTITY pKeepHist.label "Behold en filhentningshistorik">
+<!ENTITY pTrimHist.label "Beskær filhentningshistorikken til">
+<!ENTITY pDlItems.label "filhentninger">
+<!ENTITY pPlaySound.label "Afspil lyd når en filhentning er færdig">
+<!ENTITY pCheckmarkSound.label "Kontrolmærke!">
+<!ENTITY pCustomSound.label "[Egen .WAV fil...]">
+<!ENTITY pSoundExceptFiletypes.label "Undtaget for filetyperne:">
+<!ENTITY pQueue.label "Kø-tilstand">
+<!ENTITY pQueEna.label "Slå Kø-tilstand til">
+<!ENTITY pQueDownload.label "Kun filhentning">
+<!ENTITY pQueFiles.label "filer på samme tid">
+<!ENTITY pAppearance.label "Udseende">
+<!ENTITY pDefaultStyle.label "Standard tema">
+<!ENTITY pCustomStyle.label "Eget tema">
+<!ENTITY pResetCustom.label "Nulstil eget tema">
+<!ENTITY pProgNotify.label "Fremgangsbeskeder">
+<!ENTITY pDispPer.label "Fremgangsprocent">
+<!ENTITY pDispSpeed.label "Filhentningshastighed">
+<!ENTITY pDispSize.label "Størrelse som er hentet indtil nu">
+<!ENTITY pDispTime.label "Tid tilbage">
+<!ENTITY pTextSize.label "Tekststørrelse">
+<!ENTITY pFileText.label "Filnavnets størrelse:">
+<!ENTITY pProgNotiText.label "Fremgangsbeskeds størrelse:">
+<!ENTITY pDLItemSize.label "Størrelse af de hentede enheder">
+<!ENTITY pWidth.label "Bredde:">
+<!ENTITY pHeight.label "Højde:">
+<!ENTITY pColors.label "Farver">
+<!ENTITY pLeaveBlank.label "(Efterlad tom ved standardtema)">
+<!ENTITY pProgBar.label "Fremgangsbjælke">
+<!ENTITY pProgRemain.label "Fremgangspåmidelse">
+<!ENTITY pFinishedBox.label "Afsluttet filhentning">
+<!ENTITY pStoppedBox.label "Stoppet filhentning">
+<!ENTITY pPausedOutline.label "Ydre markering af Pauset">
+<!ENTITY pTextColor.label "Tekst">
+<!ENTITY pStatusBack.label "Statusbar baggrund">
+<!ENTITY pUseGradients.label "Brug farvegradient">
+<!ENTITY pUseAnimation.label "Brug animation">
+<!ENTITY pShowButtons.label "Vis disse knapper:">
+<!ENTITY pDownloadsButton.label "Hoved filhentningsknap">
+<!ENTITY pClearButton.label "Fjern Afsluttet knappen">
+<!ENTITY pToMiniButton.label "Mini / Fuld tilstandsknap">
+<!ENTITY pSpeedColors.label "Hastighedsfarver">
+<!ENTITY pEnableSC.label "Slå hastighedsfarver til">
+<!ENTITY pBetween.label "Imellem">
+<!ENTITY pAnd.label "og">
+<!ENTITY pkbSec.label "KB/sek">
+<!ENTITY pMoreThan.label "Mere end">
+<!ENTITY pVScan.label "Virusskanning">
+<!ENTITY pShouldScan.label "Manuel skanning af afsluttede filhentninger">
+<!ENTITY pExclude.label "Skan ikke disse filtyper">
+<!ENTITY pAVLoc.label "Antivirusprogrammets placering">
+<!ENTITY pArgs.label "Parametre">
+<!ENTITY pAVdesc.label "(Brug &#37;1 i parametre for at få filen til at skanne)">
+<!ENTITY pAbout.label "Om">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Anvend">
+<!ENTITY pCancel.label "Afbryd">
+<!ENTITY previewColour.label "Smugkig:">
+<!ENTITY cpWinTitle.title "Farvevælger">
+<!ENTITY predef.label "Forudbestemte farver:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Rød:">
+<!ENTITY green.label "Grøn:">
+<!ENTITY blue.label "Blå:">
+<!ENTITY hue.label "Nuance:">
+<!ENTITY saturation.label "Farvemætning:">
+<!ENTITY brightness.label "Lysskarphed:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Navn:">
+<!ENTITY cpUseThemeDef.label "Brug standardtema">
+<!ENTITY openOpt.label "Indstillinger...">
+<!ENTITY hideDownbar.label "Gem Filhentningsbjælke">
+<!ENTITY allDownloads.label "Filhentningshandlinger">
+<!ENTITY openDLHist.label "Filhentningshistorik">
+<!ENTITY stoppedDL.label "Stoppet filhentning:">
+<!ENTITY transparency.label "Gennemsigtig">
+<!ENTITY background.label "Baggrund til:">
+<!ENTITY background.accessKey "B">
+<!ENTITY table.label "Ramme">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Celle(r)">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "Sidstvalgte farve">
+<!ENTITY lastPickedColor.accessKey "L">

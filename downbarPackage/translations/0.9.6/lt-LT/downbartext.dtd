@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Sustabdyti viską">
+<!ENTITY resumeAll.label "Pratęsti viską">
+<!ENTITY pauseAll.label "Pristabdyti viską">
+<!ENTITY cancelAll.label "Atšaukti visus vykdomus">
+<!ENTITY removeAll.label "Išvalyti visus baigtus">
+<!ENTITY copySource.label "Kopijuoti šaltinio adresą">
+<!ENTITY visitSource.label "Eiti į šaltinio svetainę">
+<!ENTITY stopOne.label "Sustabdyti">
+<!ENTITY pauseOne.label "Pristabdyti">
+<!ENTITY cancelOne.label "Atšaukti">
+<!ENTITY resumeOne.label "Pratęsti">
+<!ENTITY properties.label "Savybės">
+<!ENTITY delete.label "Trinti iš sistemos">
+<!ENTITY remove.label "Išvalyti iš juostos">
+<!ENTITY show.label "Atverti aplanką">
+<!ENTITY open.label "Atverti">
+<!ENTITY start.label "Pradėti">
+<!ENTITY rename.label "Pervadinti">
+<!ENTITY fromTip.label "Iš:">
+<!ENTITY toTip.label "Į:">
+<!ENTITY statusTip.label "Būsena:">
+<!ENTITY timeTip.label "Likęs laikas:">
+<!ENTITY percentTip.label "Atlikta procentais:">
+<!ENTITY sizeTip.label "Failo dydis:">
+<!ENTITY timeCompleteTip.label "Laikas iki užbaigimo:">
+<!ENTITY avgSpeedTip.label "Vidutinis greitis:">
+<!ENTITY numFinishedTip.label "Baigti atsiuntimai:">
+<!ENTITY sizeFinishedTip.label "Baigtų atsiuntimų dydis:">
+<!ENTITY numCurrentTip.label "Šiuo metu siunčiami failai:">
+<!ENTITY totalSpeedTip.label "Bendras greitis:">
+<!ENTITY totalTimeTip.label "Bendras likęs laikas:">
+<!ENTITY toMiniTip.label "Perjungti į mažąjį režimą">
+<!ENTITY toFullTip.label "Perjungti į didįjį režimą">
+<!ENTITY downloadsCap.label "Atsiuntimai">
+<!ENTITY clear.label "Išvalyti">
+<!ENTITY mini.label "Mažasis režimas">
+<!ENTITY full.label "Didysis režimas">
+<!ENTITY pTitle.label "Atsiuntimų būsenos juostos nustatymai">
+<!ENTITY pGeneral.label "Bendra">
+<!ENTITY pStatusMode.label "Būsenos juostos režimas">
+<!ENTITY pFullMode.label "Didysis režimas">
+<!ENTITY pMiniMode.label "Mažasis režimas">
+<!ENTITY pFeatures.label "Veiksena">
+<!ENTITY pLaunchClose.label "Automatiškai pratęsti siuntimą atsiuntimų tvarkyklėje, kai uždaroma naršyklė">
+<!ENTITY pClearFin.label "Išvalyti baigtus atsiuntimus, kai uždaroma naršyklė">
+<!ENTITY pConfirm.label "Patvirtinti prieš ištrinant failą iš sistemos">
+<!ENTITY pRmvOpen.label "Išvalyti baigtus siuntimus jį atvėrus">
+<!ENTITY pRmvShow.label "Išvalyti baigtą atsiuntimą atvėrus jo aplanką">
+<!ENTITY pSupAlert.label "Rodyti „Siuntimas baigtas“ pranešimą (rekomenduojama išjungti)">
+<!ENTITY pAutoClear.label "Automatiškai išvalyti šiuos failų tipus">
+<!ENTITY pAfter.label "po">
+<!ENTITY pSeconds.label "sekundžių">
+<!ENTITY pIgnore.label "Ignoruoti šiuos failų tipus">
+<!ENTITY pFiletypesHelp.label "(įveskite * visiems failų tipams, palikite tuščia niekam)">
+<!ENTITY pHistory.label "Atsiuntimų istorija">
+<!ENTITY pCloseHist.label "(kai uždaroma naršyklė)">
+<!ENTITY pKeepHist.label "Saugoti atsiuntimų istoriją">
+<!ENTITY pTrimHist.label "Sutrumpinti atsiuntimų istoriją iki">
+<!ENTITY pDlItems.label "atsiuntimų">
+<!ENTITY pPlaySound.label "Groti garsus, kai atsiuntimas baigtas">
+<!ENTITY pCheckmarkSound.label "Checkmark!">
+<!ENTITY pCustomSound.label "[Pasirinktas .WAV failas...]">
+<!ENTITY pSoundExceptFiletypes.label "Išskyrus šiems failų tipams:">
+<!ENTITY pQueue.label "Eilės režimas">
+<!ENTITY pQueEna.label "Įjungti eilės režimą">
+<!ENTITY pQueDownload.label "Siųsti tik">
+<!ENTITY pQueFiles.label "failus vienu metu">
+<!ENTITY pAppearance.label "Išvaizda">
+<!ENTITY pDefaultStyle.label "Numatytasis stilius">
+<!ENTITY pCustomStyle.label "Pasirinktinis stilius">
+<!ENTITY pResetCustom.label "Atstatyti stilių">
+<!ENTITY pProgNotify.label "Eigos pranešimai">
+<!ENTITY pDispPer.label "Eigos procentai">
+<!ENTITY pDispSpeed.label "Parsiuntimo sparta">
+<!ENTITY pDispSize.label "Parsiųstas dydis">
+<!ENTITY pDispTime.label "Likęs laikas">
+<!ENTITY pTextSize.label "Teksto dydis">
+<!ENTITY pFileText.label "Failo pavadinimo dydis:">
+<!ENTITY pProgNotiText.label "Eigos pranešimų dydis:">
+<!ENTITY pDLItemSize.label "Parsiuntimų elementų dydžiai">
+<!ENTITY pWidth.label "Plotis:">
+<!ENTITY pHeight.label "Aukštis:">
+<!ENTITY pColors.label "Spalvos">
+<!ENTITY pLeaveBlank.label "(Palikite tuščią numatytiems grafiniame apvalkale)">
+<!ENTITY pProgBar.label "Eigos juosta">
+<!ENTITY pProgRemain.label "Eigos likutis">
+<!ENTITY pFinishedBox.label "Baigtas atsiuntimas">
+<!ENTITY pStoppedBox.label "Sustabdytas siuntimas">
+<!ENTITY pPausedOutline.label "Pristabdyto rėmelis">
+<!ENTITY pTextColor.label "Tekstas">
+<!ENTITY pStatusBack.label "Būsenos juostos fonas">
+<!ENTITY pUseGradients.label "Naudoti atspalvius">
+<!ENTITY pUseAnimation.label "Naudoti animaciją">
+<!ENTITY pShowButtons.label "Rodyti šiuos mygtukus:">
+<!ENTITY pDownloadsButton.label "Pagrindinius siuntimų mygtukas">
+<!ENTITY pClearButton.label "Baigtų išvalymo mygtukas">
+<!ENTITY pToMiniButton.label "Mažojo / Didžiojo režimo mygtukas">
+<!ENTITY pSpeedColors.label "Greičio spalvos">
+<!ENTITY pEnableSC.label "Įjungti greičio spalvas">
+<!ENTITY pBetween.label "Tarp">
+<!ENTITY pAnd.label "ir">
+<!ENTITY pkbSec.label "KB/s">
+<!ENTITY pMoreThan.label "Daugiau nei">
+<!ENTITY pVScan.label "Virusų paieška">
+<!ENTITY pShouldScan.label "Skenuoti baigtus atsiuntimus rankiniu būdu">
+<!ENTITY pExclude.label "Neskenuoti šių failų tipų">
+<!ENTITY pAVLoc.label "Antivirusinės programos vieta">
+<!ENTITY pArgs.label "Argumentai">
+<!ENTITY pAVdesc.label "(Naudokite &#37;1 argumentuose vietoje skenuojamo failo)">
+<!ENTITY pAbout.label "Apie">
+<!ENTITY pOK.label "Gerai">
+<!ENTITY pApply.label "Taikyti">
+<!ENTITY pCancel.label "Atšaukti">
+<!ENTITY previewColour.label "Peržiūra:">
+<!ENTITY cpWinTitle.title "Spalvų parinkiklis">
+<!ENTITY predef.label "Išankstinės spalvos:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Raudona:">
+<!ENTITY green.label "Žalia:">
+<!ENTITY blue.label "Mėlyna:">
+<!ENTITY hue.label "Atspalvis:">
+<!ENTITY saturation.label "Sodrumas:">
+<!ENTITY brightness.label "Ryškumas:">
+<!ENTITY hexColor.label "Šešiol.:">
+<!ENTITY nameColor.label "Pavadinimas:">
+<!ENTITY cpUseThemeDef.label "Naudoti temos numatytąją">
+<!ENTITY openOpt.label "Nustatyti">
+<!ENTITY hideDownbar.label "Slėpti parsiuntimų juostą">
+<!ENTITY allDownloads.label "Parsiuntimo veiksmai">
+<!ENTITY openDLHist.label "Parsiuntimų sąrašas">
+<!ENTITY stoppedDL.label "Sustabdytas atsiuntimas:">
+<!ENTITY transparency.label "Permatomas">
+<!ENTITY background.label "Fonas:">
+<!ENTITY background.accessKey "F">
+<!ENTITY table.label "Lentelė">
+<!ENTITY table.accessKey "L">
+<!ENTITY cell.label "Langeliai">
+<!ENTITY cell.accessKey "a">
+<!ENTITY lastPickedColor.label "Paskiausiai parinkta spalva">
+<!ENTITY lastPickedColor.accessKey "P">

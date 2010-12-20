@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Заустави све">
+<!ENTITY resumeAll.label "Настави све">
+<!ENTITY pauseAll.label "Паузирај све">
+<!ENTITY cancelAll.label "Откажи све активне задатке">
+<!ENTITY removeAll.label "Очисти са линије све завршене задатке">
+<!ENTITY copySource.label "Умножи изворну адресу">
+<!ENTITY visitSource.label "Интернет страна извора">
+<!ENTITY stopOne.label "Заустави преузимање">
+<!ENTITY pauseOne.label "Паузирај преузимање">
+<!ENTITY cancelOne.label "Откажи преузимање">
+<!ENTITY resumeOne.label "Настави преузимање">
+<!ENTITY properties.label "Особине">
+<!ENTITY delete.label "Обриши са система">
+<!ENTITY remove.label "Уклони са линије">
+<!ENTITY show.label "Отвори садржајни директоријум">
+<!ENTITY open.label "Отвори">
+<!ENTITY start.label "Старт">
+<!ENTITY rename.label "Преименуј">
+<!ENTITY fromTip.label "Са:">
+<!ENTITY toTip.label "На:">
+<!ENTITY statusTip.label "Статус:">
+<!ENTITY timeTip.label "Преостало време:">
+<!ENTITY percentTip.label "Проценат завршености:">
+<!ENTITY sizeTip.label "Величина:">
+<!ENTITY timeCompleteTip.label "Утрошено време:">
+<!ENTITY avgSpeedTip.label "Просечна брзина:">
+<!ENTITY numFinishedTip.label "Завршена преузимања:">
+<!ENTITY sizeFinishedTip.label "Величина завршених преузимања:">
+<!ENTITY numCurrentTip.label "Датотеке које се тренутно преузимају:">
+<!ENTITY totalSpeedTip.label "Укупна брзина:">
+<!ENTITY totalTimeTip.label "Укупно преостало време:">
+<!ENTITY toMiniTip.label "Пређи у умањени облик">
+<!ENTITY toFullTip.label "Пређи у нормалан облик">
+<!ENTITY downloadsCap.label "Преузимања">
+<!ENTITY clear.label "Очисти">
+<!ENTITY mini.label "Умањени облик">
+<!ENTITY full.label "Нормалан облик">
+<!ENTITY pTitle.label "Подешавања Download Statusbar-а">
+<!ENTITY pGeneral.label "Опште">
+<!ENTITY pStatusMode.label "Облик статусне линије">
+<!ENTITY pFullMode.label "Нормалан облик">
+<!ENTITY pMiniMode.label "Умањени облик">
+<!ENTITY pFeatures.label "Особине">
+<!ENTITY pLaunchClose.label "Аутоматски настави са преузимањима у управљачу за преузимања када се читач затвори">
+<!ENTITY pClearFin.label "Очисти завршена преузимања када се читач затвори">
+<!ENTITY pConfirm.label "Потврда пре брисања датотеке са система">
+<!ENTITY pRmvOpen.label "Очисти завршена преузимања приликом отварања датотеке">
+<!ENTITY pRmvShow.label "Очисти завршена преузимања приликом отварања садржајног директоријума">
+<!ENTITY pSupAlert.label "Прикажи &apos;Преузимање Успело&apos; обавештење (Искључено је препоручено)">
+<!ENTITY pAutoClear.label "Аутоматски очисти следеће типове датотека">
+<!ENTITY pAfter.label "после">
+<!ENTITY pSeconds.label "секунди">
+<!ENTITY pIgnore.label "Игнорисати следеће типове датотека">
+<!ENTITY pFiletypesHelp.label "(Унесите * за све врсте датотека, празно за ниједну врсту)">
+<!ENTITY pHistory.label "Историја преузимања">
+<!ENTITY pCloseHist.label "(Када се читач затвори)">
+<!ENTITY pKeepHist.label "Чувај историју преузимања">
+<!ENTITY pTrimHist.label "Смањи историју преузимања на">
+<!ENTITY pDlItems.label "преузимања">
+<!ENTITY pPlaySound.label "Звучно обавештење о успелим прузимањима">
+<!ENTITY pCheckmarkSound.label "Успело!">
+<!ENTITY pCustomSound.label "[Лична .WAV датотека...]">
+<!ENTITY pSoundExceptFiletypes.label "Осим за следеће типове датотека:">
+<!ENTITY pQueue.label "Чекање">
+<!ENTITY pQueEna.label "Омогући чекање">
+<!ENTITY pQueDownload.label "Преузимај">
+<!ENTITY pQueFiles.label "датотека истовремено">
+<!ENTITY pAppearance.label "Изглед">
+<!ENTITY pDefaultStyle.label "Уобичајени стил">
+<!ENTITY pCustomStyle.label "Лични стилови">
+<!ENTITY pResetCustom.label "Поништи личне поставке">
+<!ENTITY pProgNotify.label "Обавештење о напретку">
+<!ENTITY pDispPer.label "Проценат напретка">
+<!ENTITY pDispSpeed.label "Брзина преузимања">
+<!ENTITY pDispSize.label "Преузета величина до сада">
+<!ENTITY pDispTime.label "Преостало време">
+<!ENTITY pTextSize.label "Величина текста">
+<!ENTITY pFileText.label "Величина имена:">
+<!ENTITY pProgNotiText.label "Величина обавештења о напретку:">
+<!ENTITY pDLItemSize.label "Величина преузиманих ствари">
+<!ENTITY pWidth.label "Ширина:">
+<!ENTITY pHeight.label "Висина:">
+<!ENTITY pColors.label "Боје">
+<!ENTITY pLeaveBlank.label "(Оставити празно за примену боја опште теме)">
+<!ENTITY pProgBar.label "Линија напредовања">
+<!ENTITY pProgRemain.label "Подсетник напредовања">
+<!ENTITY pFinishedBox.label "Завршена преузимања">
+<!ENTITY pStoppedBox.label "Заустављена преузимања">
+<!ENTITY pPausedOutline.label "Пауза">
+<!ENTITY pTextColor.label "Текст">
+<!ENTITY pStatusBack.label "Позадина статусне линије">
+<!ENTITY pUseGradients.label "Користи постепеност боја">
+<!ENTITY pUseAnimation.label "Користи анимацију">
+<!ENTITY pShowButtons.label "Прикажи следећу дугмад:">
+<!ENTITY pDownloadsButton.label "Главна дугмад за преузимања">
+<!ENTITY pClearButton.label "Дугме за чишћење завршених задатака">
+<!ENTITY pToMiniButton.label "Дугме за умањени облик">
+<!ENTITY pSpeedColors.label "Боје по брзинама">
+<!ENTITY pEnableSC.label "Омогући боје по брзинама">
+<!ENTITY pBetween.label "Између">
+<!ENTITY pAnd.label "и">
+<!ENTITY pkbSec.label "КБ/сек">
+<!ENTITY pMoreThan.label "Више од">
+<!ENTITY pVScan.label "Скенирање вируса">
+<!ENTITY pShouldScan.label "Ручно скенирање преузетих датотека">
+<!ENTITY pExclude.label "Не скенирати следеће врсте датотека">
+<!ENTITY pAVLoc.label "Локација анти-вирусног програма">
+<!ENTITY pArgs.label "Аргументи">
+<!ENTITY pAVdesc.label "(Користи &#37;1 као аргумент за скенирање)">
+<!ENTITY pAbout.label "О програму...">
+<!ENTITY pOK.label "У реду">
+<!ENTITY pApply.label "Примени">
+<!ENTITY pCancel.label "Поништи">
+<!ENTITY previewColour.label "Преглед:">
+<!ENTITY cpWinTitle.title "Бирач боја">
+<!ENTITY predef.label "Предодређене боје:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Црвена:">
+<!ENTITY green.label "Зелена:">
+<!ENTITY blue.label "Плава:">
+<!ENTITY hue.label "Нијанса:">
+<!ENTITY saturation.label "Засићеност:">
+<!ENTITY brightness.label "Осветљење:">
+<!ENTITY hexColor.label "Хекс:">
+<!ENTITY nameColor.label "Име:">
+<!ENTITY cpUseThemeDef.label "Користи општу тему">
+<!ENTITY openOpt.label "Подешавања...">
+<!ENTITY hideDownbar.label "Сакри линију преузимања">
+<!ENTITY allDownloads.label "Расположиве могућности">
+<!ENTITY openDLHist.label "Историја преузимања">
+<!ENTITY stoppedDL.label "Заустављено преузимање:">
+<!ENTITY transparency.label "Провидност">
+<!ENTITY background.label "Позадина за:">
+<!ENTITY background.accessKey "Б">
+<!ENTITY table.label "Табела">
+<!ENTITY table.accessKey "Т">
+<!ENTITY cell.label "Поље(-а)">
+<!ENTITY cell.accessKey "Ц">
+<!ENTITY lastPickedColor.label "Последња изабрана боја">
+<!ENTITY lastPickedColor.accessKey "Л">

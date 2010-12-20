@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE window SYSTEM "chrome://downbar/locale/downbarAboutText.dtd">
+
+<window id="downbarWelcomeCenter"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	style="background-color:white;"
+	width="520">
+	
+	<script type="application/x-javascript" src="chrome://downbar/content/aboutdownbar.js"/>
+	
+	<!-- uniRedirect.html is redirected with the .htaccess file on the server -->
+	<hbox id="uniblueAd" onclick="db_openLink('http://enzysoft.com/uniRedirect.html'); return false;" style="cursor:pointer;">
+		<spacer width="10"/>
+		<vbox>
+			<spacer flex="1"/>
+			<image src="chrome://downbar/skin/UniblueExclamationButton.jpg"/>
+			<spacer flex="1"/>
+		</vbox>
+		
+		<spacer width="5"/>
+		<vbox>
+			<label value="&uniblueTip.label;" style="font-size:16px; font-weight:bold; color:#77b174; cursor:pointer;"/>
+			<description style="max-width:480px;">
+				<html:a href="" style="font-size:14px; font-weight:bold;">&uniblueLink.label;</html:a>
+			</description>									
+		</vbox>
+		<spacer width="10"/>
+	</hbox>
+	
+	
+</window>

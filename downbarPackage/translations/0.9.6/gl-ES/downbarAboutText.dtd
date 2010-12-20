@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Sobre a barra de estado de descargas">
+<!ENTITY introTab.label "Introdución">
+<!ENTITY by.label "Por Devon Jensen">
+<!ENTITY version.label "Versión">
+<!ENTITY tagLine.label "Este complemento do navegador permítelle ver e xestionar as descargas desde unha pequena barra de estado">
+<!ENTITY ifNew.label "Se este é o primeiro contacto coa barra de estado de descargas, recomendámoslle que siga a ler esta información de uso.">
+<!ENTITY toView.label "Para ver no futuro esta pantalla,">
+<!ENTITY pressAbout.label "pecisa premer o botón Sobre nas opcións da barra de estado de descargas">
+<!ENTITY donateText.label "Séndomos sinceiros, investín moitísimo tempo en crear esta extensión. Se a túa experiencia co Firefox mellorar, podería xulgar facer unha pequena doazón. Non é necesaria unha conta en Paypal pois abonda coas tarxetas de crédito">
+<!ENTITY donate.label "Doar">
+<!ENTITY majorRelease.label "Actualización maior!">
+<!ENTITY changelog.label "Vexa as novidades">
+<!ENTITY whatNewTab.label "Novidades desta versión">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Cosellos e trucos">
+<!ENTITY tip1Title.label "Localización temporal da vista">
+<!ENTITY tip1.label "A barra de estado de descargas pretende ser unha localización temporal para ver o progreso e as descargas máis recentes. Debe procurar mantela limpa ao marcar a opción limpar automaticamente ou. manualmente, ao eliminar as descargas rematadas que xa non precise ver máis. A barra de estado é moito menos útil cando as descargas nela se volven tan pequenas que non se pode comprobar cal é cal. Pode tamén ver sempre o seu historial completo de descargas ao abrir o seu xestor de descargas estándar do Firefox (Ferramentas &gt; Descargas). Se desexa coñecer outros consellos, continúe a ler.">
+<!ENTITY tip2Title.label "Atallos para as accións máis comúns">
+<!ENTITY tip2.label "Pode obter unha listaxe de acción para xestionar unha descarga se a prema, mais hai outros xeitos para realizar as accións máis comúns:">
+<!ENTITY tip2a.label "- Para limpar unha descarga simple rematada, prema co botón do medio do rato (na maioría dos ratos, premer no botón dereito do rato supón desprazar a roda)">
+<!ENTITY tip2b.label "- Para limpar todas as descargas rematadas, prema dúas veces nunha parte baleira da barra de estado.">
+<!ENTITY tip2c.label "- Para abrir unha descarga rematada, prémaa dúas veces.">
+<!ENTITY tip2d.label "- Para eliminar unha descarga rematada, prema e manteña a tecla Ctrl e o botón do medio do rato.">
+<!ENTITY tip2e.label ". Para deter ou resumir unha descarga en progreso, prema co botón esquerdo do rato.">
+<!ENTITY tip2f.label "- Para cambiar o nome dunha descarga rematada, prema e manteña a tecla Maiús. e o botón esquerdo do rato.">
+<!ENTITY tip3Title.label "Consellos">
+<!ENTITY tip3.label "De cando en vez pode obter unha información máis detallada sobre a descarga. Para amosar as estatísticas, coloque o cursor do rato sobre a descargue e aparecerá unha mensaxe. Nas descargas en progreso amosarase en cadro que se actualiza automaticamente coa información da velocidade de transferencia, o tamaño e o tempo restante. Nas descargas xa rematadas, amosarase a información de onde se gardou a descarga, o seu tamaño, canto tardou en se descargar e a porcentaxe de velocidade de transmisión.">
+<!ENTITY tip4Title.label "Animacións">
+<!ENTITY tip4.label "Se desexa que as accións de administración sexan máis rápidas, recoméndase desactivar as animacións. Estas ofrecen algunha información importante sobre a descarga (por exemplo, un x vermello indica cando se solicitou eliminar unha descarga rematada) mais pode provocar unha demora no proceso. Pode desactivar esta función no separador de Aparencia das opcións. Tamén pode momentaneamente desactivar esta acción se manten premida a tecla Maiús. mentres elimina unha descarga.">
+<!ENTITY tip5Title.label "">
+<!ENTITY tip5.label "">
+<!ENTITY tip6Title.label "Xestionar diversas descargas ao mesmo tempo">
+<!ENTITY tip6.label "Se preme co botón dereito do rato nunha parte baleira da barra de estado, obterá diferentes opcións para xestionar diversas descargas ao mesmo tempo. Debe eliminar todas as descargas rematadas e  deter ou cancelar todas as que se están a realizar. Tamén poderá elixir entre o modo completo ou reducido.">
+<!ENTITY tip7Title.label "Modo reducido">
+<!ENTITY tip7.label "Para ver unha listaxe de descargas, ten de premer co botón esquerdo do rato no modo reducido. Ao se amosar a ventá emerxente, poderá xestionalas do xeito común (prema co botón dereito para xestionar as accións, co botón central para limpalas etc. Se preme co botón dereito do rato no botón do modo reducido, obterá as opcións para xestionar varias descargas ao mesmo tempo. O botón de descargas ocultarase se non houber ningunha na listaxe.">
+<!ENTITY prefsTab.label "Axuda das opcións">
+<!ENTITY general.label "Separador xeral">
+<!ENTITY pref1Title.label "Notificacións de avance">
+<!ENTITY pref1.label "- Nas descargas a se realizar pode obter moita información detallada e actualizada nun texto pequeno. Elixa que notificacións precisa ver ou non elixa ningunha. Dúas notificacións deberían caber no tamaño predeterminado, mais pode cambiar este no separador de Aparencia.">
+<!ENTITY pref2Title.label "Modo">
+<!ENTITY pref2.label "- Elixa o modo completo (barra de estado separada) ou o modo reducido (integrado na barra de estado do Firefox). Probe cada un deles para ver cal é a que máis lle gusta.">
+<!ENTITY pref3Title.label "Manter o historial de descargas">
+<!ENTITY pref3.label ". Por omisión, o Firefox mantén o historial de todas as descargas. Ao desmarcar esta opción, eliminarase unha descarga do historial cando se eliminar da barra de estado. Cómpre salientar que para que está característica é só para a Download Statusbar e non para a barra de estado do Firefox.">
+<!ENTITY pref4Title.label "Recortar o historial de descargas...">
+<!ENTITY pref4.label "- Co tempo, o historial de descargas pode ser moi amplo e atrasar o funcionamento do Firefox. Esta opción recorta a listaxe cada vez que se pechar o Firefox e mantén a listaxe nun tamaño óptimo. Cómpre salientar que para que está característica é só para a Download Statusbar e non para a barra de estado do Firefox.">
+<!ENTITY pref5Title.label "Continuar automaticamente as descargas...">
+<!ENTITY pref5.label ". Se ten descargas a se realizaren e quere pechar o Firefox, aparecerá unha ventá que lle avisará de que tamén vai cancelar as descargas. Ao usar esta opción, o xestor de descargas do Firefox emerxerá no seu lugar e continuará coas descargas aínda que se pechase a ventá do navegador.">
+<!ENTITY pref6Title.label "Limpar as descargas rematadas ao pechar o navegador">
+<!ENTITY pref6.label "- Esta opción limpa as descargas rematadas da barra de estado mais non do historial. Isto non afecta ao ficheiro en si.">
+<!ENTITY pref7Title.label "Confirmar antes da eliminación...">
+<!ENTITY pref7.label "- Esta opción amosaralle unha mesaxe de confirmación antes de eliminar o ficheiro. Non hai ningunha forma de retroceder se elimina un ficheiro (so volvento a descargar)">
+<!ENTITY pref8Title.label "Limpar todas as descargas rematadas despois de as abrir">
+<!ENTITY pref8.label "- Non elimina a descarga do historial do xestor.">
+<!ENTITY pref9Title.label "Limpar unha descarga rematada despois de abrir o cartafol">
+<!ENTITY pref9.label ". Non elimina a descarga do historial do xestor de descargas">
+<!ENTITY pref10Title.label "Amosar a notificación de descargas completadas">
+<!ENTITY pref10.label "- Esta é unha opción do Firefox mais resulta complicado a acceder a ela.">
+<!ENTITY pref11Title.label "Ignorar este tipo de ficheiros">
+<!ENTITY pref11.label ". Ao se descargaren este tipo de ficheiros, non aparecerán na barra de estado de descargas mais si no historial do Firefox. Cada tipo de ficheiro terá de estar separado por vírgula e os espazos ignoraranse, como por exemplo &apos;jpg, jpeg, png, gif&apos;.">
+<!ENTITY pref12Title.label "Limpar automaticamente estes tipos de ficheiros...">
+<!ENTITY pref12.label "- Despois de rematar unha descarga, esta característica as elimina da barra de descargas despois duns segundos. Esta opción é moi útil xa que pode ver que se descargou con éxito mais no futuro non a precisa xestionar. Cada tipo de ficheiro ten de estar separado por coma e ignorarase os espazos, como por exemplo &apos;jpg, jpeg, png, gif&apos; (sen comiñas).">
+<!ENTITY pref13Title.label "Reproducir un son ao se completaren as descargas">
+<!ENTITY pref13.label "- Escolla un son predeterminado ou o seu propio. Reproducirase un ficheiro .WAV ao se completaren as descargas. Se desexar que o son non se reproducir para algún tipo de ficheiro en particular, introdúzao na caixa, como por exemplo &apos;jpg, jpeg, png, gif&apos; (sen comiñas)">
+<!ENTITY appearance.label "Separador de aparencia">
+<!ENTITY pref14Title.label "Estilo personalizado ou predeterminado">
+<!ENTITY pref14.label "- Selecting 'Custom Style' will enable all the color-pickers and size boxes.  Selecting 'Default Style' will allow you to quickly switch back to the original style, but the custom style settings are still saved.">
+<!ENTITY pref15Title.label "Cores">
+<!ENTITY pref15.label "- Click on a color box to open a color-picker window for that item.  Click and drag around the palette to find a color you like or just select one of the predefined colors.  If you want to duplicate a color, copy its Hex value and enter it manually in the next color-picker.  You can also press the 'Use Theme Default' button to blank out a previous color choice and let the theme default color show through.  This is generally only useful for the Text color and Statusbar Background color.">
+<!ENTITY pref16Title.label "Usar as gradacións de cor">
+<!ENTITY pref16.label "- If selected, this will overlay a white-to-transparent image over the background color giving your download items a nice 3D feel.  Works in both default and custom styles.">
+<!ENTITY pref17Title.label "Usar a animación">
+<!ENTITY pref17.label "- Several download management actions have corresponding animations.  The animations are generally short and hopefully not obnoxious, but they can be turned off.">
+<!ENTITY pref18Title.label "Amosar estes botóns:">
+<!ENTITY pref18.label "Choose whether to show the main downloads button, the clear button (Clear All Finished), and the mini button (Switch to MiniMode)">
+<!ENTITY pref19Title.label "Cores da velocidade">
+<!ENTITY pref19.label "- Turning this on will dynamically change the color of an in-progress download based on how fast the download is going.  This allows you can visually 'see' how fast a download is progressing by glancing at its color.  First, enable speed colors.  Then, set reasonable speed intervals by changing the numbers based on your internet connection type.  (The default settings are based on cable modem speeds)  Finally, click on the color boxes to set a color for each speed interval.  There are several ways this feature could be used.  One idea is to make faster downloads appear brighter than slower downloads.  Another idea is to have the top 3 speed intervals show the same color (no changes), but make the slowest speed interval a warning color so, for example, you will notice if a download drops below 10 KB/sec when the progress bar changes to red.">
+<!ENTITY virusScan.label "Separador do comprobador de virus">
+<!ENTITY pref20Title.label "Comprobar manualmente as descargas completadas">
+<!ENTITY pref20.label "- Click the checkbox to enable this feature.  You must agree to the Anti-Virus Feature Agreement before it will work. ">
+<!ENTITY pref21Title.label "Non comprobar estes tipos de ficheiros">
+<!ENTITY pref21.label "- Each filetype should be separated by a comma, and spaces don't matter.  Example: 'jpg, jpeg, png, gif'  (without quotes)">
+<!ENTITY pref22Title.label "Localización do programa antivirus">
+<!ENTITY pref22.label "- You must already have an anti-virus program installed that is able to accept command-line requests for a manual scan.  Press the '...' button and find the program in your filesystem.">
+<!ENTITY pref23Title.label "Argumentos">
+<!ENTITY pref23.label "- Enter any necessary or optional arguments specific to your anti-virus program.  &#37;1 represents the file that will be scanned (this was previously [Path]) and should appear somewhere in the arguments.  Many programs will work if &#37;1 is the only argument.  Check the documentation of your Anti-Virus software to figure out which arguments work with your program.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Pechar">
+<!ENTITY openPref.label "Abrir as opcións da extensión">
+<!ENTITY support.label "Apoie esta extensión -">
+<!ENTITY donate2.label "Doe!">
+<!ENTITY credits.label "Créditos">
+<!ENTITY transFor.label "Tradución do texto para">
+<!ENTITY currLocale.label "gl-ES">
+<!ENTITY locale.label "tradución realizada por:">
+<!ENTITY translatorName.label "I. Méndez">
+<!ENTITY projectHost.label "Servidor web fornecido por:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Programado e deseñado por:">
+<!ENTITY soundsBy.label "Os sons foron creados por:">
+<!ENTITY soundPeople.label "Dallin Jensen e Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Click here to scan for System Errors and Optimize PC Performance">

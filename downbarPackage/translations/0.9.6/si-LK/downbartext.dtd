@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "සියල්ලම නවත්වන්න">
+<!ENTITY resumeAll.label "නැවත අරඹන්න">
+<!ENTITY pauseAll.label "මදකට නවතන්න">
+<!ENTITY cancelAll.label "භාගත වෙමින් පවතින සියල්ලම නවතන්න">
+<!ENTITY removeAll.label "භාගත වූ සියල්ල ඉවත් කරන්න">
+<!ENTITY copySource.label "මූල් වූ URL එක කොපි කරන්න">
+<!ENTITY visitSource.label "අදාල වෙබ් අඩවියට යන්න">
+<!ENTITY stopOne.label "නවතින්න">
+<!ENTITY pauseOne.label "මදකට නවතින්න">
+<!ENTITY cancelOne.label "ඉවත් කරන්න">
+<!ENTITY resumeOne.label "නැවත පටන් ගන්න">
+<!ENTITY properties.label "ලක්ෂණ">
+<!ENTITY delete.label "ගොනුව දෘඩ තැටියෙන්ම ඉවත් කරන්න">
+<!ENTITY remove.label "පෙනෙන ලැයිස්තුවෙන් ඉවත් කරන්න">
+<!ENTITY show.label "ගොනුව තිබෙන ෆෝලඩරය පෙන්වන්න">
+<!ENTITY open.label "අරින්න">
+<!ENTITY start.label "පටන් ගන්න">
+<!ENTITY rename.label "වෙන කමක් දමන්න">
+<!ENTITY fromTip.label "ගෙන්">
+<!ENTITY toTip.label "ට">
+<!ENTITY statusTip.label "තත්ත්වය">
+<!ENTITY timeTip.label "තව ඉතුරැ කාලය">
+<!ENTITY percentTip.label "පමාණය පතිශතයක් වශයෙන්">
+<!ENTITY sizeTip.label "ගොනුවේ පමාණය">
+<!ENTITY timeCompleteTip.label "අවසානවීමට කාලය">
+<!ENTITY avgSpeedTip.label "සාමාන්‍ය භාගත වේගය">
+<!ENTITY numFinishedTip.label "භාගත වූ සියල්ලම">
+<!ENTITY sizeFinishedTip.label "භාගත වී අවසාන වූ ගොනුවල පරමාණය">
+<!ENTITY numCurrentTip.label "භාගත වෙමින් පවතින ගොනු">
+<!ENTITY totalSpeedTip.label "සියල්ලම භාගත වන සාමාන්‍ය වේගය">
+<!ENTITY totalTimeTip.label "සියල්ලම භාගත වීමට ගත වන කාලය">
+<!ENTITY toMiniTip.label "කුඩා ලෙසින් පෙන්වන්න">
+<!ENTITY toFullTip.label "සම්පූරණ  ලෙසින් පෙන්වන්න">
+<!ENTITY downloadsCap.label "භාගත වන ගොනු">
+<!ENTITY clear.label "භාගත වන ගොනු දක්වනය හිස් කරන්න">
+<!ENTITY mini.label "කුඩා">
+<!ENTITY full.label "සම්පූරණ විධිය">
+<!ENTITY pTitle.label "භාගත වන ගොනු දක්වනය සඳහා විකල්ප">
+<!ENTITY pGeneral.label "සාමාන්‍ය">
+<!ENTITY pStatusMode.label "තත්ත්ව දඩු ආකාරය">
+<!ENTITY pFullMode.label "සම්පූර්ණ ආකාරය">
+<!ENTITY pMiniMode.label "කුඩා ආකාරය">
+<!ENTITY pFeatures.label "ලක්ෂණ">
+<!ENTITY pLaunchClose.label "වෙබ් බ්‍රවුසරය වැසුවත් භාගත ගොනු දක්වනය දිගතම ක්‍රියා කරවන්න">
+<!ENTITY pClearFin.label "භාගත වී අවසාන වූ ගොනු බ්‍රවුසරය වැසූ පසුව දක්වනයෙන් ඉවත් කරන්න">
+<!ENTITY pConfirm.label "ගොනුවක් දෘඩ තැතියෙන් මකා දැමීමට පෙර එය තහවුරු කරන්න">
+<!ENTITY pRmvOpen.label "ගොනුව භාගත වී එය විවෘත කල පසුව දක්වනයෙන් ඉවත් කරන්න">
+<!ENTITY pRmvShow.label "ගොනු භාගත වූ ෆෝල්ඩරය විවෘත කල පසුව එය දක්වනයෙන් ඉවත් කරන්න">
+<!ENTITY pSupAlert.label "ගොනු භාගත වී අවසන වූ පසුව එය දනුම් දෙන්න">
+<!ENTITY pAutoClear.label "මෙම ගොනු වර්ග ඉබේම දක්වනයෙන් ඉවත් කරන්න">
+<!ENTITY pAfter.label "පසුව">
+<!ENTITY pSeconds.label "තත්පර">
+<!ENTITY pIgnore.label "මෙම ගොනු වර්ග නොසලකා හරින්න">
+<!ENTITY pFiletypesHelp.label "සියලුම ගොනු වර්ග සඳහා * යොදන්න,කිසිවක් නොතිබීමට හිස්ව තබන්න">
+<!ENTITY pHistory.label "භාගත මතකය">
+<!ENTITY pCloseHist.label "(බ්‍රව්සරය වැසූ පසුව)">
+<!ENTITY pKeepHist.label "භාගත මතකය තබාගන්න">
+<!ENTITY pTrimHist.label "භාගත ගොනු මතකය කෙටියෙන් පෙන්වන්න">
+<!ENTITY pDlItems.label "භාගත කිරීම්">
+<!ENTITY pPlaySound.label "භාගත කිරීම සම්පූර්ණ වූ පසුව ශබ්දයක් වාදනය කරන්න">
+<!ENTITY pCheckmarkSound.label "Checkmark!">
+<!ENTITY pCustomSound.label "ඔබ කැමති ශබ්දක් යොදන්න">
+<!ENTITY pSoundExceptFiletypes.label "මෙම ගොනු වර්ගයන් හැර">
+<!ENTITY pQueue.label "කියු (Q) ආකාරය">
+<!ENTITY pQueEna.label "කියු (Q) ආකාරයට බලය දෙන්න">
+<!ENTITY pQueDownload.label "භාගත කිරීම පමණක්">
+<!ENTITY pQueFiles.label "එක් වරකට ගොනු">
+<!ENTITY pAppearance.label "පෙනුම">
+<!ENTITY pDefaultStyle.label "සාමන්‍ය ආකාරය">
+<!ENTITY pCustomStyle.label "ඔබගේම ආකාරයක්">
+<!ENTITY pResetCustom.label "නැවත සාමන්‍ය ආකාරයට පත් කරන්න">
+<!ENTITY pProgNotify.label "ප්‍රගතිය දක්වණය">
+<!ENTITY pDispPer.label "භාගත වීම ප්‍රතිශතයක් වශයෙන්">
+<!ENTITY pDispSpeed.label "භාගත වේගය">
+<!ENTITY pDispSize.label "දැනට භාගත වී ඇති ගොනු ප්‍රමාණය">
+<!ENTITY pDispTime.label "භාගත වීම ප්‍රතිශතයක් වශයෙන්">
+<!ENTITY pTextSize.label "අකුරු වල ප්‍රමාණය">
+<!ENTITY pFileText.label "ගොනුවේ නමේ ප්‍රමාණය">
+<!ENTITY pProgNotiText.label "ප්‍රගතිය දක්වන වින්ඩෝවේ ප්‍රමාණය">
+<!ENTITY pDLItemSize.label "ගොනුවේ නමේ ප්‍රමාණය">
+<!ENTITY pWidth.label "දිග">
+<!ENTITY pHeight.label "උස">
+<!ENTITY pColors.label "උස">
+<!ENTITY pLeaveBlank.label "සාමාන්‍ය තේමාව සඳහා මෙය හිස්ව තබන්න">
+<!ENTITY pProgBar.label "ප්‍රගතිය දක්වනය">
+<!ENTITY pProgRemain.label "ශේෂ ප්‍රගතිය">
+<!ENTITY pFinishedBox.label "භාගත වී අවසාන වූ ගොනු">
+<!ENTITY pStoppedBox.label "භාගත වී නැවතුනු වූ ගොනු">
+<!ENTITY pPausedOutline.label "භාගත වීම තාවකාලිකව නැවත්වූ ගොනු">
+<!ENTITY pTextColor.label "පාඨ">
+<!ENTITY pStatusBack.label "තත්තව දක්වනයේ පසුතලය">
+<!ENTITY pUseGradients.label "අණුක්‍රමික වර්ණ භාවිතා කරන්න">
+<!ENTITY pUseAnimation.label "ඇනිමේෂණ් භාවිතා කරන්න">
+<!ENTITY pShowButtons.label "මෙම බොත්තම්[Button] පෙන්වන්න">
+<!ENTITY pDownloadsButton.label "ප්‍රධාන භාගත බොත්තම[Button]">
+<!ENTITY pClearButton.label "භාගත වීම අවසාන වූ ගොනු දක්වනයෙන් ඉවත් කරන්න">
+<!ENTITY pToMiniButton.label "කුඩා / සම්පූර්ණ">
+<!ENTITY pSpeedColors.label "වේගවත් වරණ">
+<!ENTITY pEnableSC.label "වේගවත් වරණ භාවිතා කරන්න">
+<!ENTITY pBetween.label "අතර">
+<!ENTITY pAnd.label "සහ">
+<!ENTITY pkbSec.label "තත්ත්පරයට කිලෝබයිට්ස් (KB/sec)">
+<!ENTITY pMoreThan.label "වැඩිය">
+<!ENTITY pVScan.label "වයිරස සොයා පිරික්සනය">
+<!ENTITY pShouldScan.label "භාගත වී අවසාන වූ ගොනු ඔබ විසින්ම පරීක්ෂා කරන්න">
+<!ENTITY pExclude.label "මෙම ගොනු වර්ග පිරික්සන්න එපා">
+<!ENTITY pAVLoc.label "වයිරස පිරික්සන මෘදුකාංගය තිබෙන ස්ථානය">
+<!ENTITY pArgs.label "ආර්ගියුමන්ට්ස්(Arguments)">
+<!ENTITY pAVdesc.label "(Use &#37;1 in the arguments for the file to scan)">
+<!ENTITY pAbout.label "අපි ගැන">
+<!ENTITY pOK.label "හරි (Ok)">
+<!ENTITY pApply.label "යොදන්න (Apply)">
+<!ENTITY pCancel.label "අත් හරින්න (Cancel)">
+<!ENTITY previewColour.label "පූර්වදර්ශනය">
+<!ENTITY cpWinTitle.title "වර්ණ තෝරනය">
+<!ENTITY predef.label "පෙර තේරූ වර්ණ">
+<!ENTITY rgb.label "රතු කොළ නිල්(RGB)">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "රතු">
+<!ENTITY green.label "කොළ">
+<!ENTITY blue.label "නිල්">
+<!ENTITY hue.label "පැහැය:">
+<!ENTITY saturation.label "සන්තෘප්තිය:">
+<!ENTITY brightness.label "දීප්තිය:">
+<!ENTITY hexColor.label "හෙක්සා">
+<!ENTITY nameColor.label "නම">
+<!ENTITY cpUseThemeDef.label "සාමාන්‍ය ආකාරය භාවිතා කරන්න">
+<!ENTITY openOpt.label "අභිමත">
+<!ENTITY hideDownbar.label "භාගත ගොනු දක්වනය සඟවන්න">
+<!ENTITY allDownloads.label "භාගත ක්‍රියාවන්">
+<!ENTITY openDLHist.label "පෙර භාගත මතකය">
+<!ENTITY stoppedDL.label "භාගත කිරීම නැවත්වු ගොනු">
+<!ENTITY transparency.label "විනිවිද පෙනෙන">
+<!ENTITY background.label "පසුතලයට">
+<!ENTITY background.accessKey "B">
+<!ENTITY table.label "Table">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Cell(s)">
+<!ENTITY cell.accessKey "C">
+<!ENTITY lastPickedColor.label "අවසානයට තෝරාගත් වර්ණය">
+<!ENTITY lastPickedColor.accessKey "L">

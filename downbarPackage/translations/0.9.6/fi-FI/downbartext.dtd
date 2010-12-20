@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Keskeytä kaikki">
+<!ENTITY resumeAll.label "Jatka kaikkia">
+<!ENTITY pauseAll.label "Pysäytä kaikki">
+<!ENTITY cancelAll.label "Peruuta kaikki kesken olevat">
+<!ENTITY removeAll.label "Tyhjennä kaikki valmiit">
+<!ENTITY copySource.label "Kopioi lähdeosoite">
+<!ENTITY visitSource.label "Mene lähdesivustolle">
+<!ENTITY stopOne.label "Pysäytä">
+<!ENTITY pauseOne.label "Tauko">
+<!ENTITY cancelOne.label "Peruuta">
+<!ENTITY resumeOne.label "Jatka">
+<!ENTITY properties.label "Ominaisuudet">
+<!ENTITY delete.label "Poista järjestelmästä">
+<!ENTITY remove.label "Tyhjennä palkista">
+<!ENTITY show.label "Avaa kohdekansio">
+<!ENTITY open.label "Avaa">
+<!ENTITY start.label "Aloita">
+<!ENTITY rename.label "Nimeä uudelleen">
+<!ENTITY fromTip.label "Lähde:">
+<!ENTITY toTip.label "Kohde:">
+<!ENTITY statusTip.label "Tila:">
+<!ENTITY timeTip.label "Aikaa jäljellä:">
+<!ENTITY percentTip.label "Prosenttia valmistunut:">
+<!ENTITY sizeTip.label "Tiedostokoko:">
+<!ENTITY timeCompleteTip.label "Aikaa jäjellä:">
+<!ENTITY avgSpeedTip.label "Keskinopeus:">
+<!ENTITY numFinishedTip.label "Valmistuneet lautaukset:">
+<!ENTITY sizeFinishedTip.label "Valmistuneiden latausten koko:">
+<!ENTITY numCurrentTip.label "Latautumassa olevat tiedostot:">
+<!ENTITY totalSpeedTip.label "Koko nopeus:">
+<!ENTITY totalTimeTip.label "Koko jäljellä oleva aika:">
+<!ENTITY toMiniTip.label "Siirry Minitilaan">
+<!ENTITY toFullTip.label "Siirry täystilaan">
+<!ENTITY downloadsCap.label "Lataukset">
+<!ENTITY clear.label "Tyhjennä">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Täystila">
+<!ENTITY pTitle.label "Latauspalkin asetukset">
+<!ENTITY pGeneral.label "Yleiset">
+<!ENTITY pStatusMode.label "Tilarivitila">
+<!ENTITY pFullMode.label "Täystila">
+<!ENTITY pMiniMode.label "Minitila">
+<!ENTITY pFeatures.label "Ominaisuudet">
+<!ENTITY pLaunchClose.label "Jatka latauksia automaattisesti lataustenhallinnassa kun selain suljetaan">
+<!ENTITY pClearFin.label "Tyhjennä valmistuneet lataukset kun selain suljetaan">
+<!ENTITY pConfirm.label "Vahvista tiedoston poistaminen järjestelmästä">
+<!ENTITY pRmvOpen.label "Tyhjennä valmistunut lataus avaamisen jälkeen">
+<!ENTITY pRmvShow.label "Tyhjennä valmistunut lataus kohdekansion avaamisen jälkeen">
+<!ENTITY pSupAlert.label "Näytä 'Lataukset valmistuneet' ilmoitus (Suositeltu pidettäväksi poissa käytöstä)">
+<!ENTITY pAutoClear.label "Tyhjennä nämä tiedostotyypit automaattisesti">
+<!ENTITY pAfter.label "-">
+<!ENTITY pSeconds.label "sekunnin jälkeen">
+<!ENTITY pIgnore.label "Jätä nämä tiedostotyypit huomiotta">
+<!ENTITY pFiletypesHelp.label "(Kirjoita * kaikille tiedostotyypeille, jätä tyhjäksi jos ei millekään)">
+<!ENTITY pHistory.label "Lataushistoria">
+<!ENTITY pCloseHist.label "(Kun selain suljetaan)">
+<!ENTITY pKeepHist.label "Pidä lataushistoriaa">
+<!ENTITY pTrimHist.label "Rajaa lataushistoria">
+<!ENTITY pDlItems.label "lataukselle">
+<!ENTITY pPlaySound.label "Soita ääni latauksen valmistuessa">
+<!ENTITY pCheckmarkSound.label "Merkkiääni!">
+<!ENTITY pCustomSound.label "[Oma .WAV tiedosto...]">
+<!ENTITY pSoundExceptFiletypes.label "Ei tiedostotyypeille:">
+<!ENTITY pQueue.label "Tehtävälista tila">
+<!ENTITY pQueEna.label "Ota käyttöön tehtävälista tila">
+<!ENTITY pQueDownload.label "Lataa vain">
+<!ENTITY pQueFiles.label "tiedostoa kerralla">
+<!ENTITY pAppearance.label "Ulkonäkö">
+<!ENTITY pDefaultStyle.label "Oletus tyyli">
+<!ENTITY pCustomStyle.label "Oma tyyli">
+<!ENTITY pResetCustom.label "Palauta oma tyyli">
+<!ENTITY pProgNotify.label "Edistymistiedot">
+<!ENTITY pDispPer.label "Edistymisprosentti">
+<!ENTITY pDispSpeed.label "Latausnopeus">
+<!ENTITY pDispSize.label "Tiedostoa ladattu siihen asti">
+<!ENTITY pDispTime.label "Aikaa jäljellä">
+<!ENTITY pTextSize.label "Tekstikoot">
+<!ENTITY pFileText.label "Tiedostonimen koko">
+<!ENTITY pProgNotiText.label "Edistymistietojen koko">
+<!ENTITY pDLItemSize.label "Latauskohetiden koot">
+<!ENTITY pWidth.label "Leveys:">
+<!ENTITY pHeight.label "Korkeus:">
+<!ENTITY pColors.label "Värit">
+<!ENTITY pLeaveBlank.label "(Teeman oletus tyhjäksi jättämällä)">
+<!ENTITY pProgBar.label "Edistymispalkki">
+<!ENTITY pProgRemain.label "Edistymispalkin tyhjäosa">
+<!ENTITY pFinishedBox.label "Valmistunut lataus">
+<!ENTITY pStoppedBox.label "Pysäytetty lataus">
+<!ENTITY pPausedOutline.label "Tauko ääriviivat">
+<!ENTITY pTextColor.label "Teksti">
+<!ENTITY pStatusBack.label "Tilarivin tausta">
+<!ENTITY pUseGradients.label "Käytä väriliuskeita">
+<!ENTITY pUseAnimation.label "Käytä animaatioita">
+<!ENTITY pShowButtons.label "Näytä nämä pinikkeet:">
+<!ENTITY pDownloadsButton.label "Pää- lataukset -painike">
+<!ENTITY pClearButton.label "Tyhjennä valmistuneet -painike">
+<!ENTITY pToMiniButton.label "Minitila -painike">
+<!ENTITY pSpeedColors.label "Nopeusvärit">
+<!ENTITY pEnableSC.label "Ota käyttöön nopeusvärit">
+<!ENTITY pBetween.label "Välillä">
+<!ENTITY pAnd.label "ja">
+<!ENTITY pkbSec.label "Kt/sek">
+<!ENTITY pMoreThan.label "Enemmän kuin">
+<!ENTITY pVScan.label "Virustarkistus">
+<!ENTITY pShouldScan.label "Tarkista valmistuneet lataukset käsin">
+<!ENTITY pExclude.label "Älä tarkista näitä tiedostotyyppejä">
+<!ENTITY pAVLoc.label "Virustarkistus ohjelman sijainti">
+<!ENTITY pArgs.label "Muuttujat">
+<!ENTITY pAVdesc.label "(Käytä &#37;1 muuttujissa tarkistettavalle tiedostolle)">
+<!ENTITY pAbout.label "Tietoa">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Hyväksy">
+<!ENTITY pCancel.label "Peruuta">
+<!ENTITY previewColour.label "Esikatselu:">
+<!ENTITY cpWinTitle.title "Värinvalitsin">
+<!ENTITY predef.label "Ennaltamääritetyt värit:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Punainen:">
+<!ENTITY green.label "Vihreä:">
+<!ENTITY blue.label "Sininen:">
+<!ENTITY hue.label "Sävy:">
+<!ENTITY saturation.label "Värikkyys:">
+<!ENTITY brightness.label "Kirkkaus:">
+<!ENTITY hexColor.label "Heksa:">
+<!ENTITY nameColor.label "Nimi:">
+<!ENTITY cpUseThemeDef.label "Käytä teeman oletusta">
+<!ENTITY openOpt.label "Asetukset">
+<!ENTITY hideDownbar.label "Piilota palkki">
+<!ENTITY allDownloads.label "Lataustoiminnot">
+<!ENTITY openDLHist.label "Lataushistoria">
+<!ENTITY stoppedDL.label "Pysäytetty lataus:">
+<!ENTITY transparency.label "Läpinäkyvyys">
+<!ENTITY background.label "Tausta:">
+<!ENTITY background.accessKey "S">
+<!ENTITY table.label "Tarjotin">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Solu(t)">
+<!ENTITY cell.accessKey "S">
+<!ENTITY lastPickedColor.label "Viimeksi valittu väri">
+<!ENTITY lastPickedColor.accessKey "V">

@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Dừng hoàn toàn Tất cả">
+<!ENTITY resumeAll.label "Tiếp tục Tất cả">
+<!ENTITY pauseAll.label "Tạm dừng Tất Cả">
+<!ENTITY cancelAll.label "Hủy bỏ Tất cả Những phần đang được tiến hành">
+<!ENTITY removeAll.label "Xóa trắng Tất cả Những phần đã hoàn thành">
+<!ENTITY copySource.label "Chép URL nguồn">
+<!ENTITY visitSource.label "Vào trang nguồn">
+<!ENTITY stopOne.label "Dừng">
+<!ENTITY pauseOne.label "Tạm dừng">
+<!ENTITY cancelOne.label "Hủy bỏ">
+<!ENTITY resumeOne.label "Tiếp tục">
+<!ENTITY properties.label "Thuộc tính">
+<!ENTITY delete.label "Xóa khỏi hệ thống">
+<!ENTITY remove.label "Xóa khỏi thanh">
+<!ENTITY show.label "Mở thư mục chứa">
+<!ENTITY open.label "Mở">
+<!ENTITY start.label "Bắt đầu">
+<!ENTITY rename.label "Đổi tên">
+<!ENTITY fromTip.label "Từ:">
+<!ENTITY toTip.label "Đến:">
+<!ENTITY statusTip.label "Trạng thái:">
+<!ENTITY timeTip.label "Thời gian Còn lại:">
+<!ENTITY percentTip.label "&#37; Hoàn tất:">
+<!ENTITY sizeTip.label "Dung lượng Tập tin:">
+<!ENTITY timeCompleteTip.label "Thời gian để Hoàn tất:">
+<!ENTITY avgSpeedTip.label "Tốc độ Trung bình:">
+<!ENTITY numFinishedTip.label "Những phần đã Hoàn thành:">
+<!ENTITY sizeFinishedTip.label "Dung lượng Những phần đã hoàn thành:">
+<!ENTITY numCurrentTip.label "Tập tin Đang tải:">
+<!ENTITY totalSpeedTip.label "Tốc độ Tổng:">
+<!ENTITY totalTimeTip.label "Tổng thời gian Còn lại:">
+<!ENTITY toMiniTip.label "Chuyển qua Chế độ Mini:">
+<!ENTITY toFullTip.label "Chuyển qua Chế độ Đầy đủ:">
+<!ENTITY downloadsCap.label "Tải">
+<!ENTITY clear.label "Xóa">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Chế độ Đầy đủ">
+<!ENTITY pTitle.label "Tùy chọn cho Download Statusbar">
+<!ENTITY pGeneral.label "Tổng quát">
+<!ENTITY pStatusMode.label "Chế độ Thanh trạng thái">
+<!ENTITY pFullMode.label "Chế độ đầy đủ">
+<!ENTITY pMiniMode.label "Chế độ mini">
+<!ENTITY pFeatures.label "Tính năng">
+<!ENTITY pLaunchClose.label "Tự động tải tiếp các tập tin trong cửa sổ quản lí tải khi trình duyệt đóng">
+<!ENTITY pClearFin.label "Xóa những phiên đã hoàn thành khi trình duyệt đóng">
+<!ENTITY pConfirm.label "Xác nhận trước khi xóa một tập tin khỏi hệ thống">
+<!ENTITY pRmvOpen.label "Xóa một tập tin đã tải sau khi mở nó">
+<!ENTITY pRmvShow.label "Xóa một tập tin đã tải sau khi mở thư mục">
+<!ENTITY pSupAlert.label "Hiện thông báo 'Tải xuống Hoàn tất' (Nên tắt)">
+<!ENTITY pAutoClear.label "Tự động xóa các kiểu tập tin này">
+<!ENTITY pAfter.label "sau">
+<!ENTITY pSeconds.label "giây">
+<!ENTITY pIgnore.label "Bỏ qua các kiểu tập tin này">
+<!ENTITY pFiletypesHelp.label "(Nhập * cho tất cả, bỏ trống để không chọn)">
+<!ENTITY pHistory.label "Lược sử Tải xuống">
+<!ENTITY pCloseHist.label "(Khi trình duyệt đóng)">
+<!ENTITY pKeepHist.label "Giữ lược sử tải xuống">
+<!ENTITY pTrimHist.label "Cắt gọn lược sử tải xuống còn">
+<!ENTITY pDlItems.label "phiên tải xuống">
+<!ENTITY pPlaySound.label "Phát tiếng khi việc tải hoàn tất">
+<!ENTITY pCheckmarkSound.label "Chiếu tướng!">
+<!ENTITY pCustomSound.label "[Chọn tập tin .WAV...]">
+<!ENTITY pSoundExceptFiletypes.label "Ngoại lệ cho kiểu tập tin:">
+<!ENTITY pQueue.label "Chế độ Xếp hàng">
+<!ENTITY pQueEna.label "Bật chế độ Xếp hàng">
+<!ENTITY pQueDownload.label "Chỉ tải">
+<!ENTITY pQueFiles.label "tập tin cùng lúc">
+<!ENTITY pAppearance.label "Diện mạo">
+<!ENTITY pDefaultStyle.label "Style mặc định">
+<!ENTITY pCustomStyle.label "Style tùy biến">
+<!ENTITY pResetCustom.label "Thiết lập lại Tùy biến">
+<!ENTITY pProgNotify.label "Thông báo Tiến trình">
+<!ENTITY pDispPer.label "Phần trăm tiến trình">
+<!ENTITY pDispSpeed.label "Tốc độ tải">
+<!ENTITY pDispSize.label "Dung lượng đã tải">
+<!ENTITY pDispTime.label "Thời gian Còn lại">
+<!ENTITY pTextSize.label "Cỡ chữ">
+<!ENTITY pFileText.label "Kích thước tên tập tin:">
+<!ENTITY pProgNotiText.label "Kích thước của Thông báo Tiến trình:">
+<!ENTITY pDLItemSize.label "Kích thước của Mục được Tải xuống:">
+<!ENTITY pWidth.label "Rộng:">
+<!ENTITY pHeight.label "Cao:">
+<!ENTITY pColors.label "Màu sắc">
+<!ENTITY pLeaveBlank.label "(bỏ trống cho theme mặc định)">
+<!ENTITY pProgBar.label "Thanh tiến trình">
+<!ENTITY pProgRemain.label "Phần còn lại của Tiến trình">
+<!ENTITY pFinishedBox.label "Đã hoàn tất tải xuống">
+<!ENTITY pStoppedBox.label "Đã dừng tải xuống">
+<!ENTITY pPausedOutline.label "Tạm dừng Outline">
+<!ENTITY pTextColor.label "Văn bản">
+<!ENTITY pStatusBack.label "Nền thanh trạng thái">
+<!ENTITY pUseGradients.label "Dùng đường dốc màu">
+<!ENTITY pUseAnimation.label "Dùng hình động">
+<!ENTITY pShowButtons.label "Hiện những nút này:">
+<!ENTITY pDownloadsButton.label "Nút tải chính">
+<!ENTITY pClearButton.label "Nút xóa những phần đã hoàn thành">
+<!ENTITY pToMiniButton.label "Nút chế độ mini/đầy đủ">
+<!ENTITY pSpeedColors.label "Màu cho Tốc độ">
+<!ENTITY pEnableSC.label "Bật chế độ màu cho tốc độ">
+<!ENTITY pBetween.label "Giữa">
+<!ENTITY pAnd.label "và">
+<!ENTITY pkbSec.label "KB/giây">
+<!ENTITY pMoreThan.label "Hơn">
+<!ENTITY pVScan.label "Quét Virus">
+<!ENTITY pShouldScan.label "Quét thủ công các phần tải đã hoàn tất">
+<!ENTITY pExclude.label "Không quét các kiểu tập tin này">
+<!ENTITY pAVLoc.label "Địa chỉ của chương trình diệt virus">
+<!ENTITY pArgs.label "Tham số">
+<!ENTITY pAVdesc.label "(Dùng &#37;1 trong các tham số để quét tập tin)">
+<!ENTITY pAbout.label "Giới thiệu">
+<!ENTITY pOK.label "OK">
+<!ENTITY pApply.label "Áp dụng">
+<!ENTITY pCancel.label "Hủy bỏ">
+<!ENTITY previewColour.label "Xem trước">
+<!ENTITY cpWinTitle.title "Bắt màu">
+<!ENTITY predef.label "Màu định trước:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Đỏ:">
+<!ENTITY green.label "Xanh lá:">
+<!ENTITY blue.label "Xanh dương:">
+<!ENTITY hue.label "Sắc độ:">
+<!ENTITY saturation.label "Bão hòa:">
+<!ENTITY brightness.label "Độ sáng:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Tên:">
+<!ENTITY cpUseThemeDef.label "Dùng giao diện Mặc định">
+<!ENTITY openOpt.label "Tùy chọn...">
+<!ENTITY hideDownbar.label "Ẩn thanh tải">
+<!ENTITY allDownloads.label "Thao tác tải">
+<!ENTITY openDLHist.label "Lược sử Tải xuống">
+<!ENTITY stoppedDL.label "Đã dừng tải:">
+<!ENTITY transparency.label "Trong suốt">
+<!ENTITY background.label "Nền cho:">
+<!ENTITY background.accessKey "N">
+<!ENTITY table.label "Bảng biểu">
+<!ENTITY table.accessKey "B">
+<!ENTITY cell.label "Ô">
+<!ENTITY cell.accessKey "O">
+<!ENTITY lastPickedColor.label "Màu mới được bắt">
+<!ENTITY lastPickedColor.accessKey "M">

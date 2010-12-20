@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Download Statusbar Hakkında">
+<!ENTITY introTab.label "Tanıtım">
+<!ENTITY by.label "Eklenti Yazarı: Devon Jensen">
+<!ENTITY version.label "Sürüm">
+<!ENTITY tagLine.label "Mozilla Firefox için yapılan bu eklenti indirdiğiniz dosyaları ufak bir durum çubuğunda görmenizi ve indirme işlemlerinizi kolay bir biçimde yönetmenizi sağlar.">
+<!ENTITY ifNew.label "Download Statusbar eklentisini henüz yeni kullanıyorsanız lütfen bu eklentiyi nasıl kullanacağınızı anlatan bu bilgiyi okumaya devam edin.">
+<!ENTITY toView.label "Bu yardım ekranını ileride tekrar görüntülemek için,">
+<!ENTITY pressAbout.label "Download Statusbar ayarlarına giderek &apos;Hakkında&apos; butonuna basmanız gerekecek.">
+<!ENTITY donateText.label "Dürüst olmak gerekirse, bu eklentiyi oluşturmak, yönetmek ve desteklemek için çok vakit harcadım. Eğer işinize yarıyor ve Firefox&apos;unuzu daha kullanışlı hale getiriyorsa bağış yapmayı düşünebilirsiniz. (Paypal hesabı zorunlu değil. Kredi kartları kabul edilir.)">
+<!ENTITY donate.label "Bağışta Bulunun">
+<!ENTITY majorRelease.label "Yeni Ana Sürüm!">
+<!ENTITY changelog.label "Yeniliklere bir göz atın">
+<!ENTITY whatNewTab.label "Bu Sürümdeki yenilikler">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "İpuçları">
+<!ENTITY tip1Title.label "Geçici Görüntüleme Konumu">
+<!ENTITY tip1.label "Download Statusbar sürmekte ve bitmiş olan indirmeleriniz için geçici bir görüntüleme konumu teşkil eder.  Bunu, otomatik temizleme seçeneği ile yahut da daha fazla görmenize gerek olmayan indirmeleri elle kaldırarak temiz tutabilirsiniz. İndirmeler çoğalıp ufalarak yanyana tepiştiğinde hangisinin hangisi olduğunu bilemeyince pek yararı dokunmayacaktır. Bütün indirme geçmişinize Firefox&apos;un kendi indirme yöneticisi (Araçlar | İndirmeler) vasıtasıyla her zaman ulaşabilirsiniz. Tamamlanan indirmelerinizi temizlemenin kolay yolları için okumaya devam edin.">
+<!ENTITY tip2Title.label "Sık İşlemler için Kısayollar">
+<!ENTITY tip2.label "Bir indirmeyi yönetme işlemlerinin bir listesine ona sağ tıklayarak ulaşabilirsiniz fakat sık işlemlere ulaşmanın daha hızlı birkaç yolu da var:">
+<!ENTITY tip2a.label "- Tek bir tane tamamlanmış indirmeyi temizlemek için üzerine orta tıklayın. (farede orta tuş, tekerleğe basmak şeklindedir.)">
+<!ENTITY tip2b.label "- TÜM bitmiş indirmeleri temizlemek için, çubuğun herhangi bir boş yerine çift tıklayın.">
+<!ENTITY tip2c.label "- İndirilmiş dosyayı açmak için üzerine çift tıklayın.">
+<!ENTITY tip2d.label "- Tamamlanmış bir indirmeyi silmek için, CTRL tuşunu basılı tutup üzerine orta tuşla tıklayın.">
+<!ENTITY tip2e.label "- Sürmekte olan indirmeyi duraklatmak veya devam ettirmek için üzerine (bir kez) sol tıklayın.">
+<!ENTITY tip2f.label "- İndirilmiş bir dosyayı yeniden adlandırmak için, SHIFT tuşunu basılı tutup üzerine sol tıklayın.">
+<!ENTITY tip3Title.label "Araç İpuçları">
+<!ENTITY tip3.label "Bazen bir indirme hakkında daha ayrıntılı bilgi istersiniz. Bir indirmenin istatistikleri için, fare imlecini indirmenin üzerine konumlandırın ve araç ipucunun görünmesi için biraz bekleyin. Sürmekte olan indirmelerde, indirme hızı, indirlmiş boyut ve kalan zaman gibi bilgilerin gözüktüğü sürekli güncellenen bir araç ipucu gösterilecektir. Tamamlanmış indirmelerde ise dosyanın nereye kaydediliği, boyutu, indirilmesinin ne kadar sürdüğü ve ortalama hızı gözükecektir.">
+<!ENTITY tip4Title.label "Animasyonlar">
+<!ENTITY tip4.label "Yönetim işlemlerinin hızlanması için animasyonları kapatın. Animasyonlar, indirmenize ne olduğu ile ilgili değerli geri dönüşler sunabilir (Örneğin, kırmızı bir X indirilmiş bir dosyayı silmeyi talep ettiğinizi belirtir), fakat aynı zamanda çalışmanızı yavaşlatacaktır. Animasyonları geçici olarak durdurmak için, indirmeyi elle kaldırırken SHIFT tuşunu basılı tutabilirsiniz. Ayrıca, about:config sayfasındaki &apos;downbar.function.useAnimation&apos; ayarı ile bunları tamamen kapatmanız mümkün.">
+<!ENTITY tip5Title.label "-">
+<!ENTITY tip5.label "-">
+<!ENTITY tip6Title.label "Bir Kerede Birkaç İndirmeyi Yönetmek">
+<!ENTITY tip6.label "Çubuğun boş bir yerine (veya Mini kip butonuna) sağ tıklamak, birkaç indirmeyi birden yönetmek için seçenekler sunacaktır. Tüm bitmiş indirmeleri kaldırabilir ve sürmekte olan indirmeleri duraklatabilir, durdurabilir veya iptal edebilirsiniz. Ayrıca Tam kip ile Mini kip arasında geçiş yapabilirsiniz.">
+<!ENTITY tip7Title.label "Mini Kip">
+<!ENTITY tip7.label "İndirmelerin listesini görüntülemek için, Firefox durum çubuğundaki mini kip indirme butonuna sol tıklayın. İndirmeler görüntüye geldiğinde, onları bildiğiniz şekilde yönetebilirsiniz - yönetim işlemleri için sağ tık, temizlemek için orta tık, vs. Birkaç indirmeyi aynı anda yönetme seçenekleri için mini kip butonuna sağ tıklayın. İndirme listesinde hiçbir şey yoksa indirme butonu gizlenecektir.">
+<!ENTITY prefsTab.label "Seçenekler Yardımı">
+<!ENTITY general.label "Genel Sekme">
+<!ENTITY pref1Title.label "İlerleme Uyarıları">
+<!ENTITY pref1.label "- Sürmekte olan indirmeler, indirmenin kendisindeki küçük metinde güncellenmekte olan daha ayrıntılı bilgi taşıyabilirler. Hangi uyarıları almak ve almamak istediğinizi belirleyin. Varsayılan indirme boyutuna iki tanesi sığabilmelidir ama metin boyutunu Görünüm sekmesinden değiştirebilirsiniz.">
+<!ENTITY pref2Title.label "Kip">
+<!ENTITY pref2.label "- Tam kip (ayrı durum çubuğu) veya Mini kip (Firefox&apos;un durum çubuğuna tümleşik) seçin. Hangisinin en iyisi olduğunu görmek için herbirini deneyin.">
+<!ENTITY pref3Title.label "İndirme geçmişi tut">
+<!ENTITY pref3.label "- Varsayılan olarak, Firefox indirme yöneticisinde tüm indirmelerinizin geçmişini tutar. Seçilmediği takdirde bu ayar, durum çubuğundan kaldırıldığı anda indirmeyi geçmişten de kaldıracaktır. Not: Bunun düzgün çalışması için, eklentinin Firefox&apos;taki &apos;browser.download.manager.retention&apos; ayarının kontrolünü üzerine alması gerekmektedir.">
+<!ENTITY pref4Title.label "İndirme geçmişini sınırla...">
+<!ENTITY pref4.label "- Bir müddet sonra, indirme geçmişi şişebilir ve Firefox&apos;u yavaşlatabilir. Bu ayar ile, Firefox kapandığında liste budanacak ve yönetilebilir bir boyutta tutulacak. Not: Bu özellik Download Statusbar&apos;dadır ancak çubuğun kendisini doğrudan etkilemez.">
+<!ENTITY pref5Title.label "İndirmeleri otomatik devam ettir...">
+<!ENTITY pref5.label "- Eğer sürmekte olan indirmeleriniz varsa ve Firefox&apos;u kapatmaya çalışırsanız, tüm indirmeleri iptal etme yönünde bir uyarı alırsınız. Bu özelliği kullandığınız takdirde, onun yerine Firefox&apos;un indirme yöneticisi açılacak ve tarayıcı penceresi kapansa bile indirmeye devam edecektir.">
+<!ENTITY pref6Title.label "Tarayıcı kapandığında tamamlanmış indirmeleri temizle">
+<!ENTITY pref6.label "- Çubuktan tüm bitmiş indirmeleri temizler ancak indirmeleri indirme yöneticisi geçmişinden kaldırmaz. Bunun, indirilmiş dosyanın kendisine bir etkisi yoktur.">
+<!ENTITY pref7Title.label "Silmeden önce onay al...">
+<!ENTITY pref7.label "- Bu, bir dosya gerçek anlamda silinmeden önce bir onay iletisinin görüntülenmesini sağlar. Dosyayı sildiğinizde bunu geri getirmenin (yeniden indirmekten başka) bir yolu yoktur.">
+<!ENTITY pref8Title.label "Dosyayı açtıktan sonra indirmeyi temizle">
+<!ENTITY pref8.label "- İndirmeyi indirme yöneticisi geçmişinden kaldırmaz.">
+<!ENTITY pref9Title.label "İçeren klasör açıldığında tamamlanan indirmeyi temizle">
+<!ENTITY pref9.label "- İndirmeyi indirme yöneticisi geçmişinden kaldırmaz.">
+<!ENTITY pref10Title.label "&apos;İndirmeler Tamamlandı&apos; uyarısı göster">
+<!ENTITY pref10.label "- Bu aslında Firefox&apos;un içinde gelen bir özellik ancak buna ulaşmanın hiçbir kolay bir yolu yok. Kapalı durması tavsiye olunur çünkü Download Statusbar kullanırken buna pek de gerek yok.">
+<!ENTITY pref11Title.label "Bu dosya türlerini yoksay">
+<!ENTITY pref11.label "- Bu dosya türleri indirilirken Download Statusbar&apos;da gözükmeyecekler fakat Firefox&apos;un indirme geçmişine kaydedilecekler. Her dosya türü virgülle ayrılmalıdır, boşluklar dikkate alınmayacaktır. Örnek: &apos;jpg, jpeg, png, gif&apos; (tırnaklar hariç)">
+<!ENTITY pref12Title.label "Bu dosya türlerini otomatik temizle...">
+<!ENTITY pref12.label "- Bir indirme tamamlandığında, çubuktan temizlenmesi için geçecek süreyi ayarlamanızı sağlar. Bu işinize yarar çünkü indirmenin başarılı olduğunu görmenizi sağlar, fakat istemedikçe de ayarlamanızın pek gereği yok. Her dosya türü virgülle ayrılmalıdır, boşluklar dikkate alınmayacaktır. Örnek: &apos;jpg, jpeg, png, gif&apos; (tırnaklar hariç). Eğer tüm dosyaların otomatik temizlenmesini dilerseniz, yalnızca * girin.">
+<!ENTITY pref13Title.label "İndirme tamamlanınca ses çal">
+<!ENTITY pref13.label "- Bir indirme tamamlandığında çalınacak öntanımlı veya kendi istediğiniz bir .WAV ses dosyasını belirleyin. Belirli dosya türleri için sesin çalınmasını istemiyorsanız, bunları kutuya girin. Örnek: &apos;jpg, jpeg, png, gif&apos; (tırnaklar hariç)">
+<!ENTITY appearance.label "Görünüm Sekmesi">
+<!ENTITY pref14Title.label "Varsayılan veya Özel Tarz">
+<!ENTITY pref14.label "- &apos;Özel Tarz&quot; seçildiğinde tüm renk seçiciler ve boyut kutuları açılacak. &apos;Varsayılan Tarz&quot; seçilerek hemen özgün tarza dönülebilir ancak özel tarz ayarları halen kayıtlı tutulacaktır.">
+<!ENTITY pref15Title.label "Renkler">
+<!ENTITY pref15.label "- Renk kutusuna tıklayarak o öge için renk seçici pencerenin açılmasını sağlayabilirsiniz. Palet üzerine tıklayıp sürükleyerek istediğiniz rengi bulun ya da öntanımlı renklerden birini seçin. Bir rengin tıpkısını çıkarmak isterseniz Hex değerini kopyalayın ve bunu bir sonraki renk seçiciye elle girin. Ayrıca &apos;Varsayılan Temayı Kullan&apos; butonuna tıklayarak önceki renk seçimini boşaltabilir ve temanın varsayılan rengine dönebilirsiniz. Bu genelde yalnızca Metin ve Çubuk Arkaplan renkleri için yararlıdır.">
+<!ENTITY pref16Title.label "Renk Eğimlerini Kullan">
+<!ENTITY pref16.label "- Seçilirse, arkaplan rengi üzerine beyazdan-siyaha bir görüntü yayarak indirme ögelerinize hoş bir 3D hissi verecektir. Hem varsayılan hem de özel tarzlarda çalışır.">
+<!ENTITY pref17Title.label "Animasyon Kullan">
+<!ENTITY pref17.label "- İndirme yönetme işlemlerinden birkaçının ilgili animasyonu mevcut. Animasyonlar genelde kısa ve umarız ki iğrenç değil, ama kapatılabilir.">
+<!ENTITY pref18Title.label "Bu butonları göster:">
+<!ENTITY pref18.label "Ana indirme butonları yani temizleme butonu (Tümünü Tamamlananları Temizle) ve mini butonunun (Mini Kipe Geç) gözükeceğini belirleyin.">
+<!ENTITY pref19Title.label "Hız Renkleri">
+<!ENTITY pref19.label "- Bunu açmak, sürmekte olan indirmelerin rengini hızlarına göre dinamik olarak değiştirir. Böylelikle rengine bakarak indirmenin ne kadar hızlı olduğunu &apos;görme&apos; fırsatı yakalarsınız. Öncelikle, hız renklerini açın. Sonra, internet bağlantı türünüze bağlı olarak makul hızlı aralıkları belirleyin. (Varsayılan ayarkar kablo modem hızını temel alır) Son olarak, her hız aralığını ayarlamak üzere renk kutularına tıklayın. Bu özelliğin kullanılabileceği birkaç yol var. Bir fikir şöyle: hızlı olanların yavaşlardan daha parlak gözükmesi. Diğer bir düşünce: en yüksek 3 hız aralığının aynı (farksız) rengi göstermesi fakat en yavaş aralığının uyaran bir renk taşıması, böylece mesela bir indirme 10 KB/s hızının altına düştüğünde ilerleme çubuğu kırmızıya döner.">
+<!ENTITY virusScan.label "Virüs Tarama Sekmesi">
+<!ENTITY pref20Title.label "Tamamlanan indirmeleri elle tarat">
+<!ENTITY pref20.label "- Özelliği açmak için seçili duruma getirin. Özellik çalışmadan önce Anti-Virüs Özellik Anlaşması&apos;nı kabul etmelisiniz.">
+<!ENTITY pref21Title.label "Bu dosya türlerini tarama">
+<!ENTITY pref21.label "- Her dosya türü virgülle ayrılmalıdır, boşluklar dikkate alınmayacaktır. Örnek: &apos;jpg, jpeg, png, gif&apos; (tırnaklar hariç)">
+<!ENTITY pref22Title.label "Anti-virüs programı konumu">
+<!ENTITY pref22.label "- Elle tarama için komut satırı istemlerini kabul eden bir anti-virüs programının kurulu olması gerekmektedir. &apos;...&apos; butonuna tıklayarak dosya sisteminden programı bulun.">
+<!ENTITY pref23Title.label "Parametreler">
+<!ENTITY pref23.label "- Anti-virüs programınıza mahsus gerekli veya opsiyonel parametreleri girin. &#37;1 taratılacak dosyaları temsil eder (eskiden bu [Path] idi) ve parametrelerin içinde bir yerde bulunmalıdır. Çoğu program, &#37;1 tek parametre olduğunda çalışır. Programınızla hangi parametrelerin kullanıldığını bilmek için Anti-Virüs yazılımının belgelerine başvurunuz.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Kapat">
+<!ENTITY openPref.label "Eklenti Seçeneklerini Aç">
+<!ENTITY support.label "Bu eklentiyi destekleyin -">
+<!ENTITY donate2.label "Bağışta Bulunun!">
+<!ENTITY credits.label "Künye">
+<!ENTITY transFor.label "Yerelleştirme için">
+<!ENTITY currLocale.label "tr-TR">
+<!ENTITY locale.label "çevirisi:">
+<!ENTITY translatorName.label "Hasan Ateş ve Serdar Yavuz">
+<!ENTITY projectHost.label "Proje web barındırması:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Programlama ve Tasarım:">
+<!ENTITY soundsBy.label "Sesler:">
+<!ENTITY soundPeople.label "Dallin Jensen ve Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tip:">
+<!ENTITY uniblueLink.label     "Click here to scan for System Errors and Optimize PC Performance">

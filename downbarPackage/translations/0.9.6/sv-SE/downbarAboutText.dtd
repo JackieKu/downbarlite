@@ -1,0 +1,113 @@
+<!ENTITY aboutTitle.label "Om Download Statusbar">
+<!ENTITY introTab.label "Introduktion">
+<!ENTITY by.label "Av Davon Jensen">
+<!ENTITY version.label "Version">
+<!ENTITY tagLine.label "Det här webbläsartillägget låter dig se och hantera filhämtningar från en ordnad statusrad.">
+<!ENTITY ifNew.label "Om du är ny med Download Statusbar, var god fortsätt läsa för information om hur man använder det här tillägget.">
+<!ENTITY toView.label "För att visa den här hjälpskärmen igen i framtiden,">
+<!ENTITY pressAbout.label "du kommer att behöva gå till Download Statusbars inställningar, och trycka &apos;Om&apos;-knappen.">
+<!ENTITY donateText.label "För att vara ärlig, spenderar jag mycket tid åt att skapa, underhålla, och stödja det här tillägget.">
+<!ENTITY donate.label "Donera">
+<!ENTITY majorRelease.label "Stor utgåva!">
+<!ENTITY changelog.label "Se vad som är nytt">
+<!ENTITY whatNewTab.label "Nytt i den här versionen">
+<!ENTITY new1.label "-">
+<!ENTITY new2.label "-">
+<!ENTITY new3.label "-">
+<!ENTITY new4.label "-">
+<!ENTITY new5.label "-">
+<!ENTITY new6.label "-">
+<!ENTITY new7.label "-">
+<!ENTITY new8.label "-">
+<!ENTITY new9.label "-">
+<!ENTITY new10.label "-">
+<!ENTITY new11.label "-">
+<!ENTITY hintsTab.label "Tips och trick">
+<!ENTITY tip1Title.label "Temporär visningsplats">
+<!ENTITY tip1.label "Download Statusbar är menad att vara en tillfällig visningsplats för dina pågående och nyligen färdiga filhämtningar. Håll den ren genom att ställa in inställningen automatborttagning, eller genom att manuellt ta bort färdiga filhämtningar du inte längre behöver. Det är mycket mindre användbart när filhämtningarna blir ihoptryckta så små att man inte kan veta vilken som är vilken. Du kan alltid se din kompletta filhämtningshistorik genom att öppna upp Firefox egen medföljande filhämtningshanterare (Verktyg | Filhämtaren). Fortsätt läsa för fler tips på lätt sätt att ta bort färdiga filhämtningar.">
+<!ENTITY tip2Title.label "Kortkommandon för vanliga handligar">
+<!ENTITY tip2.label "Du kan få en lista av handlingar för att hantera en filhämtning genom att högerklicka på den, men det finns flera snabbare sätt att utföra vanliga handlingar:">
+<!ENTITY tip2a.label "- För att ta bort en enskild filhämtning, klicka med mittenknappen. (På de flesta möss görs det genom att trycka ner mushjulet.">
+<!ENTITY tip2b.label "- För att tömma ALLA färdiga filhämtningar, dubbelklicka på en tom del av statusfältet.">
+<!ENTITY tip2c.label "- För att öppna en färdig filhämtning, dubbelklicka på den.">
+<!ENTITY tip2d.label "- För att ta bort en färdig filhämtning, håll ner ctrl-tangenten och mittenklicka sedan på den.">
+<!ENTITY tip2e.label "- Fär att göra paus eller fortsätta filhämtning, enkelklicka med vänsterknappen på den.">
+<!ENTITY tip2f.label "- För att byta namn på en färdig filhämtning, håll ner skift-tangenten och vänsterklicka på den.">
+<!ENTITY tip3Title.label "Verktygstips">
+<!ENTITY tip3.label "Ibland vill man bara ha mer detaljerad information om en filhämtning. För att visa filhämtningens statistik, positionera din muspekare över en filhämtning och vänta en liten stund för verktygstipset att dyka upp. Pågående filhämtningar kommer att visa ett kontinuerligt uppdaterat verktygstips med information som nuvarande hastighet, storlek som hämtats och återstående tid. Färdiga filhämtningar kommer att visa information som var den hämtade filen sparats, dess storlek, hur lång tid filhämtningen tog, och medelhastighet.">
+<!ENTITY tip4Title.label "Animeringar">
+<!ENTITY tip4.label "Hoppa över animeringar för att öka hastigheten på hanteringsåtgärder. Animeringar kan tillhandahålla värdefull återkoppling om vad som händer med din filhämtning (Till exempel, ett rött X indikerar när du har begärt att ta bort en färdig filhämtning), men de kan också göra dig långsammare. Du kan hålla nere skift medan du manuellt tar bort en filhämtning för att tillfälligt stanna animeringarna. Do kan också stänga av de helt med inställningen &apos;downbar.function.useAnimation&apos; i about:config">
+<!ENTITY tip5Title.label "-">
+<!ENTITY tip5.label "-">
+<!ENTITY tip6Title.label "Hantera flera filhämtningar på samma gång">
+<!ENTITY tip6.label "Att högerklicka på en tom del av statusraden (eller på knappen för Mini-läge) tillhandahåller inställningar för hantering av flera filhämtningar på samma gång. Ta bort alla färdiga filhämtningar, och gör paus, stanna eller avbryt alla pågående filhämtningar. Du kan också byta mellan Fullt läge och Mini-läge">
+<!ENTITY tip7Title.label "Mini-läge">
+<!ENTITY tip7.label "För att visa listan över filhämtningar, vänsterklicka på filhämtningsknappen i mini-läge i Firefox statusfält. När filhämtningarna har dykt up, kan du hantera dem på det vanliga viset - högerklicka för att få hanteringsalternativ, mittenklicka för att ta bort etc. Högerklicka på mini-lägesknappen för att få fram inställningarna för att hantera flera nerladdningar samtidigt. Nedladdningsknappen kommer att vara dold om det inte finns något i filhämtningslistan">
+<!ENTITY prefsTab.label "Inställningshjälp">
+<!ENTITY general.label "Fliken &quot;Allmänt&quot;">
+<!ENTITY pref1Title.label "Underrättelser om förlopp">
+<!ENTITY pref1.label "- Pågående filhämtningar kan ha mer detaljerad information uppdaterad i liten text på själva filhämtningen. Välj vilka underrättelser du skulle vilja se eller välj inga alls. Två borde få plats med standardstorleken på filhämtningen, men du kan ändra textstorleken i fliken &quot;Utseende&quot;.">
+<!ENTITY pref2Title.label "Läge">
+<!ENTITY pref2.label "- Välj fullt läge (separat statusfält) eller Mini-läge (integrerad i Firefox statusfält). Prova båda för att se vilken du gillar mest.">
+<!ENTITY pref3Title.label "Behåll historik över filhämtning">
+<!ENTITY pref3.label "- Som standard behåller Firefox en historik över alla dina filhämtningar i filhämtaren. När den här inställningen är avkryssad, kommer en filhämtning att tas bort från historiken när den tas bort från statusraden. Notera: för att det här ska fungera korrekt, måste det här Firefox-tillägget ta kontroll över Forefox-inställningen &apos;browser.download.manager.retention&apos;">
+<!ENTITY pref4Title.label "Justera filhämtningshistoriken...">
+<!ENTITY pref4.label "- Efter ett tag kan listan över filhämtningshistoriken bli väldigt lång och göra Firefox långsamt. Använd det här för att justera listan varje gång Firefox stängs för att behålla listan till en hanterbar storlek. Notera: den här funktionen ligger i Download Statusbar, men påverkar inte direkt statusfältet i sig självt.">
+<!ENTITY pref5Title.label "Återuppta filhämtningar automatiskt...">
+<!ENTITY pref5.label "- Om du har pågående filhämtningar och du försöker stänga Firefox kommer det dyka upp en varning om att avbryta filhämtningarna. Med den här funktionen kommer Firefox filhämtare dyka upp istället och fortsätta hämta filerna även om webbläsarfönstret har stängts.">
+<!ENTITY pref6Title.label "Töm färdiga filhämtningar när webbläsaren avslutas">
+<!ENTITY pref6.label "- Tömmer de färdiga filhämtningarna från statusfältet, men tar inte bort dem från filhämtarens historik. Det här påverkar inte hämtade filerna.">
+<!ENTITY pref7Title.label "Bekräfta före borttagning...">
+<!ENTITY pref7.label "- Det här framkallar ett bekräftelsemeddelande innan filen faktisk tas bort. När du har tagit bort en fil finns det inget sätt att få den tillbaka (förutom att hämta den igen).">
+<!ENTITY pref8Title.label "Rensa bort en färdig filhämtning efter att ha öppnat den">
+<!ENTITY pref8.label "- Tar inte bort filhämtningen från filhämtarens historik.">
+<!ENTITY pref9Title.label "Rensa en färdig filhämtning efter att ha öppnat innehållande katalog">
+<!ENTITY pref9.label "- Tar inte bort filhämtningen från filhämtarens historik.">
+<!ENTITY pref10Title.label "Visa underrättelsen &quot;Filhämtning färdig&quot;">
+<!ENTITY pref10.label "- Det här är faktiskt en inställning inbyggd i Firefox, men det finns inget lätt sätt att komma åt den. Rekommenderas att vara avstängd då den egentligen inte är nödvändig vid användning av Download Statusbar">
+<!ENTITY pref11Title.label "Ignorera de här filtyperna">
+<!ENTITY pref11.label "- När de här filtyperna hämtas, kommer de inte visas på Download Statusbar alls, men de kommer ändå att finnas i Firefox historik över nedladdning. Varje filtyp ska separeras med ett komma och mellanslag spelar ingen roll. Exempel: &quot;jpg, jpeg, png, gif&quot; (utan citattecket)">
+<!ENTITY pref12Title.label "Töm automatiskt de här filtyperna...">
+<!ENTITY pref12.label "- När en filhämtning blir färdig, kommer det här att sätta en timer för att tömma statusfältet efter ett givet antal sekunder. Det här är användbart eftersom du kan se att filhämtningen lyckades, men du behöver inte hantera den om du inte vill. Varje filtyp ska separeras med ett komma och mellanslag spelar ingen roll. Exempel: &quot;jpg, jpeg, png, gif&quot; (utan citattecket). Om du vill att alla filer ska tömmas automatiskt, skriv bara *">
+<!ENTITY pref13Title.label "Spela ett ljud när filhämtning är färdig">
+<!ENTITY pref13.label "- Välj ett förbestämt ljud eller välj din egen .WAV-fil att spela upp när en filhämtning blir färdig. Om du skulle vilja att ljudet inte spelas upp för specifika filtyper, ange dem i rutan. Exempel: &quot;jpg, jpeg, png, gif&quot; (utan citattecket)">
+<!ENTITY appearance.label "Fliken &quot;Utseende&quot;">
+<!ENTITY pref14Title.label "Standard eller egen stil.">
+<!ENTITY pref14.label "- Väljer man &quot;egen stil&quot; aktiverar man alla färgväljare och storleksrutor. Väljer man &quot;standardstil&quot; gör att du snabbt kan byta tillbaka till den originella stilen, men de egna stilinställningarna är ändå sparade.">
+<!ENTITY pref15Title.label "Färger">
+<!ENTITY pref15.label "- Klicka på en färgruta för att öppna ett färgväljarfönster för det objektet. Klicka och dra runt paletten för att hitta en färg som du gillar eller välj en av de fördefinierade färgerna. Om du vill duplicera en färg, kopiera dess hex-värde och mata in det manuellt i nästa färgväljare. Du kan också trycka på knappen &quot;Använd tema-standard&quot; för att tömma ut ett tidigare färgval och låta temafärgen visas. Det här är i allmänhet bara användbart för textfärg och statusfältets bakgrundsfärg.">
+<!ENTITY pref16Title.label "Använd färggradienter">
+<!ENTITY pref16.label "- Om det här väljs, kommer det att lägga över en vit-till-genomskinlig bild övere bakgrundsfärgen, vilket ger dina filhämtningsobjekt en fin 3D-känsla. Fungerar i både standard och egen stil.">
+<!ENTITY pref17Title.label "Använd animering">
+<!ENTITY pref17.label "- Flera åtgärder för filhämtningshanteringar har motsvarande animeringar. Animeringarna är i allmänhet korta och förhoppningsvis inte irriterande, men de kan stängas av.">
+<!ENTITY pref18Title.label "Visa de här knapparna:">
+<!ENTITY pref18.label "Välj om du vill visa knappen &quot;Filhämtningar&quot;, töm-knappen (rensa alla färdiga), och mini-knappen (byta till Mini-läge)">
+<!ENTITY pref19Title.label "Hastighetsfärger">
+<!ENTITY pref19.label "- Att sätta på det här kommer att dynamiskt ändra färgen på en pågående filhämtning baserat på hur snabbt filhämtningen går. Det här låter dig visuellt &quot;se&quot; hur snabbt en filhämtning går genom att titta på dess färg. Aktivera först hastighetsfärger. Sätt sedan rimliga hastighetsintervall genom att ändra sifforna baserat på din typ av internetanslutning. (Standardinställningarna är baserade på hastigheter på kabelmodem). Klicka slutligen på färgrutorna för varje hastighetsintervall. Det finns flera sätt den här funktionen kan användas. En idé är att göra snabbare filhämtningar ljusare än långsammare filhämtningar. En annan idé är att ha de 3 högsta intervallen visa samma färg (inga ändringar), men att göra det mest långsamma hastighetsintervallet en varningsfärg så att, till exempel, du märker om en filhämtning går under 10 kB/s när förloppsraden blir röd.">
+<!ENTITY virusScan.label "Fliken virus-scanning">
+<!ENTITY pref20Title.label "Scanna färdiga filhämtningar manuellt">
+<!ENTITY pref20.label "- Klicka kryssrutan för att aktivera den här funktionen. Du måste acceptera anti-virus-funktionens licensavtal innan det fungerar.">
+<!ENTITY pref21Title.label "Scanna inte de här filtyperna">
+<!ENTITY pref21.label "- Varje filtyp ska separeras med ett komma, och mellanslag spelar ingen roll. Exempel: &quot;jpg, jpeg, png, gif&quot; (utan citattecket).">
+<!ENTITY pref22Title.label "Anti-virus-programmets plats">
+<!ENTITY pref22.label "- Du måste redan ha ett anti-virus-program installerat som kan ta emot kommandoradsbegäran för en manuell scanning. Tryck på knappen &apos;...&quot; för att leta efter programmet på ditt filsystem.">
+<!ENTITY pref23Title.label "Argument">
+<!ENTITY pref23.label "- Ange alla nödvändiga eller valfria argument specifika för ditt anti-virus-program. &#37;1 representerar filen som kommer att scannas (det här var tidigare [Path]) och borde finnas någonstans i argumenten. Många progra fungerar om &#37;1 är det enda argumentet. Kontrollera dokumenteringen för ditt anti-virus-program för att få reda på vilka argument fungerar för ditt program.">
+<!ENTITY listMarker.label "·">
+<!ENTITY OK.label "Stäng">
+<!ENTITY openPref.label "Öppna utökade inställningar">
+<!ENTITY support.label "Stöd det här tillägget -">
+<!ENTITY donate2.label "Donera!">
+<!ENTITY credits.label "Medarbetare">
+<!ENTITY transFor.label "Textöversättning för">
+<!ENTITY currLocale.label "sv-SE">
+<!ENTITY locale.label "översättning av:">
+<!ENTITY translatorName.label "Johan Fredin">
+<!ENTITY projectHost.label "Projektets webbplats tillhandahålls av:">
+<!ENTITY mozdev.label "Mozdev.org">
+<!ENTITY progAndArtwork.label "Programmering och design av:">
+<!ENTITY soundsBy.label "Ljud skapade av:">
+<!ENTITY soundPeople.label "Dallin Jensen och Devon Jensen">
+
+<!ENTITY uniblueTip.label      "Tips:">
+<!ENTITY uniblueLink.label     "Klicka här för att söka efter systemfel och optimera datorns prestanda">

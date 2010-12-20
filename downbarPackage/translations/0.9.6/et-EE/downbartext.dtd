@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Lõpeta kõik">
+<!ENTITY resumeAll.label "Jätka kõik">
+<!ENTITY pauseAll.label "Pausi kõik">
+<!ENTITY cancelAll.label "Lõpeta kõik käimasolevad">
+<!ENTITY removeAll.label "Puhasta kõik lõpetatud">
+<!ENTITY copySource.label "Kopeeri">
+<!ENTITY visitSource.label "Mine allika kodulehele">
+<!ENTITY stopOne.label "Lõpeta">
+<!ENTITY pauseOne.label "Paus">
+<!ENTITY cancelOne.label "Loobu">
+<!ENTITY resumeOne.label "Naase">
+<!ENTITY properties.label "Omadused">
+<!ENTITY delete.label "Kustuta süsteemist">
+<!ENTITY remove.label "Puhasta ribalt">
+<!ENTITY show.label "Ava faili sisaldav kaust">
+<!ENTITY open.label "Ava">
+<!ENTITY start.label "Käivita">
+<!ENTITY rename.label "Muuda nimi">
+<!ENTITY fromTip.label "Kust:">
+<!ENTITY toTip.label "Kuhu:">
+<!ENTITY statusTip.label "Olek:">
+<!ENTITY timeTip.label "Aega jäänud:">
+<!ENTITY percentTip.label "Allalaaditud (protsenti):">
+<!ENTITY sizeTip.label "Faili suurus:">
+<!ENTITY timeCompleteTip.label "Aega lõpuni:">
+<!ENTITY avgSpeedTip.label "Keskmine kiirus:">
+<!ENTITY numFinishedTip.label "Lõpetatud allalaadimisi:">
+<!ENTITY sizeFinishedTip.label "Lõpetatud allalaadimiste suurus:">
+<!ENTITY numCurrentTip.label "Hetkel allalaaditavad failid:">
+<!ENTITY totalSpeedTip.label "Kiirus kokku:">
+<!ENTITY totalTimeTip.label "Aega jäänud:">
+<!ENTITY toMiniTip.label "Lülitu mini režiimi">
+<!ENTITY toFullTip.label "Lülitu täielikku režiimi">
+<!ENTITY downloadsCap.label "Allalaadimised">
+<!ENTITY clear.label "Puhasta">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Täielik">
+<!ENTITY pTitle.label "Laienduse Download Statusbar eelistused">
+<!ENTITY pGeneral.label "Üldine">
+<!ENTITY pStatusMode.label "Download Statusbari režiim">
+<!ENTITY pFullMode.label "Täielik režiim">
+<!ENTITY pMiniMode.label "Mini režiim">
+<!ENTITY pFeatures.label "Funktsioonid">
+<!ENTITY pLaunchClose.label "Automaatselt jätka allalaadimisi allalaadimiste halduris, kui brauser suletakse">
+<!ENTITY pClearFin.label "Puhasta lõpetatud allalaadimised, kui brauser suletakse">
+<!ENTITY pConfirm.label "Kinnita faili süsteemist kustutamine">
+<!ENTITY pRmvOpen.label "Eemalda lõppenud allalaadmine pärast selle avamist">
+<!ENTITY pRmvShow.label "Eemalda lõppenud allalaadimine pärast kausta avamist">
+<!ENTITY pSupAlert.label "Kuva teavitus &apos;Allalaadimised lõppenud&apos; (Soovitatav: väljas)">
+<!ENTITY pAutoClear.label "Automaatselt eemalda need failitüübid">
+<!ENTITY pAfter.label "pärast">
+<!ENTITY pSeconds.label "sekundit">
+<!ENTITY pIgnore.label "Ignoreeri neid failitüüpe">
+<!ENTITY pFiletypesHelp.label "(Kõigi failitüüpide jaoks sisesta *, mitte ühegi jaoks jäta tühjaks)">
+<!ENTITY pHistory.label "Allalaadimiste ajalugu">
+<!ENTITY pCloseHist.label "(Kui brauser sulgub)">
+<!ENTITY pKeepHist.label "Jäta meelde allalaadimiste ajalugu">
+<!ENTITY pTrimHist.label "Kärbi allalaadimiste ajalugu">
+<!ENTITY pDlItems.label "allalaadimisele">
+<!ENTITY pPlaySound.label "Allalaadimise lõppedes esita heli">
+<!ENTITY pCheckmarkSound.label "Märge!">
+<!ENTITY pCustomSound.label "[Kohandatud .WAV fail...]">
+<!ENTITY pSoundExceptFiletypes.label "Väljaarvatud failitüübid:">
+<!ENTITY pQueue.label "Järjekorra režiim">
+<!ENTITY pQueEna.label "Luba Järjekorra režiim">
+<!ENTITY pQueDownload.label "Laadi alla ainult">
+<!ENTITY pQueFiles.label "faili korraga">
+<!ENTITY pAppearance.label "Välimus">
+<!ENTITY pDefaultStyle.label "Vaikimisi stiil">
+<!ENTITY pCustomStyle.label "Muudetud stiil">
+<!ENTITY pResetCustom.label "Algseadista muudatused">
+<!ENTITY pProgNotify.label "Edenemise teavitused">
+<!ENTITY pDispPer.label "Progress percent">
+<!ENTITY pDispSpeed.label "Allalaadimise kiirus">
+<!ENTITY pDispSize.label "Seni allalaaditud">
+<!ENTITY pDispTime.label "Aega jäänud">
+<!ENTITY pTextSize.label "Tekstide suurused">
+<!ENTITY pFileText.label "Failinime suurus:">
+<!ENTITY pProgNotiText.label "Edenemise teavituste suurus:">
+<!ENTITY pDLItemSize.label "Allalaadimiste elementide suurused">
+<!ENTITY pWidth.label "Laius:">
+<!ENTITY pHeight.label "Kõrgus:">
+<!ENTITY pColors.label "Värvid">
+<!ENTITY pLeaveBlank.label "(Vaikimisi teema puhul jäta tühjaks)">
+<!ENTITY pProgBar.label "Edenemise riba">
+<!ENTITY pProgRemain.label "Edenemise jääk">
+<!ENTITY pFinishedBox.label "Valmis allalaadimine">
+<!ENTITY pStoppedBox.label "Lõpetatud allalaadimine">
+<!ENTITY pPausedOutline.label "Pausitud">
+<!ENTITY pTextColor.label "Tekst">
+<!ENTITY pStatusBack.label "Olekuriba taustavärv">
+<!ENTITY pUseGradients.label "Kasuta värvigradiente">
+<!ENTITY pUseAnimation.label "Kasuta animatsiooni">
+<!ENTITY pShowButtons.label "Näita neid nuppe:">
+<!ENTITY pDownloadsButton.label "Peamine allalaadimiste nupp">
+<!ENTITY pClearButton.label "Lõpetatud allalaadimiste puhastamise nupp">
+<!ENTITY pToMiniButton.label "Mini/Täieliku režiimi nupp">
+<!ENTITY pSpeedColors.label "Kiiruste värvid">
+<!ENTITY pEnableSC.label "Luba kiiruste värvid">
+<!ENTITY pBetween.label "Algkiirus">
+<!ENTITY pAnd.label "lõppkiirus">
+<!ENTITY pkbSec.label "kB/s">
+<!ENTITY pMoreThan.label "Rohkem kui">
+<!ENTITY pVScan.label "Viirusetõrje">
+<!ENTITY pShouldScan.label "Käsitsi kontrolli lõpetatud allalaadimisi">
+<!ENTITY pExclude.label "Ära kontrolli neid failitüüpe">
+<!ENTITY pAVLoc.label "Viirusetõrje programmi asukoht">
+<!ENTITY pArgs.label "Argumendid">
+<!ENTITY pAVdesc.label "(Argumentides kasuta kontrollitava faili tähistamiseks &#37;1)">
+<!ENTITY pAbout.label "Teave">
+<!ENTITY pOK.label "Sobib">
+<!ENTITY pApply.label "Rakenda">
+<!ENTITY pCancel.label "Loobu">
+<!ENTITY previewColour.label "Eelvaade:">
+<!ENTITY cpWinTitle.title "Värvide valija">
+<!ENTITY predef.label "Eelmääratud värvid:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Punane:">
+<!ENTITY green.label "Roheline:">
+<!ENTITY blue.label "Sinine:">
+<!ENTITY hue.label "Värvitoon:">
+<!ENTITY saturation.label "Küllastus:">
+<!ENTITY brightness.label "Heledus:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Nimi:">
+<!ENTITY cpUseThemeDef.label "Kasuta vaikimisi teemat">
+<!ENTITY openOpt.label "Sätted...">
+<!ENTITY hideDownbar.label "Peida allalaadimiste riba">
+<!ENTITY allDownloads.label "Allalaadimise toimingud">
+<!ENTITY openDLHist.label "Allalaadimiste ajalugu">
+<!ENTITY stoppedDL.label "Katkestatud allalaadimine:">
+<!ENTITY transparency.label "Läbipaistvus">
+<!ENTITY background.label "Taustavärv:">
+<!ENTITY background.accessKey "a">
+<!ENTITY table.label "Tabel">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Lahter(-rid)">
+<!ENTITY cell.accessKey "L">
+<!ENTITY lastPickedColor.label "Viimati valitud värv">
+<!ENTITY lastPickedColor.accessKey "V">

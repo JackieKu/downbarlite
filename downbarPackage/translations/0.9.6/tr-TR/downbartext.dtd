@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Tümünü Durdur">
+<!ENTITY resumeAll.label "Tümüne Devam Et">
+<!ENTITY pauseAll.label "Tümünü Duraklat">
+<!ENTITY cancelAll.label "Tüm İndirme İşlerini İptal Et">
+<!ENTITY removeAll.label "Tamamlananları Temizle">
+<!ENTITY copySource.label "Kaynak URL&apos;sini kopyala">
+<!ENTITY visitSource.label "Kaynak sitesini ziyaret et">
+<!ENTITY stopOne.label "Durdur">
+<!ENTITY pauseOne.label "Duraklat">
+<!ENTITY cancelOne.label "İptal">
+<!ENTITY resumeOne.label "Devam Et">
+<!ENTITY properties.label "Özellikler">
+<!ENTITY delete.label "Sistemden sil">
+<!ENTITY remove.label "Çubuktan temizle">
+<!ENTITY show.label "İçeren Klasörü Aç">
+<!ENTITY open.label "Aç">
+<!ENTITY start.label "Başlat">
+<!ENTITY rename.label "Ad Değiştir">
+<!ENTITY fromTip.label "Şuradan:">
+<!ENTITY toTip.label "Şuraya:">
+<!ENTITY statusTip.label "Durum:">
+<!ENTITY timeTip.label "Kalan Zaman:">
+<!ENTITY percentTip.label "Tamamlanan Yüzde:">
+<!ENTITY sizeTip.label "Dosya Boyutu:">
+<!ENTITY timeCompleteTip.label "Tamamlanma Zamanı:">
+<!ENTITY avgSpeedTip.label "Ortalama Hız:">
+<!ENTITY numFinishedTip.label "Tamamlanan İndirmeler:">
+<!ENTITY sizeFinishedTip.label "Tamamlanan İndirmelerin Boyutu:">
+<!ENTITY numCurrentTip.label "Şu Anda İndirilen Dosyalar:">
+<!ENTITY totalSpeedTip.label "Toplam Hız:">
+<!ENTITY totalTimeTip.label "Toplam Kalan Zaman:">
+<!ENTITY toMiniTip.label "Mini Kipe Geç">
+<!ENTITY toFullTip.label "Tam Kipe Geç">
+<!ENTITY downloadsCap.label "İndirmeler">
+<!ENTITY clear.label "Temizle">
+<!ENTITY mini.label "Mini">
+<!ENTITY full.label "Tam Kip">
+<!ENTITY pTitle.label "Download Statusbar Seçenekleri">
+<!ENTITY pGeneral.label "Genel">
+<!ENTITY pStatusMode.label "Durum Çubuğu Kipi">
+<!ENTITY pFullMode.label "Tam kip">
+<!ENTITY pMiniMode.label "Mini kip">
+<!ENTITY pFeatures.label "Özellikler">
+<!ENTITY pLaunchClose.label "Tarayıcı kapatıldığında indirme yöneticisindeki indirme işlerine otomatik devam et">
+<!ENTITY pClearFin.label "Tarayıcı kapatıldığında tamamlanan indirmeleri listeden temizle">
+<!ENTITY pConfirm.label "Sistemden bir dosyayı silmeden önce onay al">
+<!ENTITY pRmvOpen.label "Dosyayı açınca tamamlanan indirmeyi temizle">
+<!ENTITY pRmvShow.label "İçeren klasörü açınca tamamlanan indirmeyi temizle">
+<!ENTITY pSupAlert.label "&apos;İndirmeler Tamamlandı&quot; uyarısını göster (Kapalı önerilir)">
+<!ENTITY pAutoClear.label "Bu dosya türlerini otomatik temizle">
+<!ENTITY pAfter.label "sonra">
+<!ENTITY pSeconds.label "saniye">
+<!ENTITY pIgnore.label "Bu dosya türlerini yoksay">
+<!ENTITY pFiletypesHelp.label "(Tüm dosya türleri için * koyun, hiçbiri için boş bırakın)">
+<!ENTITY pHistory.label "İndirme Geçmişi">
+<!ENTITY pCloseHist.label "(Tarayıcı kapatıldığında)">
+<!ENTITY pKeepHist.label "İndirme geçmişi tut">
+<!ENTITY pTrimHist.label "İndirme geçmişini sınırla:">
+<!ENTITY pDlItems.label "indirme">
+<!ENTITY pPlaySound.label "İndirme tamamlandığında ses çal">
+<!ENTITY pCheckmarkSound.label "Tamamdır!">
+<!ENTITY pCustomSound.label "[Özel .WAV dosyası...]">
+<!ENTITY pSoundExceptFiletypes.label "Şu dosya türleri hariç:">
+<!ENTITY pQueue.label "Sıra Kipi">
+<!ENTITY pQueEna.label "Sıra kipini aç">
+<!ENTITY pQueDownload.label "Aynı anda yalnız">
+<!ENTITY pQueFiles.label "dosya indir">
+<!ENTITY pAppearance.label "Görünüm">
+<!ENTITY pDefaultStyle.label "Varsayılan Tarz">
+<!ENTITY pCustomStyle.label "Özel Tarz">
+<!ENTITY pResetCustom.label "Özeli Sıfırla">
+<!ENTITY pProgNotify.label "İlerleme Uyarıları">
+<!ENTITY pDispPer.label "İlerleme yüzdesi">
+<!ENTITY pDispSpeed.label "İndirme hızı">
+<!ENTITY pDispSize.label "Öteden beri indirilen boyut">
+<!ENTITY pDispTime.label "Kalan Zaman">
+<!ENTITY pTextSize.label "Metin Boyutları">
+<!ENTITY pFileText.label "Dosya Adı Boyutu:">
+<!ENTITY pProgNotiText.label "İlerleme Uyarısı Boyutu:">
+<!ENTITY pDLItemSize.label "Öge Boyutlarını İndir">
+<!ENTITY pWidth.label "Genişlik:">
+<!ENTITY pHeight.label "Yükseklik:">
+<!ENTITY pColors.label "Renkler">
+<!ENTITY pLeaveBlank.label "(Tema varsayılanı için boş bırakın)">
+<!ENTITY pProgBar.label "İlerleme Çubuğu">
+<!ENTITY pProgRemain.label "İlerleme Kalanı">
+<!ENTITY pFinishedBox.label "Tamamlanmış İndirme">
+<!ENTITY pStoppedBox.label "Durdurulmuş İndirme">
+<!ENTITY pPausedOutline.label "Duraklatılmış Taslak">
+<!ENTITY pTextColor.label "Metin">
+<!ENTITY pStatusBack.label "Durum Çubuğu arkaplanı">
+<!ENTITY pUseGradients.label "Renk Düşümlerini Kullan">
+<!ENTITY pUseAnimation.label "Animasyon Kullan">
+<!ENTITY pShowButtons.label "Şu butonları göster:">
+<!ENTITY pDownloadsButton.label "Ana İndirmeler Butonu">
+<!ENTITY pClearButton.label "Tamamlananları Temizleme Butonu">
+<!ENTITY pToMiniButton.label "Mini / Tam Kip Butonu">
+<!ENTITY pSpeedColors.label "Hız Renkleri">
+<!ENTITY pEnableSC.label "Hız Renklerini Aç">
+<!ENTITY pBetween.label "Aralık:">
+<!ENTITY pAnd.label "ve">
+<!ENTITY pkbSec.label "KB/s">
+<!ENTITY pMoreThan.label "Şundan fazla:">
+<!ENTITY pVScan.label "Virüs Taraması">
+<!ENTITY pShouldScan.label "Tamamlanan indirmeleri elle tarat">
+<!ENTITY pExclude.label "Şu dosya türlerini taratma">
+<!ENTITY pAVLoc.label "Anti-Virüs programı konumu">
+<!ENTITY pArgs.label "Parametreler">
+<!ENTITY pAVdesc.label "(Taranacak dosya için parametrelerde &#37;1 kullanın)">
+<!ENTITY pAbout.label "Hakkında">
+<!ENTITY pOK.label "Tamam">
+<!ENTITY pApply.label "Uygula">
+<!ENTITY pCancel.label "Vazgeç">
+<!ENTITY previewColour.label "Önizleme:">
+<!ENTITY cpWinTitle.title "Renk Seçici">
+<!ENTITY predef.label "Öntanımlı renkler:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Kırmızı:">
+<!ENTITY green.label "Yeşil:">
+<!ENTITY blue.label "Mavi:">
+<!ENTITY hue.label "Ton:">
+<!ENTITY saturation.label "Koyuluk:">
+<!ENTITY brightness.label "Parlaklık:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY nameColor.label "Ad:">
+<!ENTITY cpUseThemeDef.label "Tema Varsayılanını Kullan">
+<!ENTITY openOpt.label "Seçenekler...">
+<!ENTITY hideDownbar.label "Çubuğu Gizle">
+<!ENTITY allDownloads.label "İndirme İşlemleri">
+<!ENTITY openDLHist.label "İndirme Geçmişi">
+<!ENTITY stoppedDL.label "Durdurulmuş İndirme:">
+<!ENTITY transparency.label "Saydam">
+<!ENTITY background.label "Şunun için arkaplan:">
+<!ENTITY background.accessKey "A">
+<!ENTITY table.label "Tablo">
+<!ENTITY table.accessKey "T">
+<!ENTITY cell.label "Hücre(ler)">
+<!ENTITY cell.accessKey "H">
+<!ENTITY lastPickedColor.label "Son seçilen renk">
+<!ENTITY lastPickedColor.accessKey "S">

@@ -1,0 +1,141 @@
+<!ENTITY stopAll.label "Барлығын тоқтату">
+<!ENTITY resumeAll.label "Барлығын жалғастыру">
+<!ENTITY pauseAll.label "Барлығын аялдату">
+<!ENTITY cancelAll.label "Жүктеліп жатқанның барлығын өшіру">
+<!ENTITY removeAll.label "Аяқталғандарды өшіру">
+<!ENTITY copySource.label "Сілтемесін көшіру">
+<!ENTITY visitSource.label "Сілтейтін сайтына өту">
+<!ENTITY stopOne.label "Тоқтату">
+<!ENTITY pauseOne.label "Аялдату">
+<!ENTITY cancelOne.label "Бас тарту">
+<!ENTITY resumeOne.label "Жалғастыру">
+<!ENTITY properties.label "Қасиеттері">
+<!ENTITY delete.label "Жүйеден өшіру">
+<!ENTITY remove.label "Осы жолақтан өшіру">
+<!ENTITY show.label "Орналасқан буманы ашу">
+<!ENTITY open.label "Ашу">
+<!ENTITY start.label "Бастау">
+<!ENTITY rename.label "Атын ауыстыру">
+<!ENTITY fromTip.label "Қайдан:">
+<!ENTITY toTip.label "Қайда:">
+<!ENTITY statusTip.label "Күйі:">
+<!ENTITY timeTip.label "Қалған уақыт:">
+<!ENTITY percentTip.label "Орындалған пайызы:">
+<!ENTITY sizeTip.label "Файл өлшемі:">
+<!ENTITY timeCompleteTip.label "Қалған уақыты:">
+<!ENTITY avgSpeedTip.label "Орташа жылдамдығы:">
+<!ENTITY numFinishedTip.label "Аяқталған жүктемелер:">
+<!ENTITY sizeFinishedTip.label "Аяқталған жүктемелердің көлемі:">
+<!ENTITY numCurrentTip.label "Жүктелудегі файлдар:">
+<!ENTITY totalSpeedTip.label "Жалпы жылдамдық:">
+<!ENTITY totalTimeTip.label "Жалпы қалған уақыт:">
+<!ENTITY toMiniTip.label "Ықшам түріне ауысу">
+<!ENTITY toFullTip.label "Толық түріне ауысу">
+<!ENTITY downloadsCap.label "Жүктемелер">
+<!ENTITY clear.label "Тазарту">
+<!ENTITY mini.label "Ықшам түрі">
+<!ENTITY full.label "Толық түрі">
+<!ENTITY pTitle.label "Download Statusbar баптаулары">
+<!ENTITY pGeneral.label "Жалпы">
+<!ENTITY pStatusMode.label "Қалып-күй жолақ түрі">
+<!ENTITY pFullMode.label "Толық түрі">
+<!ENTITY pMiniMode.label "Ықшам түрі">
+<!ENTITY pFeatures.label "Мүмкіндіктері">
+<!ENTITY pLaunchClose.label "Браузер жабылған кезде жүктемелерді жүктемелер менеджері ішінде жалғастыру">
+<!ENTITY pClearFin.label "Браузер жабылғанда аяқталған жүктемелер тарихын тазарту">
+<!ENTITY pConfirm.label "Файлды жүйеден өшіру алдында растауды сұрау">
+<!ENTITY pRmvOpen.label "Аяқталған жүктемелерді олар ашылғаннан кейін өшіру">
+<!ENTITY pRmvShow.label "Аяқталған жүктемелерді олар орналасқан бума ашылғаннан кейін өшіру">
+<!ENTITY pSupAlert.label "&quot;Жүктемелер аяқталды&quot; хабарламасын көрсету (сөндіру ұсынылады)">
+<!ENTITY pAutoClear.label "Файлдардың осы түрлерін">
+<!ENTITY pAfter.label "автоматты түрде">
+<!ENTITY pSeconds.label "секундтан кейін тазалау">
+<!ENTITY pIgnore.label "Файлдардың осы түрін елемеу">
+<!ENTITY pFiletypesHelp.label "(Барлық файл түрлері үшін * енгізіңіз, ешқайсысы үшін бос қалдырыңыз)">
+<!ENTITY pHistory.label "Жүктемелер тарихы">
+<!ENTITY pCloseHist.label "(Браузер жабылғанда)">
+<!ENTITY pKeepHist.label "Жүктемелер тарихын сақтау">
+<!ENTITY pTrimHist.label "Жүктемелер тарихын">
+<!ENTITY pDlItems.label "жүктемеге дейін шектеу">
+<!ENTITY pPlaySound.label "Жүктеме аяқталғанда дауыс беру">
+<!ENTITY pCheckmarkSound.label "Белгіше!">
+<!ENTITY pCustomSound.label "[Пайдаланушы .WAV файлы...]">
+<!ENTITY pSoundExceptFiletypes.label "Келесі файлдардан басқа:">
+<!ENTITY pQueue.label "Кезек түрі">
+<!ENTITY pQueEna.label "Кезекті қолдану">
+<!ENTITY pQueDownload.label "Бір уақытта тек">
+<!ENTITY pQueFiles.label "файл(дар) ды жүктеу">
+<!ENTITY pAppearance.label "Сыртқы түрі">
+<!ENTITY pDefaultStyle.label "Бастапқы стиль">
+<!ENTITY pCustomStyle.label "Пайдаланушы стилі">
+<!ENTITY pResetCustom.label "пайдаланушы стилін тастау">
+<!ENTITY pProgNotify.label "Үрдіс хабарламасы">
+<!ENTITY pDispPer.label "Үрдіс пайызы">
+<!ENTITY pDispSpeed.label "Жүктелу жылдамдығы">
+<!ENTITY pDispSize.label "Жүктеліп алынған көлем">
+<!ENTITY pDispTime.label "Қалған уақыт">
+<!ENTITY pTextSize.label "Мәтін өлшемі">
+<!ENTITY pFileText.label "Файл аттарының өлшемі:">
+<!ENTITY pProgNotiText.label "Үрдіс хабарламасының өлшемі:">
+<!ENTITY pDLItemSize.label "Жүктелетін нәрселердің өлшемі">
+<!ENTITY pWidth.label "Ені:">
+<!ENTITY pHeight.label "Биіктігі:">
+<!ENTITY pColors.label "Түстер">
+<!ENTITY pLeaveBlank.label "(Бастапқы тема үшін бос қалдыру)">
+<!ENTITY pProgBar.label "Үрдіс жолағы">
+<!ENTITY pProgRemain.label "Үрдіс ескертуі">
+<!ENTITY pFinishedBox.label "Аяқталған жүктемелер">
+<!ENTITY pStoppedBox.label "Тоқтатылған жүктемелер">
+<!ENTITY pPausedOutline.label "Аялданған жүктемелер">
+<!ENTITY pTextColor.label "Мәтін">
+<!ENTITY pStatusBack.label "Қалып-күй жолағының фоны">
+<!ENTITY pUseGradients.label "Түс градиенттерін қолдану">
+<!ENTITY pUseAnimation.label "Анимацияны көрсету">
+<!ENTITY pShowButtons.label "Келесі батырмаларды көрсету:">
+<!ENTITY pDownloadsButton.label "Негізгі Жүктемелер батырмасы">
+<!ENTITY pClearButton.label "Аяқталғандарды тазалау батырмасы">
+<!ENTITY pToMiniButton.label "Ықшам/Толық түрлерді ауыстыру батырмасы">
+<!ENTITY pSpeedColors.label "Жылдамдық түстері">
+<!ENTITY pEnableSC.label "Жылдамдықты түспен ерекшелеу">
+<!ENTITY pBetween.label "Арасында">
+<!ENTITY pAnd.label "және">
+<!ENTITY pkbSec.label "Кб/сек">
+<!ENTITY pMoreThan.label "Көбірек">
+<!ENTITY pVScan.label "Вирусқа тексеру">
+<!ENTITY pShouldScan.label "Аяқталған жүктемелерді тексеруді қолмен қосу">
+<!ENTITY pExclude.label "Келесі файлдар түрлерін тексермеу">
+<!ENTITY pAVLoc.label "Антивирус бағдарлама орны">
+<!ENTITY pArgs.label "Аргументтері">
+<!ENTITY pAVdesc.label "(Файлдарды тексеруде аргумент үшін &#37;1 қолданыңыз)">
+<!ENTITY pAbout.label "Осы туралы">
+<!ENTITY pOK.label "ОК">
+<!ENTITY pApply.label "Қолдану">
+<!ENTITY pCancel.label "Бас тарту">
+<!ENTITY previewColour.label "Алдын-ала қарау:">
+<!ENTITY cpWinTitle.title "Түс алушы">
+<!ENTITY predef.label "Алдын-ала бапталған түстер:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY hsb.label "HSB">
+<!ENTITY red.label "Қызыл:">
+<!ENTITY green.label "Жасыл:">
+<!ENTITY blue.label "Көк:">
+<!ENTITY hue.label "Реңі:">
+<!ENTITY saturation.label "Қаңықтылығы:">
+<!ENTITY brightness.label "Жарықтылығы:">
+<!ENTITY hexColor.label "Он алтылық:">
+<!ENTITY nameColor.label "Аты:">
+<!ENTITY cpUseThemeDef.label "Бастапқы теманы қолдану">
+<!ENTITY openOpt.label "Баптаулары...">
+<!ENTITY hideDownbar.label "Downbar жасыру">
+<!ENTITY allDownloads.label "Жүктемелер әрекеттері">
+<!ENTITY openDLHist.label "Жүктемелер тарихы">
+<!ENTITY stoppedDL.label "Тоқтатылған жүктеме:">
+<!ENTITY transparency.label "Мөлдір">
+<!ENTITY background.label "Фон:">
+<!ENTITY background.accessKey "Ф">
+<!ENTITY table.label "Кесте">
+<!ENTITY table.accessKey "К">
+<!ENTITY cell.label "Ұяшық(тар)">
+<!ENTITY cell.accessKey "ш">
+<!ENTITY lastPickedColor.label "Соңғы алынған түс">
+<!ENTITY lastPickedColor.accessKey "о">
