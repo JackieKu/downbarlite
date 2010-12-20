@@ -57,7 +57,6 @@ window.addEventListener("focus", _dlbar_newWindowFocus, true);
 window.addEventListener("blur", _dlbar_hideOnBlur, true);
 var _dlbar_strings;
 var _dlbar_currTooltipAnchor;
-//var _dlbar_downbarComp = Components.classes['@devonjensen.com/downbar/downbar;1'].getService().wrappedJSObject;
 
 function _dlbar_init() {
 	window.removeEventListener("load", arguments.callee, true);
@@ -137,71 +136,6 @@ function _dlbar_init() {
 
 		// Listen for the switch to/from private browsing
 		Services.obs.addObserver(_dlbar_privateBrowsingObs, "private-browsing", false);
-
-	// Show "About Dlsb" on first time this version is used
-//	var showAbout = false;
-//	var currVersion = "0.0";
-//	Components.utils.import("resource://gre/modules/AddonManager.jsm");
-//	AddonManager.getAddonByID("{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}", function(addon) {
-//		currVersion = addon.version;
-//	});
-//
-//	if(oldVersion != currVersion)
-//		showAbout = true;
-//
-//	if(showAbout) {
-//
-//	    window.setTimeout(function() {
-//	    	// Open page in new tab
-//			var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService();
-//	    	var wmed = wm.QueryInterface(Components.interfaces.nsIWindowMediator);
-//
-//	    	var win = wmed.getMostRecentWindow("navigator:browser");
-//
-//	    	var content = win.document.getElementById("content");
-//	    	content.selectedTab = content.addTab("chrome://downbarlite/content/aboutdownbar.xul");
-//	    }, 1250);
-//
-//		_dlbar_pref.setCharPref("downbar.function.version", currVersion);
-//		_dlbar_pref.setBoolPref("downbar.function.useTooltipOpacity", true);  // Shifting Mac and linux onto the fancier tooltips for 0.9.7, One time change, can still go back to older tooltips by setting this false in about:config, this can be removed in the future
-//
-//
-//		// Remove the persist height and width attributes for downbarprefs window from localstore.rdf - only want to run this once (although it wouldn't hurt)
-//		// This should be able to be taken out in the future...unless people upgrade from old versions...
-//		try {
-//
-//			var RDF = Components.classes['@mozilla.org/rdf/rdf-service;1'].getService().QueryInterface(Components.interfaces.nsIRDFService);
-//			var localStore = RDF.GetDataSource("rdf:local-store");
-//
-//			var widthRes = RDF.GetResource("width");
-//			var heightRes = RDF.GetResource("height");
-//			var dbprefsRes = RDF.GetResource("chrome://downbarlite/content/downbarprefs.xul#downbarprefs");
-//
-//			var oldWidth = localStore.GetTarget(dbprefsRes, widthRes, true);
-//			var oldHeight = localStore.GetTarget(dbprefsRes, heightRes, true);
-//			// If these exist, unassert them
-//			if (oldWidth) {
-//				localStore.Unassert(dbprefsRes, widthRes, oldWidth, true);
-//			}
-//			if (oldHeight) {
-//				localStore.Unassert(dbprefsRes, heightRes, oldHeight, true);
-//			}
-//
-//		} catch(e) {}
-//	}
-
-	// User pressed the donate link in the pre-browser addon update window, so open new tab with donate page
-//	try {
-//		if(_dlbar_pref.getBoolPref("downbar.function.openDonatePage")) {
-//			window.setTimeout(function(){
-//		    	var win2 = Services.wm.getMostRecentWindow("navigator:browser");
-//				var content2 = win2.document.getElementById("content");
-//		    	content2.selectedTab = content2.addTab("http://downloadstatusbar.mozdev.org/donateRedirect.html");
-//	    	}, 1500);
-//
-//			_dlbar_pref.clearUserPref("downbar.function.openDonatePage");
-//		}
-//	} catch(e) {}
 	}, 10);
 
 	// Developer features to be disabled on release
@@ -902,8 +836,7 @@ function _dlbar_clearAnimate(idtoanimate, curropacity, currsize, heightOrWidth, 
 function _dlbar_clearOne(idtoclear) {
 		
 	// Clear the download item in all browser windows
-	var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator);
-	var e = wm.getEnumerator("navigator:browser");
+	var e = Services.wm.getEnumerator("navigator:browser");
 	var win, winElem;
 
 	while (e.hasMoreElements()) {
@@ -925,9 +858,7 @@ function _dlbar_clearOne(idtoclear) {
 			var dbase = DownBar.downloadManager.DBConnection;
 			dbase.executeSimpleSQL("UPDATE moz_downloads SET DownbarShow=0 WHERE id=" + DLid);
 			
-			var _dlbar_downbarComp = Components.classes['@devonjensen.com/downbar/downbar;1'].getService().wrappedJSObject;
-			_dlbar_downbarComp._dlbar_recentCleared.push(DLid);
-				
+			DownBar.recentCleared.push(DLid);
 		}
 		else {
 			DownBar.downloadManager.removeDownload(DLid);
@@ -936,17 +867,11 @@ function _dlbar_clearOne(idtoclear) {
 }
 
 function _dlbar_clearAll() {
-	
-	var _dlbar_downbarComp = Components.classes['@devonjensen.com/downbar/downbar;1'].getService().wrappedJSObject;
-	_dlbar_downbarComp._dlbar_clearAllFinished();
-	
+	DownBar.clearAllFinished();
 }
 
 function _dlbar_undoClear() {
-	
-	var _dlbar_downbarComp = Components.classes['@devonjensen.com/downbar/downbar;1'].getService().wrappedJSObject;
-	_dlbar_downbarComp._dlbar_undoClearOne();
-	
+	DownBar.undoClearOne();
 }
 
 function _dlbar_startDelete(elemIDtodelete, event) {
@@ -1178,10 +1103,7 @@ function _dlbar_setStyles() {
 		var showToMiniButton = _dlbar_pref.getBoolPref("downbar.display.toMiniButton");
 	} catch (e){}
 
-	if(showMainButton)
-		document.getElementById("downbarMainMenuButton").hidden = false;
-	else
-		document.getElementById("downbarMainMenuButton").hidden = true;
+	document.getElementById("downbarMainMenuButton").hidden = !showMainButton;
 
 	if(showClearButton) {
 		document.getElementById("downbarClearButton").hidden = false;
