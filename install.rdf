@@ -4,30 +4,30 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}</em:id>
-    <em:version>0.9.7.2</em:version>
+    <em:id>downbarlite@jackieku</em:id>
+    <em:version>0.1</em:version>
     
     <!-- Target Application this extension can install into, 
         with minimum and maximum supported versions. --> 
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>3.0</em:minVersion>
-        <em:maxVersion>4.0b8pre</em:maxVersion>
+        <em:minVersion>4.0b9pre</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
     
     <!-- Front End MetaData -->
-    <em:name>Download Statusbar</em:name>
+    <em:name>Download Statusbar Lite</em:name>
     <em:description>View and manage downloads from a tidy statusbar</em:description>
-    <em:creator>Devon Jensen</em:creator>
+    <em:creator>Kai-Chieh Ku</em:creator>
+    <em:contributor>Devon Jensen</em:contributor>
     <em:homepageURL>http://downloadstatusbar.mozdev.org/</em:homepageURL>
     <!-- <em:updateURL>http://downloadstatusbar.mozdev.org/testDownbarUpdate.rdf</em:updateURL> -->
 
     <!-- Front End Integration Hooks (used by Extension Manager)-->
-    <em:optionsURL>chrome://downbar/content/downbarprefs.xul</em:optionsURL>
-    <!-- <em:aboutURL>chrome://downbar/content/aboutdownbar.xul</em:aboutURL> -->
-    <em:iconURL>chrome://downbar/skin/downbarIcon.png</em:iconURL>
-    
+    <em:optionsURL>chrome://downbarlite/content/downbarprefs.xul</em:optionsURL>
+    <!-- <em:aboutURL>chrome://downbarlite/content/aboutdownbar.xul</em:aboutURL> -->
+    <em:iconURL>chrome://downbarlite/skin/downbarIcon.png</em:iconURL>
   </Description>      
 </RDF>

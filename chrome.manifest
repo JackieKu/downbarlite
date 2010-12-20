@@ -1,11 +1,11 @@
-content	  downbar	            downbarPackage/chrome/content/
-skin      downbar  classic/1.0  downbarPackage/chrome/skin/classic/
+content	  downbarlite	            downbarPackage/chrome/content/
+skin      downbarlite  classic/1.0  downbarPackage/chrome/skin/classic/
+resource  downbarlite               modules/
 
-overlay	 chrome://browser/content/browser.xul                   chrome://downbar/content/downbaroverlay.xul       appversion<4.0b7pre
-overlay	 chrome://browser/content/browser.xul                   chrome://downbar/content/downbaroverlayNew.xul    appversion>=4.0b7pre
+overlay	 chrome://browser/content/browser.xul                   chrome://downbarlite/content/downbaroverlay.xul    appversion>=4.0b7pre
 
-overlay  chrome://mozapps/content/extensions/extensions.xul     chrome://downbar/content/addonDonate.xul
-overlay  chrome://browser/content/preferences/preferences.xul   chrome://downbar/content/privacyPrefsOverlay.xul
+overlay  chrome://mozapps/content/extensions/extensions.xul     chrome://downbarlite/content/addonDonate.xul
+overlay  chrome://browser/content/preferences/preferences.xul   chrome://downbarlite/content/privacyPrefsOverlay.xul
 
 component {D4EE4143-3560-44c3-B170-4AC54D7D8AC1} components/downbar.js
 contract @devonjensen.com/downbar/downbar;1 {D4EE4143-3560-44c3-B170-4AC54D7D8AC1}

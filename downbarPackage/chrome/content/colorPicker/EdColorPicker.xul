@@ -41,7 +41,7 @@
 
 
 <?xml-stylesheet href="EdColorPicker.css" type="text/css"?>
-<!DOCTYPE dialog SYSTEM "chrome://downbar/locale/downbartext.dtd" >
+<!DOCTYPE dialog SYSTEM "chrome://downbarlite/locale/downbartext.dtd" >
   
 <!-- 
 Leaving this in here for portability - not used in this extension

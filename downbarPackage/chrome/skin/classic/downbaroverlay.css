@@ -163,12 +163,12 @@
 }
 
 #downbarMiniImage {
-	list-style-image: url("chrome://downbar/skin/download_manager.png");
+	list-style-image: url("chrome://downbarlite/skin/download_manager.png");
 	height:16px;
 }
 
 #downbarMainMenuImage {
-	list-style-image: url("chrome://downbar/skin/download_manager_wide.png");
+	list-style-image: url("chrome://downbarlite/skin/download_manager_wide.png");
 	margin-left:2px;
 	margin-right:0px;
 }
@@ -189,7 +189,7 @@
 	border-left: 1px solid transparent;
 	margin-right: 2px;
 	margin-left: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackground.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackground.png");
 }
 
 #downbarMainMenuButton:hover {
@@ -199,7 +199,7 @@
 	margin: 0px;
 	border: 1px solid threeDShadow;
 	background-color: transparent;
-	background-image: url("chrome://downbar/skin/buttonBackgroundHover.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackgroundHover.png");
 	
 	margin-right: 2px;
 	margin-left: 1px;
@@ -215,7 +215,7 @@
 	border-left: 1px solid ThreeDShadow;
 	border-right: 1px solid transparent;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackground.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackground.png");
 }
 
 #downbarClearButton:hover {
@@ -226,7 +226,7 @@
 	padding-bottom: 1px;
 	border: 1px solid ThreeDShadow;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackgroundHover.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackgroundHover.png");
 }
 
 #downbarToMiniButton {
@@ -239,7 +239,7 @@
 	border-left: 1px solid ThreeDShadow;
 	border-right: 1px solid transparent;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackground.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackground.png");
 }
 
 #downbarToMiniButton:hover {
@@ -250,7 +250,7 @@
 	padding-bottom: 1px;
 	border: 1px solid ThreeDShadow;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackgroundHover.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackgroundHover.png");
 }
 
 #downbarToFullButton {
@@ -263,7 +263,7 @@
 
 	border-right: 1px solid ThreeDShadow;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackground.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackground.png");
 }
 
 #downbarToFullButton:hover {
@@ -274,7 +274,7 @@
 	padding-bottom: 1px;
 	border: 1px solid ThreeDShadow;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackgroundHover.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackgroundHover.png");
 }
 
 #downbarClearButtonMini {
@@ -287,7 +287,7 @@
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackground.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackground.png");
 }
 
 #downbarClearButtonMini:hover {
@@ -298,17 +298,17 @@
 	padding-bottom: 1px;
 	border: 1px solid ThreeDShadow;
 	margin-right: 1px;
-	background-image: url("chrome://downbar/skin/buttonBackgroundHover.png");
+	background-image: url("chrome://downbarlite/skin/buttonBackgroundHover.png");
 }
 
 
 /*
 #downbarClearButtonImage {
-	list-style-image: url("chrome://downbar/skin/download_manager.png");
+	list-style-image: url("chrome://downbarlite/skin/download_manager.png");
 }
 
 #downbarToMiniButtonImage {
-	list-style-image: url("chrome://downbar/skin/download_manager.png");
+	list-style-image: url("chrome://downbarlite/skin/download_manager.png");
 }
 */
 
@@ -351,41 +351,41 @@
 
 
 #_dlbar_finTipLeftImg {
-	list-style-image: url("chrome://downbar/skin/leftTooltip.png");
+	list-style-image: url("chrome://downbarlite/skin/leftTooltip.png");
 	background-color: transparent;
 	border-width:0px;
 }
 
 #_dlbar_finTipRightImg {
-	list-style-image: url("chrome://downbar/skin/rightTooltip.png");
+	list-style-image: url("chrome://downbarlite/skin/rightTooltip.png");
 	background-color: transparent;
 	border-width:0px;
 }
 
 #_dlbar_finTipMiddle {
-	background-image: url("chrome://downbar/skin/middleTooltip.png");
+	background-image: url("chrome://downbarlite/skin/middleTooltip.png");
 	background-color: transparent;
 }
 
 #_dlbar_progTipLeftImg {
-	list-style-image: url("chrome://downbar/skin/leftTooltip.png");
+	list-style-image: url("chrome://downbarlite/skin/leftTooltip.png");
 	background-color: transparent;
 	border-width:0px;
 }
 
 #_dlbar_progTipRightImg {
-	list-style-image: url("chrome://downbar/skin/rightTooltip.png");
+	list-style-image: url("chrome://downbarlite/skin/rightTooltip.png");
 	background-color: transparent;
 	border-width:0px;
 }
 
 #_dlbar_progTipMiddle {
-	background-image: url("chrome://downbar/skin/middleTooltip.png");
+	background-image: url("chrome://downbarlite/skin/middleTooltip.png");
 	background-color: transparent;
 }
 
 #_dlbar_finTipImgPreviewBox {
-	background-image: url("chrome://downbar/skin/middleTooltip.png");
+	background-image: url("chrome://downbarlite/skin/middleTooltip.png");
 	background-color: transparent;
 }
 

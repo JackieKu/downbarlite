@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<!DOCTYPE window SYSTEM "chrome://downbar/locale/downbarAboutText.dtd">
+<!DOCTYPE window SYSTEM "chrome://downbarlite/locale/downbarAboutText.dtd">
 
 <overlay id="addonDonateOverlay"
 		 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 		 
-	<script type="application/x-javascript" src="chrome://downbar/content/addonDonate.js"/>
+	<script type="application/x-javascript" src="chrome://downbarlite/content/addonDonate.js"/>
 	
 	<window id="extensionsManager">
 		
 		<stringbundleset id="extensionsSet">
-			<stringbundle id="downbarbundle" src="chrome://downbar/locale/downbar.properties"/>
+			<stringbundle id="downbarbundle" src="chrome://downbarlite/locale/downbar.properties"/>
 		</stringbundleset>
 		
 		<keyset id="extensionsKeys">
@@ -19,7 +19,7 @@
 		<spacer id="donateSpacer" flex="1" hidden="true"/>
 		<vbox id="donateClearImg" hidden="true" style="cursor:pointer;" onclick="db_donateClearInterval();">
 			<spacer flex="1"/>
-			<image src="chrome://downbar/skin/closeX.png" style="cursor:pointer; background-color:#EAE6D1; border: 1px solid black;"/>
+			<image src="chrome://downbarlite/skin/closeX.png" style="cursor:pointer; background-color:#EAE6D1; border: 1px solid black;"/>
 			<spacer flex="1"/>
 		</vbox>
 		<hbox id="db_donateContainer" hidden="true">

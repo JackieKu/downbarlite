@@ -37,7 +37,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <?xml-stylesheet href="chrome://global/skin/"?>
-<!DOCTYPE window SYSTEM "chrome://downbar/locale/downbartext.dtd">
+<!DOCTYPE window SYSTEM "chrome://downbarlite/locale/downbartext.dtd">
 
 <window id="downbarprefs" windowtype="downbar:options"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
@@ -45,10 +45,10 @@
 	persist="screenX screenY"
 	title="&pTitle.label;" onload="init();">
 
-	<script type="application/x-javascript" src="chrome://downbar/content/downbarprefs.js"/>
+	<script type="application/x-javascript" src="chrome://downbarlite/content/downbarprefs.js"/>
 
 	<stringbundleset id="stringbundleset">
-		<stringbundle id="prefdownbarbundle" src="chrome://downbar/locale/downbar.properties"/>
+		<stringbundle id="prefdownbarbundle" src="chrome://downbarlite/locale/downbar.properties"/>
 	</stringbundleset>
   
   <separator class="thin"/>

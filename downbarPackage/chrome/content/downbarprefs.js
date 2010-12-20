@@ -384,7 +384,7 @@ function setCustomStyles() {
 	else 
 		olddb_progressbar[0] = "background-color:" + newProgressColor;
 	if(useGradients)
-		olddb_progressbar[1] = "background-image:url(chrome://downbar/skin/whiteToTransGrad.png)";
+		olddb_progressbar[1] = "background-image:url(chrome://downbarlite/skin/whiteToTransGrad.png)";
 	else
 		olddb_progressbar[1] = "background-image:url()";
 	var newdb_progressbar = olddb_progressbar.join(";");
@@ -407,7 +407,7 @@ function setCustomStyles() {
 	olddb_finishedHbox[2] = "max-height:" + newHeight + "px";
 	olddb_finishedHbox[3] = "min-height:" + newHeight + "px";
 	if(useGradients)
-		olddb_finishedHbox[4] = "background-image:url(chrome://downbar/skin/whiteToTransGrad.png)"
+		olddb_finishedHbox[4] = "background-image:url(chrome://downbarlite/skin/whiteToTransGrad.png)"
 	else
 		olddb_finishedHbox[4] = "background-image:url()"
 	var newdb_finishedHbox = olddb_finishedHbox.join(";");
@@ -422,7 +422,7 @@ function setCustomStyles() {
 	olddb_notdoneHbox[2] = "max-height:" + newHeight + "px";
 	olddb_notdoneHbox[3] = "min-height:" + newHeight + "px";
 	if(useGradients)
-		olddb_notdoneHbox[4] = "background-image:url(chrome://downbar/skin/whiteToTransGrad.png)"
+		olddb_notdoneHbox[4] = "background-image:url(chrome://downbarlite/skin/whiteToTransGrad.png)"
 	else
 		olddb_notdoneHbox[4] = "background-image:url()"
 	var newdb_notdoneHbox = olddb_notdoneHbox.join(";");
@@ -596,10 +596,10 @@ function openAboutWindow() {
     
     var win = wmed.getMostRecentWindow("navigator:browser");
     if (!win)
-    	win = window.openDialog("chrome://browser/content/browser.xul", "_blank", "chrome,all,dialog=no", 'chrome://downbar/content/aboutdownbar.xul', null, null);
+    	win = window.openDialog("chrome://browser/content/browser.xul", "_blank", "chrome,all,dialog=no", 'chrome://downbarlite/content/aboutdownbar.xul', null, null);
     else {
     	var content = win.document.getElementById("content");
-    	content.selectedTab = content.addTab('chrome://downbar/content/aboutdownbar.xul');	
+    	content.selectedTab = content.addTab('chrome://downbarlite/content/aboutdownbar.xul');	
     }
 	
 }

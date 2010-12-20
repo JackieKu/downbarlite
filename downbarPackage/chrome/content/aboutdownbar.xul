@@ -37,7 +37,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <?xml-stylesheet href="chrome://global/skin/"?>
-<!DOCTYPE window SYSTEM "chrome://downbar/locale/downbarAboutText.dtd">
+<!DOCTYPE window SYSTEM "chrome://downbarlite/locale/downbarAboutText.dtd">
 
 <window id="aboutdownbar"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
@@ -45,12 +45,12 @@
 	title="&aboutTitle.label;"
 	style="background-color: rgb(237, 233, 224);">
 	
-	<script type="application/x-javascript" src="chrome://downbar/content/aboutdownbar.js"/>
+	<script type="application/x-javascript" src="chrome://downbarlite/content/aboutdownbar.js"/>
 	<!--
-  	<vbox id="header" height="100" style="border-top:4px solid gray;background-image:url('chrome://downbar/skin/about_header.png');">
+  	<vbox id="header" height="100" style="border-top:4px solid gray;background-image:url('chrome://downbarlite/skin/about_header.png');">
   		<hbox>
 	  		<hbox flex="1"/>
-	  		<image src="chrome://downbar/skin/about_title.png" height="75" width="475" style="margin-top:-4px;"/>
+	  		<image src="chrome://downbarlite/skin/about_title.png" height="75" width="475" style="margin-top:-4px;"/>
 	  		<hbox flex="1"/>
   		</hbox>
   		<vbox flex="1"/>
@@ -61,11 +61,11 @@
   	<hbox>
   	  <vbox flex="1"/>
   	   <vbox style="border:2px outset black; padding:8px; background-color:#d6d2ca;">
-  	   	<!--  background-image:url('chrome://downbar/skin/about_bkgd.png'); -->
+  	   	<!--  background-image:url('chrome://downbarlite/skin/about_bkgd.png'); -->
   	   	
   	   	<hbox pack="top">
   	   		<vbox>
-  	   			<image src="chrome://downbar/skin/downbarAboutTitle.png" style="cursor:pointer;" onclick="db_openLink('http://downloadstatusbar.mozdev.org/');"/>
+  	   			<image src="chrome://downbarlite/skin/downbarAboutTitle.png" style="cursor:pointer;" onclick="db_openLink('http://downloadstatusbar.mozdev.org/');"/>
   	   			<vbox flex="1"/>
   	   		</vbox>
 			
@@ -79,12 +79,12 @@
 			<spacer flex="1"/>
 			<!-- 
 			<hbox style="background-color:#f1f1ec;-moz-border-radius:4px; border:1px solid #b2b2b2; cursor:pointer; margin-right:10px;" onclick="db_openLink('http://downloadstatusbar.mozdev.org/celebrating5.html');">
-				<image src="chrome://downbar/skin/celebrating.png"/>
+				<image src="chrome://downbarlite/skin/celebrating.png"/>
 			</hbox>
 			-->
 			<hbox style="background-color:#f1f1ec;-moz-border-radius:4px; border:1px solid #b2b2b2; cursor:pointer; margin-right:10px; margin-left:30px;" onclick="db_openLink('http://downloadstatusbar.mozdev.org/changelog.html');">
 				<vbox>
-					<image src="chrome://downbar/skin/exclamationPoint.png" style="margin-top:5px;"/>
+					<image src="chrome://downbarlite/skin/exclamationPoint.png" style="margin-top:5px;"/>
 					<spacer flex="1"/>
 					
 				</vbox>
@@ -98,7 +98,7 @@
 				</vbox>
 			</hbox>
 			<hbox align="center" style="background-color:#f1f1ec;-moz-border-radius:4px; border:1px solid #b2b2b2; margin-right:10px; cursor:pointer;" onclick="db_openLink('http://downloadstatusbar.mozdev.org/celebrating.html');">
-				<image src="chrome://downbar/skin/celebrating.png"/>
+				<image src="chrome://downbarlite/skin/celebrating.png"/>
 			</hbox>
 		</hbox>
 		<spacer height="20"/>
@@ -137,7 +137,7 @@
 			    		<separator/>
 			    		<hbox>
 			    			<!-- https://www.paypal.com/en_US/i/btn/x-click-but21.gif ugly orange color now -->
-			    			<image src="chrome://downbar/skin/make_a_donation.gif"
+			    			<image src="chrome://downbarlite/skin/make_a_donation.gif"
 			    			       onclick="db_openLink('http://downloadstatusbar.mozdev.org/donateRedirect.html');" style="cursor:pointer;"/>
 			    			<hbox flex="1"/>
 			    		</hbox>
@@ -366,7 +366,7 @@
 		  </tabbox>
  		</hbox>
 	  <hbox equalsize="always">
-	  	<button label="&openPref.label;" flex="1" oncommand="window.open('chrome://downbar/content/downbarprefs.xul', 'downbar_prefs', 'chrome');" />
+	  	<button label="&openPref.label;" flex="1" oncommand="window.open('chrome://downbarlite/content/downbarprefs.xul', 'downbar_prefs', 'chrome');" />
 	  	<button label="&OK.label;" oncommand="window.close();" flex="1"/>
 	  </hbox>
 	 </vbox>

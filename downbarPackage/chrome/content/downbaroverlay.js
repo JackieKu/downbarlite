@@ -39,10 +39,13 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
+(function(inc) {
+	inc("resource://gre/modules/Services.jsm");
+	inc("resource://downbarlite/downbar.jsm");
+})(Components.utils.import);
 
-var _dlbar_gDownloadManager;
 //var _dlbar_queueNum;
-var _dlbar_pref = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+var _dlbar_pref = Services.prefs;
 var _dlbar_miniMode = false;
 var _dlbar_useGradients = true;
 var _dlbar_speedColorsEnabled = false;
@@ -57,19 +60,14 @@ var _dlbar_currTooltipAnchor;
 //var _dlbar_downbarComp = Components.classes['@devonjensen.com/downbar/downbar;1'].getService().wrappedJSObject;
 
 function _dlbar_init() {
+	window.removeEventListener("load", arguments.callee, true);
 
-	var downbarelem = document.getElementById("downbar");
-
-	const dlmgrContractID = "@mozilla.org/download-manager;1";
-	const dlmgrIID = Components.interfaces.nsIDownloadManager;
-	_dlbar_gDownloadManager = Components.classes[dlmgrContractID].getService(dlmgrIID);
-	
 	_dlbar_strings = document.getElementById("downbarbundle");
 	
 	// Keeping this first run stuff here instead of downbar component because I need a browser window anyway to show the about page
 	try {
 		var firstRun = _dlbar_pref.getBoolPref("downbar.function.firstRun");
-		var oldVersion = _dlbar_pref.getCharPref("downbar.function.version"); // needs to be last because it's likely not there (throws error)
+//		var oldVersion = _dlbar_pref.getCharPref("downbar.function.version"); // needs to be last because it's likely not there (throws error)
 	} catch (e) {}
 
 	if (firstRun) {
@@ -98,140 +96,125 @@ function _dlbar_init() {
 		
 	}
 
-	_dlbar_readPrefs();
-	_dlbar_setStyles();
-	_dlbar_checkMiniMode();
-	_dlbar_populateDownloads();
-	_dlbar_startInProgress();
-	_dlbar_checkShouldShow();
-	
-	// Tooltips needs a delayed startup because for some reason it breaks the back button in Linux and Mac when run in line, see bug 17384
-	// Also do integration load here
-	window.setTimeout(function(){
-		_dlbar_setupTooltips();
-		
-		// xxx this doesn't work for some reason - function calls to this script are not found, put in xul overlay instead
-	/*	
-		// XXX test if integration is enabled
-		// Load DownThemAll integration
-		var scriptLoader = Components.classes["@mozilla.org/moz/jssubscript-loader;1"].getService(Components.interfaces.mozIJSSubScriptLoader);
-		var srvScope = {};
-		scriptLoader.loadSubScript("chrome://downbar/content/dtaIntegration.js", srvScope);
-	*/
-	}, 10);
-	
-	try {
-		// Don't show Firefox's built-in status notification
-		document.getElementById("download-monitor").collapsed = true;
-	} catch(e){}
-	
-	// Listen for the switch to/from private browsing
-	var observ = Components.classes["@mozilla.org/observer-service;1"].getService(Components.interfaces.nsIObserverService);
-  	observ.addObserver(_dlbar_privateBrowsingObs, "private-browsing", false);
-	
-	// Show "About Dlsb" on first time this version is used
-	var showAbout = false;
-	var currVersion = "0.0";
-	try {  // Firefox <= 3.6
-		var gExtensionManager = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
-		currVersion = gExtensionManager.getItemForID("{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}").version;
-	}
-	catch(e){ // Firefox >=4.0
-		Components.utils.import("resource://gre/modules/AddonManager.jsm");
-	
-		AddonManager.getAddonByID("{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}", function(addon) {
-			currVersion = addon.version;
-		});
-	}
-	
-	if(oldVersion != currVersion)
-		showAbout = true
-
-	if(showAbout) {
-		
-	    window.setTimeout(function() {
-	    	// Open page in new tab
-			var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService();
-	    	var wmed = wm.QueryInterface(Components.interfaces.nsIWindowMediator);
-	    
-	    	var win = wmed.getMostRecentWindow("navigator:browser");
-	    	
-	    	var content = win.document.getElementById("content");
-	    	content.selectedTab = content.addTab("chrome://downbar/content/aboutdownbar.xul");	
-	    }, 1250);
-		
-		_dlbar_pref.setCharPref("downbar.function.version", currVersion);
-		_dlbar_pref.setBoolPref("downbar.function.useTooltipOpacity", true);  // Shifting Mac and linux onto the fancier tooltips for 0.9.7, One time change, can still go back to older tooltips by setting this false in about:config, this can be removed in the future
-		
-		
-		// Remove the persist height and width attributes for downbarprefs window from localstore.rdf - only want to run this once (although it wouldn't hurt)
-		// This should be able to be taken out in the future...unless people upgrade from old versions...
-		try {
-			
-			var RDF = Components.classes['@mozilla.org/rdf/rdf-service;1'].getService().QueryInterface(Components.interfaces.nsIRDFService);
-			var localStore = RDF.GetDataSource("rdf:local-store");
-			
-			var widthRes = RDF.GetResource("width");
-			var heightRes = RDF.GetResource("height");
-			var dbprefsRes = RDF.GetResource("chrome://downbar/content/downbarprefs.xul#downbarprefs");
-			
-			var oldWidth = localStore.GetTarget(dbprefsRes, widthRes, true);
-			var oldHeight = localStore.GetTarget(dbprefsRes, heightRes, true);
-			// If these exist, unassert them
-			if (oldWidth) {
-				localStore.Unassert(dbprefsRes, widthRes, oldWidth, true);
-			}
-			if (oldHeight) {
-				localStore.Unassert(dbprefsRes, heightRes, oldHeight, true);
-			}
-			
-		} catch(e) {}
-	}
-	
 	// The default hide key is CTRL+SHIFT+z for hide,  CRTL+SHIFT+, (comma) for undo clear
 	// Doing it this way should allow the user to change it with the downbar pref, or with the keyconfig extension
 	try {
 		var hideKey = _dlbar_pref.getCharPref("downbar.function.hideKey");
 		if(hideKey != "z")
 			document.getElementById("key_togDownbar").setAttribute("key", hideKey);
-		
+
 		var undoClearKey = _dlbar_pref.getCharPref("downbar.function.undoClearKey");
 		if(undoClearKey != "VK_INSERT")
 			document.getElementById("key_undoClearDownbar").setAttribute("keycode", undoClearKey);
 	} catch(e) {}
-	
-	// User pressed the donate link in the pre-browser addon update window, so open new tab with donate page
-	try {
-		if(_dlbar_pref.getBoolPref("downbar.function.openDonatePage")) {
 
-			window.setTimeout(function(){	
-					var wm2 = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService();
-		    		var wmed2 = wm2.QueryInterface(Components.interfaces.nsIWindowMediator);
-		    		var win2 = wmed2.getMostRecentWindow("navigator:browser");
-					
-					var content2 = win2.document.getElementById("content");
-		    		content2.selectedTab = content2.addTab("http://downloadstatusbar.mozdev.org/donateRedirect.html");
-	    		}, 1500);
-			
-			_dlbar_pref.clearUserPref("downbar.function.openDonatePage");
-		}
-	} catch(e) {}
+	// Delayed initialization
+	window.setTimeout(function(){
+		_dlbar_readPrefs();
+		_dlbar_setStyles();
+		_dlbar_checkMiniMode();
+		_dlbar_populateDownloads();
+		_dlbar_startInProgress();
+		_dlbar_checkShouldShow();
+
+		// Tooltips needs a delayed startup because for some reason it breaks the back button in Linux and Mac when run in line, see bug 17384
+		// Also do integration load here
+		_dlbar_setupTooltips();
+
+		// xxx this doesn't work for some reason - function calls to this script are not found, put in xul overlay instead
+	/*	
+		// XXX test if integration is enabled
+		// Load DownThemAll integration
+		var scriptLoader = Components.classes["@mozilla.org/moz/jssubscript-loader;1"].getService(Components.interfaces.mozIJSSubScriptLoader);
+		var srvScope = {};
+		scriptLoader.loadSubScript("chrome://downbarlite/content/dtaIntegration.js", srvScope);
+	*/
+
+		try {
+			// Don't show Firefox's built-in status notification
+			document.getElementById("download-monitor").collapsed = true;
+		} catch(e){}
+
+		// Listen for the switch to/from private browsing
+		Services.obs.addObserver(_dlbar_privateBrowsingObs, "private-browsing", false);
+
+	// Show "About Dlsb" on first time this version is used
+//	var showAbout = false;
+//	var currVersion = "0.0";
+//	Components.utils.import("resource://gre/modules/AddonManager.jsm");
+//	AddonManager.getAddonByID("{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}", function(addon) {
+//		currVersion = addon.version;
+//	});
+//
+//	if(oldVersion != currVersion)
+//		showAbout = true;
+//
+//	if(showAbout) {
+//
+//	    window.setTimeout(function() {
+//	    	// Open page in new tab
+//			var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService();
+//	    	var wmed = wm.QueryInterface(Components.interfaces.nsIWindowMediator);
+//
+//	    	var win = wmed.getMostRecentWindow("navigator:browser");
+//
+//	    	var content = win.document.getElementById("content");
+//	    	content.selectedTab = content.addTab("chrome://downbarlite/content/aboutdownbar.xul");
+//	    }, 1250);
+//
+//		_dlbar_pref.setCharPref("downbar.function.version", currVersion);
+//		_dlbar_pref.setBoolPref("downbar.function.useTooltipOpacity", true);  // Shifting Mac and linux onto the fancier tooltips for 0.9.7, One time change, can still go back to older tooltips by setting this false in about:config, this can be removed in the future
+//
+//
+//		// Remove the persist height and width attributes for downbarprefs window from localstore.rdf - only want to run this once (although it wouldn't hurt)
+//		// This should be able to be taken out in the future...unless people upgrade from old versions...
+//		try {
+//
+//			var RDF = Components.classes['@mozilla.org/rdf/rdf-service;1'].getService().QueryInterface(Components.interfaces.nsIRDFService);
+//			var localStore = RDF.GetDataSource("rdf:local-store");
+//
+//			var widthRes = RDF.GetResource("width");
+//			var heightRes = RDF.GetResource("height");
+//			var dbprefsRes = RDF.GetResource("chrome://downbarlite/content/downbarprefs.xul#downbarprefs");
+//
+//			var oldWidth = localStore.GetTarget(dbprefsRes, widthRes, true);
+//			var oldHeight = localStore.GetTarget(dbprefsRes, heightRes, true);
+//			// If these exist, unassert them
+//			if (oldWidth) {
+//				localStore.Unassert(dbprefsRes, widthRes, oldWidth, true);
+//			}
+//			if (oldHeight) {
+//				localStore.Unassert(dbprefsRes, heightRes, oldHeight, true);
+//			}
+//
+//		} catch(e) {}
+//	}
+
+	// User pressed the donate link in the pre-browser addon update window, so open new tab with donate page
+//	try {
+//		if(_dlbar_pref.getBoolPref("downbar.function.openDonatePage")) {
+//			window.setTimeout(function(){
+//		    	var win2 = Services.wm.getMostRecentWindow("navigator:browser");
+//				var content2 = win2.document.getElementById("content");
+//		    	content2.selectedTab = content2.addTab("http://downloadstatusbar.mozdev.org/donateRedirect.html");
+//	    	}, 1500);
+//
+//			_dlbar_pref.clearUserPref("downbar.function.openDonatePage");
+//		}
+//	} catch(e) {}
+	}, 10);
 
 	// Developer features to be disabled on release
 	//toJavaScriptConsole();
 	//BrowserOpenExtensions('extensions');
 	//document.getElementById("menu_FilePopup").parentNode.setAttribute("onclick", "if(event.button == 1) goQuitApplication();");
-
-	window.removeEventListener("load", _dlbar_init, true);
 }
 
 function _dlbar_close() {
 	
 	// Make sure download statusbar popups up in another browser window if one is available
-	//   or if that was the last browser window, check if we need to open the download manager to continue downloads
-	var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator);
-	                  
-	var recentBrowser = wm.getMostRecentWindow("navigator:browser");
+	//   or if that was the last browser window, check if we need to open the download manager to continue downloads                  
+	var recentBrowser = Services.wm.getMostRecentWindow("navigator:browser");
 	if(recentBrowser)
 		recentBrowser._dlbar_newWindowFocus();
 		
@@ -240,10 +223,6 @@ function _dlbar_close() {
 		try {
 			var launchDLWin = _dlbar_pref.getBoolPref("downbar.function.launchOnClose");
 		} catch(e){}
-		
-		var _dlbar_dlmgrContractID = "@mozilla.org/download-manager;1";
-		var _dlbar_dlmgrIID = Components.interfaces.nsIDownloadManager;
-		_dlbar_gDownloadManager = Components.classes[_dlbar_dlmgrContractID].getService(_dlbar_dlmgrIID);
 
         // Check if a DLwin is already open, if so don't open it again
         if(wm.getMostRecentWindow("Download:Manager"))
@@ -252,10 +231,8 @@ function _dlbar_close() {
             var dlwinExists = false;
             
 		// xxx paused downloads are included in activeDownloadCount, should I ignore paused downloads?
-		if(launchDLWin && _dlbar_gDownloadManager.activeDownloadCount > 0 && !dlwinExists) {
-			
-			var ww = Components.classes["@mozilla.org/embedcomp/window-watcher;1"].getService(Components.interfaces.nsIWindowWatcher);
-			var dlWin = ww.openWindow(null, 'chrome://mozapps/content/downloads/downloads.xul', null, 'chrome,dialog=no,resizable', null);
+		if(launchDLWin && DownBar.downloadManager.activeDownloadCount > 0 && !dlwinExists) {
+			var dlWin = Services.ww.openWindow(null, 'chrome://mozapps/content/downloads/downloads.xul', null, 'chrome,dialog=no,resizable', null);
 		}
 	}
 
@@ -270,7 +247,7 @@ function _dlbar_populateDownloads() {
     	downbar.removeChild(downbar.firstChild);
  	}
 
-	var dbase = _dlbar_gDownloadManager.DBConnection;
+	var dbase = DownBar.downloadManager.DBConnection;
 	try {
 		// XXX save this statement for later reuse?
 		var stmt = dbase.createStatement("SELECT id, target, name, source, state, startTime, referrer " + 
@@ -327,7 +304,7 @@ function _dlbar_setStateSpecific(aDLElemID, aState) {
 
 	var dlElem = document.getElementById(aDLElemID);
 	
-	var dl = _dlbar_gDownloadManager.getDownload(aDLElemID.substring(3));
+	var dl = DownBar.downloadManager.getDownload(aDLElemID.substring(3));
 	try {
 		var styleDefault = _dlbar_pref.getBoolPref("downbar.style.default");
 	} catch (e){}
@@ -416,14 +393,14 @@ function _dlbar_setStateSpecific(aDLElemID, aState) {
 			
 			// Put on the correct overlay icon based on the state
 			if(aState == 6 | aState == 8)
-				dlElem.lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.setAttribute("src", "chrome://downbar/skin/blocked.png");
+				dlElem.lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.setAttribute("src", "chrome://downbarlite/skin/blocked.png");
 			else if(aState == 7)
-				dlElem.lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.setAttribute("src", "chrome://downbar/skin/scanAnimation.png");
+				dlElem.lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.setAttribute("src", "chrome://downbarlite/skin/scanAnimation.png");
 			else
 				dlElem.lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.setAttribute("src", "");
 		
 			// set endTime on download element
-			var dbase = _dlbar_gDownloadManager.DBConnection;
+			var dbase = DownBar.downloadManager.DBConnection;
 			try {
 				// XXX save this statement for later reuse? (bind parameters at run)
 				var stmt = dbase.createStatement("SELECT endTime " + 
@@ -483,7 +460,7 @@ function _dlbar_setStateSpecific(aDLElemID, aState) {
 		case 3:  // Canceled
 			
 			// set endTime on download element
-			var dbase = _dlbar_gDownloadManager.DBConnection;
+			var dbase = DownBar.downloadManager.DBConnection;
 			try {
 				// XXX save this statement for later reuse? (bind parameters at run)
 				var stmt = dbase.createStatement("SELECT endTime " + 
@@ -553,7 +530,7 @@ function _dlbar_blurWait() {
 /*
 // if there are more downloads than the queue allows, return false
 function _dlbar_checkQueue() {
-	var currDLs = _dlbar_gDownloadManager.activeDownloadCount;
+	var currDLs = DownBar.downloadManager.activeDownloadCount;
 	//d(currDLs);
 	//d(_dlbar_queueNum);
 	if (currDLs > _dlbar_queueNum)
@@ -584,7 +561,7 @@ function _dlbar_updateDLrepeat(progElemID) {
 function _dlbar_calcAndSetProgress(progElemID) {
 
 	var progElem = document.getElementById(progElemID);
-	var aDownload = _dlbar_gDownloadManager.getDownload(progElemID.substring(3));
+	var aDownload = DownBar.downloadManager.getDownload(progElemID.substring(3));
 	
 	var newsize = parseInt(aDownload.amountTransferred / 1024);
 	var totalsize = parseInt(aDownload.size / 1024);
@@ -678,7 +655,7 @@ function _dlbar_calcAndSetProgress(progElemID) {
 			newcolor = _dlbar_speedColor1;
 
 		if(_dlbar_useGradients)
-			progElem.firstChild.firstChild.setAttribute("style", "background-color:" + newcolor + ";background-image:url(chrome://downbar/skin/whiteToTransGrad.png);border-right:0px solid transparent");
+			progElem.firstChild.firstChild.setAttribute("style", "background-color:" + newcolor + ";background-image:url(chrome://downbarlite/skin/whiteToTransGrad.png);border-right:0px solid transparent");
 		else
 			progElem.firstChild.firstChild.setAttribute("style", "background-color:" + newcolor + ";background-image:url();border-right:0px solid transparent");
 
@@ -747,7 +724,7 @@ function _dlbar_startOpenFinished(idtoopen) {
 	}
 		
 	if(_dlbar_useAnimation) {
-		document.getElementById(idtoopen).lastChild.firstChild.firstChild.src = "chrome://downbar/skin/greenArrow16.png";
+		document.getElementById(idtoopen).lastChild.firstChild.firstChild.src = "chrome://downbarlite/skin/greenArrow16.png";
 		document.getElementById(idtoopen).lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.id = "slidePic";
 		document.getElementById(idtoopen).lastChild.firstChild.lastChild.firstChild.nextSibling.lastChild.flex = "0";
 
@@ -824,7 +801,7 @@ function _dlbar_startShowFile(idtoshow) {
 	if(_dlbar_useAnimation) {
 		document.getElementById(idtoshow).lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.id = "picToShrink";
 		document.getElementById("picToShrink").src = "moz-icon:" + document.getElementById(idtoshow).getAttribute("target");
-		document.getElementById(idtoshow).lastChild.firstChild.firstChild.src = "chrome://downbar/skin/folder.png";
+		document.getElementById(idtoshow).lastChild.firstChild.firstChild.src = "chrome://downbarlite/skin/folder.png";
 		document.getElementById("picToShrink").style.MozOpacity = .5;
 		_dlbar_showAnimateCont(idtoshow, 16);
 		window.setTimeout(function(){_dlbar_finishShow(idtoshow);}, 50);
@@ -945,7 +922,7 @@ function _dlbar_clearOne(idtoclear) {
 	try {
 		var keepHist = _dlbar_pref.getBoolPref('downbar.function.keepHistory');
 		if(keepHist) {
-			var dbase = _dlbar_gDownloadManager.DBConnection;
+			var dbase = DownBar.downloadManager.DBConnection;
 			dbase.executeSimpleSQL("UPDATE moz_downloads SET DownbarShow=0 WHERE id=" + DLid);
 			
 			var _dlbar_downbarComp = Components.classes['@devonjensen.com/downbar/downbar;1'].getService().wrappedJSObject;
@@ -953,7 +930,7 @@ function _dlbar_clearOne(idtoclear) {
 				
 		}
 		else {
-			_dlbar_gDownloadManager.removeDownload(DLid);
+			DownBar.downloadManager.removeDownload(DLid);
 		}
 	} catch(e){}
 }
@@ -990,7 +967,7 @@ function _dlbar_startDelete(elemIDtodelete, event) {
 	}
 
 	if(_dlbar_useAnimation && !event.shiftKey) {
-		document.getElementById(elemIDtodelete).lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.src = "chrome://downbar/skin/delete1.png";
+		document.getElementById(elemIDtodelete).lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.src = "chrome://downbarlite/skin/delete1.png";
 		window.setTimeout(function(){_dlbar_deleteAnimateCont(elemIDtodelete);}, 150);
 	}
 	else
@@ -1000,7 +977,7 @@ function _dlbar_startDelete(elemIDtodelete, event) {
 
 function _dlbar_deleteAnimateCont(elemIDtodelete) {
 
-	document.getElementById(elemIDtodelete).lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.src = "chrome://downbar/skin/delete2.png";
+	document.getElementById(elemIDtodelete).lastChild.firstChild.lastChild.firstChild.nextSibling.firstChild.nextSibling.src = "chrome://downbarlite/skin/delete2.png";
 
 	if(_dlbar_miniMode)
 		_dlbar_clearAnimate(elemIDtodelete, 1, 20, "height", "delete");
@@ -1032,7 +1009,7 @@ function _dlbar_finishDelete(elemIDtodelete) {
 function _dlbar_cancelprogress(elemtocancel) {
 	
 	var localFileUrl = document.getElementById(elemtocancel).getAttribute("target");
-	_dlbar_gDownloadManager.cancelDownload(elemtocancel.substring(3));
+	DownBar.downloadManager.cancelDownload(elemtocancel.substring(3));
 	_dlbar_checkShouldShow();
 	_dlbar_clearOne(elemtocancel);
 
@@ -1050,7 +1027,7 @@ function _dlbar_cancelAll() {
 	for (var i = 0; i <= dbelems.length - 1; ++i) {
 			state = dbelems[i].getAttribute("state");
 			if (state == 0 | state == 4 | state == 5) {
-				_dlbar_gDownloadManager.cancelDownload(dbelems[i].id.substring(3));
+				DownBar.downloadManager.cancelDownload(dbelems[i].id.substring(3));
 				cancPos[posCount] = dbelems[i];
 				++posCount;
 			}
@@ -1062,8 +1039,7 @@ function _dlbar_cancelAll() {
 		try {  // canceling queued downloads will cause and error (b/c there isn't a local file yet i think?)
 			_dlbar_clearOne(cancPos[j].id);
 			localFile = _dlbar_getLocalFileFromNativePathOrUrl(cancPos[j].getAttribute("target"));
-			if (localFile.exists());
-				localFile.remove(false);		
+			localFile.remove(false);		
 		} catch(e) {}
 	}
 	_dlbar_checkShouldShow();
@@ -1076,7 +1052,7 @@ function _dlbar_pause(elemid, aEvent) {
 	document.getElementById("_dlbar_progTip").hidePopup();
 	
 	
-	_dlbar_gDownloadManager.pauseDownload(elemid.substring(3));
+	DownBar.downloadManager.pauseDownload(elemid.substring(3));
 	// Update display now so there is no lag time without good values
 	_dlbar_calcAndSetProgress(elemid);
 }
@@ -1087,7 +1063,7 @@ function _dlbar_resume(elemid, aEvent) {
 	_dlbar_stopTooltip(elemid);
 	document.getElementById("_dlbar_progTip").hidePopup();
 	
-	_dlbar_gDownloadManager.resumeDownload(elemid.substring(3));
+	DownBar.downloadManager.resumeDownload(elemid.substring(3));
 	// Update display now so there is no lag time without good values
 	_dlbar_calcAndSetProgress(elemid);
 }
@@ -1124,12 +1100,8 @@ function _dlbar_copyURL(elemtocopy) {
 }
 
 function _dlbar_setupReferrerContextMenuItem(aMenuItem, dlElemID) {
-	
-	if(document.getElementById(dlElemID).getAttribute("referrer") == "")
-		document.getElementById(aMenuItem).disabled = true;
-	else
-		document.getElementById(aMenuItem).disabled = false;
-	
+	document.getElementById(aMenuItem).disabled =
+		document.getElementById(dlElemID).getAttribute("referrer") == "";
 }
 
 function _dlbar_visitRefWebsite(dlElemID) {
@@ -1154,11 +1126,11 @@ function _dlbar_visitRefWebsite(dlElemID) {
 
 function _dlbar_startit(elemid) {
 	
-	_dlbar_gDownloadManager.retryDownload(elemid.substring(3));
+	DownBar.downloadManager.retryDownload(elemid.substring(3));
 }
 /*
 function _dlbar_stopit(elemtostop) {
-	_dlbar_gDownloadManager.cancelDownload(elemtostop.substring(3));
+	DownBar.downloadManager.cancelDownload(elemtostop.substring(3));
 	var DLelem = document.getElementById(elemtostop);
 	var f = _dlbar_getLocalFileFromNativePathOrUrl(DLelem.getAttribute("target"));
 	if (f.exists())
@@ -1172,7 +1144,7 @@ function _dlbar_stopAll() {
 	var dbelems = document.getElementById("downbar").childNodes;
 	for (i = 1; i <= dbelems.length - 1; ++i) {
 		if (dbelems[i].getAttribute("context") == "_dlbar_progresscontext") {  // just using context as an indicator of that type of element
-			_dlbar_gDownloadManager.cancelDownload(dbelems[i].id);
+			DownBar.downloadManager.cancelDownload(dbelems[i].id);
 		}
 	}
 }
@@ -1250,8 +1222,8 @@ function _dlbar_setStyles() {
 		document.getElementById("downbarHolder").setAttribute("style", "");
 
 		if(_dlbar_useGradients) {
-			dlItemTemplate.firstChild.firstChild.setAttribute("style", "background-image:url(chrome://downbar/skin/whiteToTransGrad.png);");
-			dlItemTemplate.setAttribute("style", "background-image:url(chrome://downbar/skin/whiteToTransGrad.png);");
+			dlItemTemplate.firstChild.firstChild.setAttribute("style", "background-image:url(chrome://downbarlite/skin/whiteToTransGrad.png);");
+			dlItemTemplate.setAttribute("style", "background-image:url(chrome://downbarlite/skin/whiteToTransGrad.png);");
 		}
 		else {
 			dlItemTemplate.firstChild.firstChild.setAttribute("style", "");
@@ -1332,7 +1304,7 @@ function _dlbar_setupTooltips() {
 	// onto the one we want.
 	// Right now, tooltip background transparency is crashing linux (June 2007)
 	
-	if(useOpTooltips == true) {
+	if(useOpTooltips) {
 		
 		var finTooltipContent = document.getElementById("_dlbar_finTipContent");
 		var fintip_tr = document.getElementById("_dlbar_fintip_transparent");
@@ -1361,13 +1333,13 @@ function _dlbar_setupTooltips() {
 		progtip_op.setAttribute("id", "_dlbar_progTip");
 		
 		// Set the proper background images for opaque tooltips, (default is for transparent)
-		document.getElementById("_dlbar_finTipLeftImg").setAttribute("style", "list-style-image: url('chrome://downbar/skin/leftTooltip_white_square.png');");
-		document.getElementById("_dlbar_finTipRightImg").setAttribute("style", "list-style-image: url('chrome://downbar/skin/rightTooltip_white_square.png');");
-		document.getElementById("_dlbar_finTipMiddle").setAttribute("style", "background-image: url('chrome://downbar/skin/middleTooltip_white_160.png');");
-		document.getElementById("_dlbar_progTipLeftImg").setAttribute("style", "list-style-image: url('chrome://downbar/skin/leftTooltip_white_square.png');");
-		document.getElementById("_dlbar_progTipRightImg").setAttribute("style", "list-style-image: url('chrome://downbar/skin/rightTooltip_white_square.png');");
-		document.getElementById("_dlbar_progTipMiddle").setAttribute("style", "background-image: url('chrome://downbar/skin/middleTooltip_white_160.png');");
-		document.getElementById("_dlbar_finTipImgPreviewBox").setAttribute("style", "background-image: url('chrome://downbar/skin/middleTooltip_white_160.png');");
+		document.getElementById("_dlbar_finTipLeftImg").setAttribute("style", "list-style-image: url('chrome://downbarlite/skin/leftTooltip_white_square.png');");
+		document.getElementById("_dlbar_finTipRightImg").setAttribute("style", "list-style-image: url('chrome://downbarlite/skin/rightTooltip_white_square.png');");
+		document.getElementById("_dlbar_finTipMiddle").setAttribute("style", "background-image: url('chrome://downbarlite/skin/middleTooltip_white_160.png');");
+		document.getElementById("_dlbar_progTipLeftImg").setAttribute("style", "list-style-image: url('chrome://downbarlite/skin/leftTooltip_white_square.png');");
+		document.getElementById("_dlbar_progTipRightImg").setAttribute("style", "list-style-image: url('chrome://downbarlite/skin/rightTooltip_white_square.png');");
+		document.getElementById("_dlbar_progTipMiddle").setAttribute("style", "background-image: url('chrome://downbarlite/skin/middleTooltip_white_160.png');");
+		document.getElementById("_dlbar_finTipImgPreviewBox").setAttribute("style", "background-image: url('chrome://downbarlite/skin/middleTooltip_white_160.png');");
 		
 	}
 }
@@ -1421,7 +1393,7 @@ function _dlbar_makeTooltip(dlElemID) {
 			totalSize = _dlbar_unkStr;
 			remainTime = "--:--";
 			currSize = "0 " + _dlbar_strings.getString("KiloBytesAbbr");
-			speed = "0.0"
+			speed = "0.0";
 			additionalText = " - " + _dlbar_strings.getString("starting") + " ";
 		}
 		else { // state is inprog or paused
@@ -1466,7 +1438,7 @@ function _dlbar_makeTooltip(dlElemID) {
 function _dlbar_makeFinTip(idtoview) {
 
 	var dlElem = document.getElementById(idtoview);
-	var dl = _dlbar_gDownloadManager.getDownload(idtoview.substring(3));
+	var dl = DownBar.downloadManager.getDownload(idtoview.substring(3));
 	
 	var localFile = _dlbar_getLocalFileFromNativePathOrUrl(dlElem.getAttribute("target"));
 	var url = dlElem.getAttribute("source");
@@ -1900,18 +1872,16 @@ function _dlbar_readPrefs() {
 
 	// Open dlmgr onclose settings
 	// If I'm launching the download manager with in-prog downloads onclose, then the download manager doesn't need to ask the cancel or exit prompt, so remove that observer from the download manager
-	var _dlbar_observerService = Components.classes["@mozilla.org/observer-service;1"]
-	                                  .getService(Components.interfaces.nsIObserverService);
 	// first remove the observer to avoid adding duplicate observers
 	try{
-		_dlbar_observerService.removeObserver(_dlbar_gDownloadManager, "quit-application-requested");
+		Services.obs.removeObserver(DownBar.downloadManager, "quit-application-requested");
 	} catch(e){}
 	try{
 		var launchDLWin = _dlbar_pref.getBoolPref("downbar.function.launchOnClose");
 	} catch(e){}
 	// Add back the download manager observer if we don't want to control onclose downloads
 	if(!launchDLWin)
-		 _dlbar_observerService.addObserver(_dlbar_gDownloadManager, "quit-application-requested", false);
+		 Services.obs.addObserver(DownBar.downloadManager, "quit-application-requested", false);
 	// Animation setting
 	try{
 		_dlbar_useAnimation = _dlbar_pref.getBoolPref("downbar.function.useAnimation");
@@ -2047,7 +2017,7 @@ function _dlbar_renameFinished(elemid) {
 			var nsIIOService = Components.classes['@mozilla.org/network/io-service;1'].getService(Components.interfaces.nsIIOService);
 			var fileURI = nsIIOService.newFileURI(newFile,null,null).spec;
 			
-			var dbase = _dlbar_gDownloadManager.DBConnection;
+			var dbase = DownBar.downloadManager.DBConnection;
 			dbase.executeSimpleSQL("UPDATE moz_downloads SET name='" + newfilename + "' WHERE id=" + elemid.substring(3));
 			dbase.executeSimpleSQL("UPDATE moz_downloads SET target='" + fileURI + "' WHERE id=" + elemid.substring(3));
 		} catch(e) {}
@@ -2142,7 +2112,7 @@ function _dlbar_startUpdateMini() {
 function _dlbar_updateMini() {
 	
 	try {
-		var activeDownloads = _dlbar_gDownloadManager.activeDownloadCount;
+		var activeDownloads = DownBar.downloadManager.activeDownloadCount;
 		var dbelems = document.getElementById("downbar").childNodes;
 		var finishedDownloads = dbelems.length - activeDownloads;
 		document.getElementById("downbarMiniText").value = activeDownloads + ":" + finishedDownloads;
@@ -2279,7 +2249,7 @@ function _dlbar_openDownloadWindow() {
 
 function _dlbar_showSampleDownload() {
 	
-	var dbase = _dlbar_gDownloadManager.DBConnection;
+	var dbase = DownBar.downloadManager.DBConnection;
 	
 	// Set the most recent download to show
 	try {

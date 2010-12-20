@@ -36,8 +36,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!DOCTYPE window SYSTEM "chrome://downbar/locale/downbartext.dtd">
-<?xml-stylesheet href="chrome://downbar/skin/downbaroverlay.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://downbarlite/locale/downbartext.dtd">
+<?xml-stylesheet href="chrome://downbarlite/skin/downbaroverlay.css" type="text/css"?>
 
 <!--   
 
@@ -47,19 +47,19 @@
 		 xmlns:nc="http://home.netscape.com/NC-rdf#"
 		 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-	<script type="application/x-javascript" src="chrome://downbar/content/downbaroverlay.js"/>
-	<!-- <script type="application/x-javascript" src="chrome://downbar/content/dtaIntegration.js"/> -->
+	<script type="application/x-javascript" src="chrome://downbarlite/content/downbaroverlay.js"/>
+	<!-- <script type="application/x-javascript" src="chrome://downbarlite/content/dtaIntegration.js"/> -->
 	
 	<window id="main-window">
 		
 		<stringbundleset id="stringbundleset">
-			<stringbundle id="downbarbundle" src="chrome://downbar/locale/downbar.properties"/>
+			<stringbundle id="downbarbundle" src="chrome://downbarlite/locale/downbar.properties"/>
 		</stringbundleset>
 		
 		<popupset id="_dlbar_popupset">
 			
 			<menupopup id="_dlbar_mainButtonMenu">
-				<menuitem id="_dlbar_openOptions" label="&openOpt.label;" oncommand="window.open('chrome://downbar/content/downbarprefs.xul', 'downbar_prefs', 'chrome');"/>
+				<menuitem id="_dlbar_openOptions" label="&openOpt.label;" oncommand="window.open('chrome://downbarlite/content/downbarprefs.xul', 'downbar_prefs', 'chrome');"/>
 				<menuseparator/>
 				<menuitem id="_dlbar_openDLHistory" label="&openDLHist.label;" oncommand="_dlbar_openDownloadWindow();"/>
 				<menu id="_dlbar_allDownloadActions" label="&allDownloads.label;">
@@ -344,12 +344,13 @@
 		<keyset id="mainKeyset">
 			<key id="key_togDownbar" key="z" oncommand="_dlbar_toggleDownbar();" modifiers="accel,shift"/>
 			<key id="key_undoClearDownbar" keycode="VK_INSERT" oncommand="_dlbar_undoClear();" modifiers="accel,shift"/>
-		</keyset>
+		</keyset>			
+			
 	</window>
-		
+
 	<!--  -->
 	<vbox id="browser-bottombox">
-		<hbox id="downbarHolder" insertbefore="status-bar" align="center">
+		<hbox id="downbarHolder" insertbefore="addon-bar" align="center">
 			
 			<hbox id="downbarMainMenuButton" onclick="_dlbar_showMainPopup(this, event);" context="_dlbar_mainButtonMenu">
 				<image id="downbarMainMenuImage" width='18' height='16'/>
@@ -406,19 +407,21 @@
 		
 		<!-- downbarMini:  Collapsed if it isn't being used,
 						hidden if it is being used but there is nothing in it -->
-		<statusbar id="status-bar">
-			<statusbarpanel id="downbarMini" context="_dlbar_barcontext" hidden="true" collapsed="true"
-							onclick="_dlbar_showMiniPopup(this, event);">
-							<!-- ondblclick="_dlbar_hideDownbarPopup(); _dlbar_clearAll();" -->
-				<hbox align="center">
-					<image id="downbarMiniImage"/>
-					<label id="downbarMiniText" value="0:0"/>
-				</hbox>			
-				
-			</statusbarpanel>
-		</statusbar>
+		<toolbar id="addon-bar">
+			<statusbar id="status-bar">
+				<statusbarpanel id="downbarMini" context="_dlbar_barcontext" hidden="true" collapsed="true"
+								onclick="_dlbar_showMiniPopup(this, event);">
+								<!-- ondblclick="_dlbar_hideDownbarPopup(); _dlbar_clearAll();" -->
+					<hbox align="center">
+						<image id="downbarMiniImage"/>
+						<label id="downbarMiniText" value="0:0"/>
+					</hbox>			
+					
+				</statusbarpanel>
+			</statusbar>
+		</toolbar>
 		
-	</vbox>  <!-- browser-bottombox -->
+	</vbox>
 	
 </overlay>
 
