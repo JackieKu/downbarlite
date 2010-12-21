@@ -7,9 +7,9 @@ overlay	 chrome://browser/content/browser.xul                   chrome://downbar
 overlay  chrome://mozapps/content/extensions/extensions.xul     chrome://downbarlite/content/addonDonate.xul
 overlay  chrome://browser/content/preferences/preferences.xul   chrome://downbarlite/content/privacyPrefsOverlay.xul
 
-component {D4EE4143-3560-44c3-B170-4AC54D7D8AC1} components/downbar.js
-contract @devonjensen.com/downbar/downbar;1 {D4EE4143-3560-44c3-B170-4AC54D7D8AC1}
-category profile-after-change Downbar @devonjensen.com/downbar/downbar;1
+component {ABF1183F-4C77-4E4F-9673-BD0AF8BFFF3C} components/downbar.js
+contract @github.com/jackieku/downbarlite;1 {ABF1183F-4C77-4E4F-9673-BD0AF8BFFF3C}
+category profile-after-change DownBarLiteObserver @github.com/jackieku/downbarlite;1
 
 locale downbarlite en-US downbarPackage/chrome/locale/en-US/
 locale downbarlite ar downbarPackage/translations/0.9.6/ar/

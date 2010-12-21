@@ -6,12 +6,12 @@ const Cr = Components.results;
 Cu.import("resource://gre/modules/XPCOMUtils.jsm");
 Cu.import("resource://gre/modules/Services.jsm");
 
-function Downbar() {
+function DownBarLiteObserver() {
 	Cu.import("resource://downbarlite/downbar.jsm");
 }
-Downbar.prototype = {
-	classID: Components.ID("{D4EE4143-3560-44c3-B170-4AC54D7D8AC1}"),
-	contractID: "@devonjensen.com/downbar/downbar;1",
+DownBarLiteObserver.prototype = {
+	classID: Components.ID("{ABF1183F-4C77-4E4F-9673-BD0AF8BFFF3C}"),
+	contractID: "@github.com/jackieku/downbarlite;1",
 	classDescription: "Window independent Download Statusbar functions",
 
 	QueryInterface: XPCOMUtils.generateQI([Ci.nsIObserver, Ci.nsISupportsWeakReference]),
@@ -37,9 +37,7 @@ Downbar.prototype = {
 						Services.prefs.setBoolPref("downbar.function.firstRun", true);
 						if(!Services.prefs.getBoolPref("downbar.function.keepHistory"))
 							Services.prefs.setIntPref("browser.download.manager.retention", 0);
-							
 						// xxx Remove DownbarShow column from download database? it takes a lot of code, dropping and copying entire tables, prob not worth it
-												
 					}
 				} catch(e) { Cu.reportError(e); }
 				
@@ -84,7 +82,7 @@ Downbar.prototype = {
 			//case 0:
 			case 5:   // Queued
 	    		DownBar.startDownload(aDownload);
-	    		return;  // setStateSpecific will already be called during insertNewDownload    		
+	    		return;  // setStateSpecific will already be called during insertNewDownload
 	    	case 1:
 	    		DownBar.finishDownload(aDownload);
 	    		break;
@@ -104,4 +102,4 @@ Downbar.prototype = {
     onSecurityChange: function(aWebProgress, aRequest, state, aDownload) {}
 };
 
-var NSGetFactory = XPCOMUtils.generateNSGetFactory([Downbar]);
+var NSGetFactory = XPCOMUtils.generateNSGetFactory([DownBarLiteObserver]);
