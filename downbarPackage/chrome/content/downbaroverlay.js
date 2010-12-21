@@ -46,7 +46,7 @@ var gDownBarLite = {};
 	inc("resource://downbarlite/downbar.jsm");
 })(Components.utils.import);
 
-//(function() {
+(function() {
 
 //var _dlbar_queueNum;
 var _dlbar_miniMode = false;
@@ -260,7 +260,7 @@ var _dlbar_setStateSpecific = gDownBarLite.setStateSpecific = function _dlbar_se
 			
 			dlElem.setAttribute("class", "db_progressStack");
 			dlElem.setAttribute("context", "_dlbar_progresscontext");
-			dlElem.setAttribute("onclick", "_dlbar_progressClickHandle(this, event); event.stopPropagation();");
+			dlElem.setAttribute("onclick", "gDownBarLite.progressClickHandle(this, event); event.stopPropagation();");
 			dlElem.setAttribute("ondblclick", "");
 			dlElem.setAttribute("ondraggesture", "");
 			
@@ -281,7 +281,7 @@ var _dlbar_setStateSpecific = gDownBarLite.setStateSpecific = function _dlbar_se
 
 			dlElem.setAttribute("class", "db_pauseStack");
 			dlElem.setAttribute("context", "_dlbar_pausecontext");
-			dlElem.setAttribute("onclick", "_dlbar_progressClickHandle(this, event); event.stopPropagation();");
+			dlElem.setAttribute("onclick", "gDownBarLite.progressClickHandle(this, event); event.stopPropagation();");
 			dlElem.setAttribute("ondblclick", "");
 			dlElem.setAttribute("ondraggesture", "");
 			
@@ -302,7 +302,7 @@ var _dlbar_setStateSpecific = gDownBarLite.setStateSpecific = function _dlbar_se
 		case 5:  // Queued
 			dlElem.setAttribute("class", "db_progressStack");
 			dlElem.setAttribute("context", "_dlbar_progresscontext");
-			dlElem.setAttribute("onclick", "_dlbar_progressClickHandle(this, event); event.stopPropagation();");
+			dlElem.setAttribute("onclick", "gDownBarLite.progressClickHandle(this, event); event.stopPropagation();");
 			dlElem.setAttribute("ondblclick", "");
 			dlElem.setAttribute("ondraggesture", "");
 			
@@ -349,12 +349,12 @@ var _dlbar_setStateSpecific = gDownBarLite.setStateSpecific = function _dlbar_se
 
 			dlElem.setAttribute("class", "db_finishedHbox");
 			dlElem.setAttribute("context", "_dlbar_donecontext");
-			dlElem.setAttribute("onclick", "_dlbar_finishedClickHandle(this, event); event.stopPropagation();");
-			dlElem.setAttribute("ondblclick", "_dlbar_startOpenFinished(this.id); event.stopPropagation();");
-			dlElem.setAttribute("ondragstart", "_dlbar_startDLElemDrag(this, event);");
-			dlElem.setAttribute("ondragend", "_dlbar_DLElemDragEnd(this, event);");
-			//dlElem.setAttribute("ondragover", "_dlbar_DLElemDragOver(event);");
-			//dlElem.setAttribute("ondrop", "_dlbar_DLElemOnDrop(event);");
+			dlElem.setAttribute("onclick", "gDownBarLite.finishedClickHandle(this, event); event.stopPropagation();");
+			dlElem.setAttribute("ondblclick", "gDownBarLite.startOpenFinished(this.id); event.stopPropagation();");
+			dlElem.setAttribute("ondragstart", "gDownBarLite.startDLElemDrag(this, event);");
+			dlElem.setAttribute("ondragend", "gDownBarLite.DLElemDragEnd(this, event);");
+			//dlElem.setAttribute("ondragover", "gDownBarLite.DLElemDragOver(event);");
+			//dlElem.setAttribute("ondrop", "gDownBarLite.DLElemOnDrop(event);");
 			
 			// Get icon, fx dlmgr uses contentType to bypass cache, but I've found specifying a size will also bypass cache, 
 			//     - just can't specify same icon size in the inprogress tooltips or that will be cached here
@@ -409,8 +409,8 @@ var _dlbar_setStateSpecific = gDownBarLite.setStateSpecific = function _dlbar_se
 		
 			dlElem.setAttribute("class", "db_notdoneHbox");
 			dlElem.setAttribute("context", "_dlbar_notdonecontext");
-			dlElem.setAttribute("onclick", "_dlbar_finishedClickHandle(this, event); event.stopPropagation();");
-			dlElem.setAttribute("ondblclick", "_dlbar_startit(this.id); event.stopPropagation();");
+			dlElem.setAttribute("onclick", "gDownBarLite.finishedClickHandle(this, event); event.stopPropagation();");
+			dlElem.setAttribute("ondblclick", "gDownBarLite.startit(this.id); event.stopPropagation();");
 			dlElem.setAttribute("ondraggesture", "");
 			
 			dlElem.firstChild.hidden = true;  // Do canceled downloads keep the percent done?  keep the progress bar there?
@@ -443,7 +443,7 @@ var _dlbar_newWindowFocus = gDownBarLite.newWindowFocus = function _dlbar_newWin
 
 // When a new window is opened, wait, then test if it is a browser window.  If so, collapse the downbar in the old window.  (It won't get updated anyway)
 var _dlbar_hideOnBlur = gDownBarLite.hideOnBlur = function _dlbar_hideOnBlur() {
-	window.setTimeout("_dlbar_blurWait()", 100);
+	window.setTimeout(_dlbar_blurWait, 100);
 }
 
 var _dlbar_blurWait = gDownBarLite.blurWait = function _dlbar_blurWait() {
@@ -1060,7 +1060,7 @@ var _dlbar_stopit = gDownBarLite.stopit = function _dlbar_stopit(elemtostop) {
 	if (f.exists())
 		f.remove(false); // false is the recursive setting
 
-	window.setTimeout("_dlbar_updateMini()", 444);
+	window.setTimeout("gDownBarLite.updateMini()", 444);
 }
 
 var _dlbar_stopAll = gDownBarLite.stopAll = function _dlbar_stopAll() {
@@ -1541,7 +1541,7 @@ var _dlbar_redirectTooltip = gDownBarLite.redirectTooltip = function _dlbar_redi
     // xxx In linux, a mouseout event is sent right away and the popup never shows, delay to avoid that
     // unless I can get rid of the special case below "if(!relTarget && (_dlbar_currTooltipAnchor.id == expOriTarget.id)) {"
     window.setTimeout(function(){
-    	popupAnchor.setAttribute("onmouseout", "_dlbar_hideRedirPopup(event);");
+    	popupAnchor.setAttribute("onmouseout", "gDownBarLite.hideRedirPopup(event);");
     }, 50);
 	
     return false;  // don't show the default tooltip
@@ -2248,12 +2248,6 @@ var _dlbar_DLElemDragEnd = gDownBarLite.DLElemDragEnd = function _dlbar_DLElemDr
 
 }
 
-window.addEventListener("load", _dlbar_init, true);
-window.addEventListener('unload', _dlbar_close, false);
-window.addEventListener("focus", _dlbar_newWindowFocus, true);
-window.addEventListener("blur", _dlbar_hideOnBlur, true);
-
-//})();
 
 /*
 // DragOver and onDrop would be useful for rearranging elements on the downbar, or dropping a download link onto the downbar to start a download
@@ -2474,3 +2468,11 @@ function d(msg){
 	var acs = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
 	acs.logStringMessage(msg);
 }*/
+
+window.addEventListener("load", _dlbar_init, true);
+window.addEventListener('unload', _dlbar_close, false);
+window.addEventListener("focus", _dlbar_newWindowFocus, true);
+window.addEventListener("blur", _dlbar_hideOnBlur, true);
+
+})();
+
